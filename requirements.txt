@@ -1,0 +1,8 @@
+bs4
+requests
+webdriver-manager
+selenium
+pandas
+matplotlib
+adjustText
+pymongo

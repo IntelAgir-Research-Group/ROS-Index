@@ -1,0 +1,2344 @@
+repository,commit_sha,commit_date,commit_title,commit_message,author,additions,deletions,total_changes,dependencies
+autowarefoundation/acado_vendor,da1f59caef03b78dd376a666e0437fcf03208a8b,2020-12-17T22:19:10Z,Create README.md,,Joshua Whitley,3,0,3,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>acado_vendor</name>
+  <version>0.0.0</version>
+  <description>A wrapper around the ACADO toolkit</description>
+  <maintainer email=""whitleysoftwareservices@gmail.com"">Josh Whitley</maintainer>
+  <license>LGPL</license>
+  <author email=""christopherj.ho@gmail.com"">Christopher Ho</author>
+  <author email=""whitleysoftwareservices@gmail.com"">Josh Whitley</author>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.5)
+project(acado_vendor)
+
+# Default to C99
+if(NOT CMAKE_C_STANDARD)
+  set(CMAKE_C_STANDARD 99)
+endif()
+
+# Default to C++14
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake_auto REQUIRED)
+
+list(APPEND extra_cmake_args -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE})
+
+if(DEFINED CMAKE_TOOLCHAIN_FILE)
+  list(APPEND extra_cmake_args ""-DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE}"")
+endif()
+
+message(""extra_cmake_args: ${extra_cmake_args} ===="")
+
+include(ExternalProject)
+
+ExternalProject_Add(acado-1.2.2-beta
+  GIT_REPOSITORY https://github.com/acado/acado.git
+  GIT_TAG 5adb8cbcff5a5464706a48eaf073218ac87c9044
+  GIT_SHALLOW 1
+  TIMEOUT 600
+  CMAKE_ARGS
+    -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/acado_external_project_install
+    -DCMAKE_C_FLAGS=""-w""
+    -DCMAKE_CXX_FLAGS=""-w""
+    ${extra_cmake_args}
+    -Wno-dev
+)
+install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/acado_external_project_install/
+  DESTINATION ${CMAKE_INSTALL_PREFIX})
+
+ExternalProject_Add(hpmpc-cho3
+  GIT_REPOSITORY https://github.com/gaif/hpmpc.git
+  GIT_TAG 3cd096f4fa2ad19995ccc1d3930307f0d372e416
+  GIT_SHALLOW 1
+  TIMEOUT 600
+  CMAKE_ARGS
+    -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/hpmpc_external_project_install
+    -DCMAKE_C_FLAGS=""-w""
+    -DCMAKE_CXX_FLAGS=""-w""
+    ${extra_cmake_args}
+    -Wno-dev
+)
+install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/hpmpc_external_project_install/
+  DESTINATION ${CMAKE_INSTALL_PREFIX})
+
+ament_export_include_directories(include)
+ament_export_libraries(
+  acado_toolkit_s # For code generation
+  hpmpc
+)
+
+# Install cmake helper functions
+install(
+  DIRECTORY cmake
+  DESTINATION share/${PROJECT_NAME}
+)
+
+ament_auto_package(
+  CONFIG_EXTRAS ""acado_vendor-extras.cmake""
+)
+"
+autowarefoundation/acado_vendor,e5da42906b5b4a9d0ed2a08e0f7bb74487ff0869,2020-12-17T22:15:31Z,Initial commit.,,Joshua Whitley,282,0,282,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>acado_vendor</name>
+  <version>0.0.0</version>
+  <description>A wrapper around the ACADO toolkit</description>
+  <maintainer email=""whitleysoftwareservices@gmail.com"">Josh Whitley</maintainer>
+  <license>LGPL</license>
+  <author email=""christopherj.ho@gmail.com"">Christopher Ho</author>
+  <author email=""whitleysoftwareservices@gmail.com"">Josh Whitley</author>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.5)
+project(acado_vendor)
+
+# Default to C99
+if(NOT CMAKE_C_STANDARD)
+  set(CMAKE_C_STANDARD 99)
+endif()
+
+# Default to C++14
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake_auto REQUIRED)
+
+list(APPEND extra_cmake_args -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE})
+
+if(DEFINED CMAKE_TOOLCHAIN_FILE)
+  list(APPEND extra_cmake_args ""-DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE}"")
+endif()
+
+message(""extra_cmake_args: ${extra_cmake_args} ===="")
+
+include(ExternalProject)
+
+ExternalProject_Add(acado-1.2.2-beta
+  GIT_REPOSITORY https://github.com/acado/acado.git
+  GIT_TAG 5adb8cbcff5a5464706a48eaf073218ac87c9044
+  GIT_SHALLOW 1
+  TIMEOUT 600
+  CMAKE_ARGS
+    -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/acado_external_project_install
+    -DCMAKE_C_FLAGS=""-w""
+    -DCMAKE_CXX_FLAGS=""-w""
+    ${extra_cmake_args}
+    -Wno-dev
+)
+install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/acado_external_project_install/
+  DESTINATION ${CMAKE_INSTALL_PREFIX})
+
+ExternalProject_Add(hpmpc-cho3
+  GIT_REPOSITORY https://github.com/gaif/hpmpc.git
+  GIT_TAG 3cd096f4fa2ad19995ccc1d3930307f0d372e416
+  GIT_SHALLOW 1
+  TIMEOUT 600
+  CMAKE_ARGS
+    -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/hpmpc_external_project_install
+    -DCMAKE_C_FLAGS=""-w""
+    -DCMAKE_CXX_FLAGS=""-w""
+    ${extra_cmake_args}
+    -Wno-dev
+)
+install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/hpmpc_external_project_install/
+  DESTINATION ${CMAKE_INSTALL_PREFIX})
+
+ament_export_include_directories(include)
+ament_export_libraries(
+  acado_toolkit_s # For code generation
+  hpmpc
+)
+
+# Install cmake helper functions
+install(
+  DIRECTORY cmake
+  DESTINATION share/${PROJECT_NAME}
+)
+
+ament_auto_package(
+  CONFIG_EXTRAS ""acado_vendor-extras.cmake""
+)
+"
+ros-drivers/ackermann_msgs,81a5f2d9ae1c1048216678b9dc3db6afc0cb815e,2025-05-02T07:02:14Z,Merge pull request #22 from mosfet80/patch-1,Update CMakeLists.txt,vincentrou,3,3,6,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,00a02b79c8310f88da639d997e76ae29b7bdedcc,2025-04-30T10:34:27Z,Update CMakeLists.txt,"fix cmake 3.5 deprecation
+switch to c++17 (ros2 c++ requirement is  c++17)",mosfet80,3,3,6,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,f61ddd8978bc1604b8beab958bb057ed344225d0,2022-02-08T14:27:40Z,close #17 ; add BSD license and update maintainer,,Vincent Rousseau,11,1,12,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,df2fe51eb04e8bd3c0ba4f8a6ded8aea3815b660,2019-08-28T11:53:04Z,2.0.2,,Rousseau Vincent,3,3,6,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,ee0c57965018b4ff0be5fdf3ef89d8d26cca6f24,2019-08-28T11:52:15Z,update changelog,,Rousseau Vincent,5,0,5,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,4af9a5c14f5bd1ae43e70398db9647792b1b4b7c,2019-08-28T11:45:07Z,missing std msg dependency,,Rousseau Vincent,12,8,20,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,f6e09c3b4cc5044ef18ac1d80b6fa8b8f8525f72,2019-08-14T11:15:48Z,2.0.1,,Rousseau Vincent,3,3,6,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,9695c5cee85e5b7920b46fcbf4b720d3a7c44eeb,2019-08-14T11:15:37Z,Change version number,,Rousseau Vincent,1,1,2,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,7663e691f3215d81a00078d38d71e84299b96a4d,2019-08-14T11:09:43Z,Update Changelog,,Rousseau Vincent,4,24,28,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,d23a40a9b4da01e70ab28ebe7f5cb865ef99d025,2019-03-12T19:27:36Z,initial commit,,mstuettgen,36,27,63,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,0b8512d0bb5a4c7bc185f2be80bc78b85febf717,2016-01-19T21:33:15Z,1.0.1,,jack-oquin,1,1,2,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,9558069b157f6c0a60a79ad3022f9eaffeab1983,2016-01-19T21:32:42Z,"revert version number, for using catkin_prepare_release",,jack-oquin,1,1,2,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,dbe24bd13568e236f9da7cfc8dc13cbb2b672264,2015-12-23T03:17:20Z,Removed Jim Rothrock from the maintainer list. Changed the version to 1.0.1.,,Jim Rothrock,5,2,7,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,6f50b0d7197df0669fffe8699816faf64ef0170c,2015-08-28T18:44:24Z,1.0.0,,Jim Rothrock,1,1,2,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,0389876201eae5414e607f48fea83d021718022b,2015-08-28T18:42:49Z,Added version 1.0.0 changes.,,Jim Rothrock,4,0,4,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,ecec734d9e0b6f3746a64ca9836f4117fd53f052,2015-08-26T23:15:36Z,"move repository links, add Jim as maintainer (#2)",,jack-oquin,4,1,5,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,0c89242cd678571f0d065f0632150e0a47868f58,2014-04-30T19:04:13Z,0.9.1,,jack-oquin,1,1,2,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,7791b5bed60814db02979595880ba12292d973be,2014-04-30T19:04:04Z,prepare change log for next release,,jack-oquin,8,0,8,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,bc83d470c287c5fa0882301573ce0bf8f26d6d0b,2014-04-28T21:08:16Z,Merge pull request #3 from cottsay/master,Export architecture_independent flag in package.xml,jack-oquin,4,0,4,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,e5a162a7c206699c24e46c6534d7d3eaaa671515,2014-04-28T20:21:09Z,Export architecture_independent flag in package.xml,,cottsay,4,0,4,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,57427df62ee80ecdf37af5c9db46689b8540beed,2013-10-03T15:51:04Z,fix format error in change history,,jack-oquin,1,1,2,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,7657543454699b8671c69fb1e76e6b325f757717,2013-03-17T17:08:57Z,add 0.9.0 release to change log,,jack-oquin,3,2,5,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,7c437379f00142899646a8df250d056867b23464,2013-03-13T02:40:54Z,update CHANGELOG,,jack-oquin,3,3,6,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,6bc83c21770ef9cfb2b62fe3f844ef91451b2e74,2013-03-12T22:14:04Z,delete rosbuild Makefile,,jack-oquin,0,1,1,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,c9b77fd2e6567d2240761724bdf55b9d61d18f76,2013-03-09T03:14:25Z,fix catkin make errors,,jack-oquin,0,3,3,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,3842cd6fabf9185d24657168ee7e4d9d38308ba9,2013-03-09T03:10:51Z,add git ignore and change log files,,jack-oquin,23,0,23,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,24aa585c83feb2238fc49720182de41c7c331871,2013-03-09T02:38:18Z,initial catkin conversion,,jack-oquin,37,34,71,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,067115eb4780b0d110849613e944221c4b558ee5,2013-03-09T00:05:34Z,fix syntax of hypertext link reference names in README.rst,,jack-oquin,4,4,8,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,cd3c5b15fe1c7bccdf2d74e8851d5a9221472e5f,2013-03-08T23:47:24Z,add README.rst,,jack-oquin,10,0,10,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,9dfb751c8b0c11f8f5a64cb12d94f2fcd7b4fa8a,2012-02-16T17:12:52Z,turn ackermann_msgs package into unary stack,,jack.oquin,13,0,13,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,75272f8ea559d0b4594773a16617fcc6109f13a3,2012-02-15T04:52:39Z,add dependency on std_msgs for Header,,jack.oquin,2,2,4,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,6134878d89e9fca01c380d0d3eb2b0cad72c66a0,2012-02-11T17:58:31Z,set svn:ignore for generated src subdirectory,,jack.oquin,0,0,0,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,7c4b7019f02d9d81f74f700a7a178e974bb063b2,2012-02-11T17:52:11Z,trivial comment correction,,jack.oquin,1,1,2,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,5711876a6a5227656979243d4a319fae32c00efe,2012-02-11T17:48:11Z,describe steering_angle_velocity,,jack.oquin,5,0,5,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,492b8e8ae99d2879dc9d0793230ac0a16137c88b,2012-02-11T17:40:03Z,edit comments slightly,,jack.oquin,7,7,14,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,cf17f48d151e1590d3f8f36a578cf58d9fb77e66,2012-02-11T17:30:54Z,add comments from review discussion,,jack.oquin,30,20,50,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"
+ros-drivers/ackermann_msgs,e7d2fc0f560ca612bbed57fe51410f841226835e,2012-02-11T02:35:54Z,add ackermann_msgs package and ackermann stack,,jack.oquin,61,0,61,"package.xml: <?xml version=""1.0""?>
+<?xml-model href=""http://download.ros.org/schema/package_format3.xsd"" schematypens=""http://www.w3.org/2001/XMLSchema""?>
+<package format=""3"">
+  <name>ackermann_msgs</name>
+  <version>2.0.2</version>
+  <description>ROS2 messages for robots using Ackermann steering.</description>
+
+  <maintainer email=""vincentrou@gmail.com"">Vincent Rousseau</maintainer>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+CMakeLists.txt: cmake_minimum_required(VERSION 3.15)
+
+project(ackermann_msgs)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES ""Clang"")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+find_package(std_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ""msg/AckermannDrive.msg""
+  ""msg/AckermannDriveStamped.msg""
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
+"

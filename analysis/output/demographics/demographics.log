@@ -1,0 +1,97 @@
+========== BASIC STATISTICS ==========
+Total packages: 1851
+Average dependencies: 8.79
+Average other packages used: 8.66
+Median dependencies: 8.0
+Maximum dependencies: 48
+Minimum dependencies: 0
+
+========== TOP ORGANIZATIONS ==========
+Org
+ros2              271
+ros-planning      101
+ament              60
+ros-controls       58
+open-rmf           57
+ROBOTIS-GIT        57
+ros-drivers        48
+ros-perception     48
+robosoft-ai        44
+ros                41
+Name: count, dtype: int64
+
+========== TOP MAINTAINERS ==========
+Chris Lalancette               115
+Aditya Pande                    75
+Geoffrey Biggs                  68
+Alejandro Hernandez Cordero     63
+Bence Magyar                    61
+Jose-Luis Blanco-Claraco        58
+Sai Kishor Kothakota            55
+Christoph Froehlich             52
+Denis Štogl                     51
+Brandon Ong                     51
+dtype: int64
+
+========== PACKAGE ACTIVITY BY YEAR ==========
+Commit Year
+2020       8
+2021      30
+2022     127
+2023      21
+2024      85
+2025     574
+2026    1006
+Name: count, dtype: int64
+
+========== RECENTLY UPDATED PACKAGES ==========
+                          Package               Org Last Commit
+1                  ackermann_msgs       ros-drivers  2025-05-02
+2            ackermann_nlmpc_msgs   public-projects  2025-09-18
+3                 ackermann_nlmpc   public-projects  2025-09-18
+4   ackermann_steering_controller      ros-controls  2026-04-15
+5                     action_msgs              ros2  2026-04-14
+6            action_tutorials_cpp              ros2  2026-03-24
+7             action_tutorials_py              ros2  2026-03-24
+8                  actionlib_msgs              ros2  2026-02-26
+11                        adi_iio  analogdevicesinc  2025-07-30
+12          admittance_controller      ros-controls  2026-04-15
+13                     ads_vendor       b-robotized  2025-09-23
+16             ament_clang_format             ament  2026-04-08
+17               ament_clang_tidy             ament  2026-04-08
+18               ament_cmake_auto             ament  2026-02-23
+21       ament_cmake_clang_format             ament  2026-04-08
+22         ament_cmake_clang_tidy             ament  2026-04-08
+23          ament_cmake_copyright             ament  2026-04-08
+24               ament_cmake_core             ament  2026-02-23
+25           ament_cmake_cppcheck             ament  2026-04-08
+26            ament_cmake_cpplint             ament  2026-04-08
+
+========== TOP PACKAGES BY DEPENDENCIES ==========
+                             Package  Dependencies
+296                          desktop            48
+1231                         rmf_dev            46
+835                      moveit_core            42
+1781                 ur_robot_driver            38
+596            gz_ros2_control_demos            34
+981                      navigation2            34
+763                    mavros_extras            33
+973                nav2_system_tests            32
+1550                    slam_toolbox            32
+1109                    play_motion2            32
+1196                           rclpy            32
+1315                        ros_core            32
+765                           mavros            31
+237               controller_manager            31
+953                  nav2_costmap_2d            30
+1192                          rclcpp            30
+1511            rviz_default_plugins            29
+1087  pilz_industrial_motion_planner            28
+1543                    sick_scan_xd            28
+1235               rmf_fleet_adapter            28
+
+========== CORRELATION ==========
+Correlation between Dependencies and Other Packages Used: 0.014
+
+Analysis completed successfully.
+Results saved in: ./analysis/output/

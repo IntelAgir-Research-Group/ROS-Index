@@ -1,0 +1,813 @@
+repository,commit_sha,commit_date,commit_title,commit_message,commit_author,additions,deletions,total_changes
+Neargye/magic_enum,7d87efb4a3dddbbe8caa9ca14eff05ede1102ab8,2026-02-27T17:22:42Z,update ci,,Neargye,12.0,0.0,12.0
+Neargye/magic_enum,8c3a9ec3ad48d0542be9dcb4175fe64088141b94,2026-02-27T17:19:10Z,update doc,,Neargye,59.0,43.0,102.0
+Neargye/magic_enum,1110266151c005683fc5c33b4fde2adeb7493e08,2026-02-27T16:46:19Z,fix #446,,Neargye,44.0,19.0,63.0
+Neargye/magic_enum,9c986e5db8f7ad82c5a6a95e42f3fbfc32aecbb0,2026-02-27T16:40:38Z,update ci,,Neargye,118.0,77.0,195.0
+Neargye/magic_enum,c60942a3302fd70c0b911a075db12b9940c1348d,2026-02-27T16:22:29Z,update ci,,Neargye,26.0,6.0,32.0
+Neargye/magic_enum,c1aa6de965960250f4ab762e97e67e6290395dc7,2026-02-07T17:21:03Z,fix build,,Neargye,1.0,1.0,2.0
+Neargye/magic_enum,da737578fedadd07b462608fc887c59019f2ade7,2026-02-05T10:49:28Z,#441,,Neargye,1.0,1.0,2.0
+Neargye/magic_enum,905ba74eaa6be8009c8ea25e07a85e70025da012,2026-02-05T10:44:40Z,[issue Neargye#441] fix(magic_enum): fix enum_integer return value deduction on unsupported compilers. (#442),,WtDMaO0,1.0,1.0,2.0
+Neargye/magic_enum,b75be1932096ace1cda1b878ad21108ad4831c50,2026-02-02T09:07:38Z,Bump github/codeql-action in the github-actions group (#443),,dependabot[bot],1.0,1.0,2.0
+Neargye/magic_enum,5b6e12fa1b43f24a124fc1eaee5a5a2a3fa4dda4,2026-01-25T08:42:09Z,Fix redefinition errors in module (regression fix) (#439),Fixes type redefinition errors when compiling magic_enum as a module with the MAGIC_ENUM_USE_STD_MODULE preprocessor variable defined.,ChristopherCanfield,2.0,0.0,2.0
+Neargye/magic_enum,003a7173a0b9313e85b6b29d2fa4e34a97091d6f,2026-01-25T08:39:11Z,update ci,,Neargye,0.0,1.0,1.0
+Neargye/magic_enum,64c357fcb83bc952561235d86b21b447eff92bc0,2026-01-25T08:39:07Z,clean-up,,Neargye,11.0,26.0,37.0
+Neargye/magic_enum,0453398b815d931d66faee494118ccff2a5a7a69,2026-01-25T08:39:48Z,Bump the github-actions group across 1 directory with 4 updates (#440),,dependabot[bot],9.0,9.0,18.0
+Neargye/magic_enum,5e481b6d854f72e2cea0e27be4caa686abe13d55,2026-01-25T08:35:35Z,add rules_cc bazel dependency (#438),,zaucy,11.0,2.0,13.0
+Neargye/magic_enum,2e6e8bfff361c2c40990426c462b44af6c27820b,2025-11-21T15:21:54Z,Support fmt and std::format in C++20 module (#394),,CrackedMatter,12.0,0.0,12.0
+Neargye/magic_enum,341521b9c05f211300e5533a44af45e7c42c9355,2025-11-21T15:06:51Z,fix build,,Neargye,9.0,6.0,15.0
+Neargye/magic_enum,a0db691691a9edfb9d778d19ec700d6910bb1ff8,2025-11-21T14:34:51Z,fix #397,,Neargye,5.0,3.0,8.0
+Neargye/magic_enum,3e5609848ebdecda0ffe84633447e2166459e523,2025-11-21T14:13:46Z,fix empry sting and static_str string_view conversion,,Neargye,30.0,34.0,64.0
+Neargye/magic_enum,ca3c6c35fecb3d9ee3b8aa76b9e168e4d6f7f9f4,2025-11-21T13:55:40Z,Bump the github-actions group across 1 directory with 3 updates (#435),,dependabot[bot],3.0,3.0,6.0
+Neargye/magic_enum,83ab7f4f578bd00e1026a7cd9f7baa4f1a62cbeb,2025-10-08T18:29:29Z,Replace test option with not building tests by default (#430),Co-authored-by: Frankie Robertson <frankie@robertson.name>,frankier,2.0,10.0,12.0
+Neargye/magic_enum,ec5734e491ab7cb443c6175996d1791854341a55,2025-09-05T15:54:19Z,Bump the github-actions group with 2 updates (#426),,dependabot[bot],7.0,7.0,14.0
+Neargye/magic_enum,0f479047057e4f9bff4b08ba01a1d4805f968e72,2025-09-05T15:51:55Z,fix multiple definitions of adl_info,,Neargye,1.0,1.0,2.0
+Neargye/magic_enum,083298a045ea99cdf32492f52f1fdbf87b687652,2025-08-31T21:21:32Z,fix namespace,,Neargye,9.0,9.0,18.0
+Neargye/magic_enum,aaf57737d53e169219bee8ee0ab11a534bbb0a79,2025-08-31T18:56:19Z,Add prefix trimming (#414),,ZXShady,179.0,109.0,288.0
+Neargye/magic_enum,d468f23408f1207a4c63b370bb34e4cfabffad83,2025-08-24T19:01:03Z,Bump github/codeql-action in the github-actions group (#421),,dependabot[bot],1.0,1.0,2.0
+Neargye/magic_enum,691cc4b2a4bc08ef35528da2af47d434160409d9,2025-07-17T09:54:17Z,Bump the github-actions group with 3 updates (#417),,dependabot[bot],3.0,3.0,6.0
+Neargye/magic_enum,ecdeb1cea54d87b09bafe9999faf56654646209d,2025-06-27T11:25:18Z,Fix __FUNCSIG__ parsing on x86 by explicitly declaring the calling convention (#405),,jediry,11.0,3.0,14.0
+Neargye/magic_enum,ca429575e08afaea3581e1f1860cda2a2b11be1f,2025-06-24T13:22:59Z,update ga,,Neargye,0.0,1.0,1.0
+Neargye/magic_enum,be00112dda83d3bf4f0d06f0971cfd877388a643,2025-06-24T13:11:50Z,Fix GIT_TAG for CMake's `CPAMAddPackage` (#416),,Flinner,1.0,1.0,2.0
+Neargye/magic_enum,a733a2ea665ca5d72b7270f0334bf2e7b82bd0cc,2025-06-11T17:39:34Z,clean-up,,Neargye,11.0,15.0,26.0
+Neargye/magic_enum,d642b05dcbb4825470cf5afb4de2d36cafedf7b1,2025-06-11T17:00:01Z,Add adl_ranges (#413),Co-authored-by: lsemprini <17140216+lsemprini@users.noreply.github.com>,ZXShady,174.0,14.0,188.0
+Neargye/magic_enum,513e606d7b9dd16582107c38f263fd0f9717cd47,2025-06-11T16:49:11Z,clean-up,,Neargye,3.0,3.0,6.0
+Neargye/magic_enum,aa724339dcc2eb662f38757220678fa94fcfa78c,2025-06-11T16:47:09Z,fix: warnings about included file in module purview in MSVC (#407),,helynranta,11.0,0.0,11.0
+Neargye/magic_enum,627d0eb242dd77b2add508e8a79a44fbe42cc5ff,2025-06-11T16:46:15Z,Bump the github-actions group with 3 updates (#403),,dependabot[bot],3.0,3.0,6.0
+Neargye/magic_enum,ed41cbbd0a121d6f5ea3d19a08315285226f139d,2025-06-11T16:45:07Z,update github actions,,Neargye,8.0,9.0,17.0
+Neargye/magic_enum,c726051c5cbf9526877c53c2a91f9c25a4fae05c,2025-06-11T16:38:33Z,doc: Fixes typo in README (#406),,elykwilliams,1.0,1.0,2.0
+Neargye/magic_enum,a413fcc9c46a020a746907136a384c227f3cd095,2025-02-20T08:38:17Z,fix: use `inline` instead of `static` for constexpr in header file (#401),"Using `static constexpr` in a header file does not seem to be correct - see [1] - and generates a bug when building the magic_enum module with GCC 15
+
+[1] https://isocpp.org/blog/2018/05/quick-q-use-of-constexpr-in-header-file",tkhyn,2.0,2.0,4.0
+Neargye/magic_enum,ff6e5dd1c82a0c8cf8f774759933cc0a353fa5f9,2025-02-20T08:37:47Z,fix 379 (#382),,Neargye,25.0,54.0,79.0
+Neargye/magic_enum,61a4f2058187f2f6bdea5dfcca27be1923a39da4,2025-02-20T08:36:05Z,Bump the github-actions group across 1 directory with 2 updates (#399),,dependabot[bot],2.0,2.0,4.0
+Neargye/magic_enum,2ec43969d87016703aa0acbaff06cc4d8018a815,2025-02-20T08:34:09Z,More reliable value validness detection towards CWG1766 (#398),"CWG1766 made out-of-range cast to enumeration without fixed underlying
+type raise undefined behavior. Such UB arguably also applies to
+`bit_cast`, although it's not required that UB in `bit_cast` makes the
+expression non-constant.
+
+Currently, only Clang has implemented CWG1766, while Clang's underlying
+`__builtin_bit_cast` happens to be a workaround. However, it's more
+reliable to me to rely on the guarantee that core language UB causes
+constant evaluation failure.
+
+The approach in this patch effectively detects whether
+`std::integral_constant<E, static_cast<E>(V)>` is a valid type, which is
+equivalent to whether `static_cast<E>(V)` is a constant expression. When
+the answer is `false`, value `V` can't be an enumerator of `E`.",frederick-vs-ja,25.0,14.0,39.0
+Neargye/magic_enum,1a1824df7ac798177a521eed952720681b0bf482,2024-11-23T16:07:10Z,Using CMAKE_INSTALL_INCLUDEDIR for installing includes. (#391),,Skjelsbek,1.0,1.0,2.0
+Neargye/magic_enum,85e05c8e76a59629873ce2f5464d71f3af968fd3,2024-11-23T16:07:03Z,fix:  `magic_enum.hpp` reference (#390),,emmanuel-ferdman,1.0,1.0,2.0
+Neargye/magic_enum,06741ec03f6827ca4bc80f3260bf3e2ed08d0f38,2024-11-19T22:07:21Z,update doc,,Neargye,60.0,7.0,67.0
+Neargye/magic_enum,84990c60b2589421c39b69b18039ae6cbaa43f73,2024-11-19T21:47:49Z,update doc,,Neargye,5.0,3.0,8.0
+Neargye/magic_enum,715b442682f3cac6e04636d8beaf4104c20bac23,2024-11-18T11:30:32Z,Only prepend $prefix for relative paths (#389),,fliiiix,17.0,4.0,21.0
+Neargye/magic_enum,e046b69a3736d314fad813e159b1c192eaef92cd,2024-11-13T23:15:10Z,v0.9.7,,Neargye,14.0,14.0,28.0
+Neargye/magic_enum,15a085f234da152c11bddc224e6f1c0c0a22956c,2024-11-13T23:04:44Z,fix enum_fuse shift value calculation (Neargye#386) (#387),,Bastian Schmitz,1.0,1.0,2.0
+Neargye/magic_enum,c2636e59da4f49df988525e001c5d2dd6f209e92,2024-11-13T23:04:28Z,Bump the github-actions group with 4 updates (#385),,dependabot[bot],6.0,6.0,12.0
+Neargye/magic_enum,49a707dc775dc9494172ab635743f641a9f96e77,2024-11-13T23:03:26Z,meson: install headers and pkg-config file (#383),,stephanlachnit,10.0,0.0,10.0
+Neargye/magic_enum,a72a0536c716fdef4f029fb43e1fd7e7b3d9ac9b,2024-10-14T15:05:55Z,fix installing via cmake (#374),,Arniiiii,,,
+Neargye/magic_enum,9675f2bc291dc1854768c21d5dc71d3b2835876c,2024-10-14T12:36:44Z,Bump github/codeql-action in the github-actions group (#380),,dependabot[bot],,,
+Neargye/magic_enum,126539e13cccdc2e75ce770e94f3c26403099fa5,2024-09-22T16:59:40Z,fix doc,,Neargye,,,
+Neargye/magic_enum,a560110eadfba109c0451014e0c1977c6989cd91,2024-09-19T10:01:16Z,Bump the github-actions group with 2 updates (#375),,dependabot[bot],,,
+Neargye/magic_enum,dae6bbf16c363e9ead4e628a47fdb02956a634f3,2024-08-03T13:37:33Z,Bump the github-actions group with 3 updates (#370),,dependabot[bot],,,
+Neargye/magic_enum,ec8b0e985f2595858a38c0a8d746924a0efb7b44,2024-07-25T08:29:56Z,Update comments regarding max and min (#369),The comments in the code regarding MAGIC_ENUM_RANGE_MIN and MAGIC_ENUM_RANGE_MAX values were not updated according to the latest changes on those default values.,ricardofdc,,,
+Neargye/magic_enum,9a9308fd5477d2a44f4e491d5a712546d4a2b3e4,2024-07-19T12:51:58Z,fix bitset constructor (#367),,asolwa,,,
+Neargye/magic_enum,664ee62c12570948b0e025d15b42d641fba8d54a,2024-07-08T17:37:57Z,Parameterize formatter::format to use with FMT_COMPILE (#365),,ArtfulVampire,,,
+Neargye/magic_enum,ec1adc5763f684e0f32888b157bfc0b86021b8e9,2024-07-01T20:07:11Z,Bump github/codeql-action in the github-actions group (#364),,dependabot[bot],,,
+Neargye/magic_enum,dd6a39d0ba1852cf06907e0f0573a2a10d23c2ad,2024-06-29T14:16:32Z,v0.9.6,,Neargye,,,
+Neargye/magic_enum,0c1d10a624903e2764c01d09d7c233f569591a9a,2024-06-29T14:13:32Z,fix tests,,Neargye,,,
+Neargye/magic_enum,f08355cd0d636808b06ffef54060c71c4d34cd10,2024-06-29T14:01:20Z,fix enum_reflected,,Neargye,,,
+Neargye/magic_enum,bc2e94853b26ff588f4268ad20e165dd2b59207b,2024-06-29T13:47:56Z,add enum_reflected,,Neargye,,,
+Neargye/magic_enum,2ac8152a2b8cc5839bd342b4c82d52f128c6a848,2024-06-29T13:18:48Z,update ci (#363),,Neargye,,,
+Neargye/magic_enum,f2ad79f06bed6d0261f5d075ed228c1015aca2c1,2024-06-28T19:59:30Z,fix #362,,Neargye,,,
+Neargye/magic_enum,bf3c74ab7eded2a7183a3729f5cd36bc367edb08,2024-06-09T20:06:15Z,Add better support for Yocto/PetaLinux (#360),Added a new option of MAGIC_ENUM_OPT_INSTALL_PACKAGE_XML to allow disabling the package.xml file,ShaharHD,,,
+Neargye/magic_enum,173f22250c7831566b54d195810a677a694f717a,2024-06-04T17:55:16Z,chore: remove crlf line endings in bazel files (#358),,zaucy,,,
+Neargye/magic_enum,10e69c799ac5f11cd2d4acfd07b728b1d03c331e,2024-06-01T08:34:45Z,Bump the github-actions group with 2 updates (#356),,dependabot[bot],,,
+Neargye/magic_enum,db0b726c051f2d631b85793038677caf467a7cfe,2024-05-27T21:17:33Z,Add MAGIC_ENUM_USE_STD_MODULE option to use standard library module. (#350),,stripe2933,,,
+Neargye/magic_enum,801c68bdc9fc86f21f25f905c2465eb5da98ca26,2024-05-25T14:35:16Z,fix wshadow (#354),,Neargye,,,
+Neargye/magic_enum,a2077c01c3071c12279b7ab40a19607647682d37,2024-05-15T21:10:53Z,clean-up,,Neargye,,,
+Neargye/magic_enum,1a366d677ec1a795978a86d294a020dd465eb50d,2024-05-15T20:13:02Z,Bump the github-actions group with 2 updates (#346),,dependabot[bot],,,
+Neargye/magic_enum,7afc57b194dd08631d5e96e42b217bb52933828f,2024-05-08T21:02:49Z,Support C++20 module. (#343),,stripe2933,,,
+Neargye/magic_enum,f34f967c4e70ec60d1c561fbd2fcabaeedce5957,2024-04-02T15:37:02Z,Bump the github-actions group with 1 update (#341),,dependabot[bot],,,
+Neargye/magic_enum,d63a9d63717640705c6c9654d68fa6575d39bab8,2024-03-04T13:54:14Z,Bump the github-actions group with 2 updates (#339),,dependabot[bot],,,
+Neargye/magic_enum,a7f35612ab42505b309e87ddcf964b84a3439525,2024-02-22T14:29:45Z,update doc,,Neargye,,,
+Neargye/magic_enum,ec11ae0c285773e691a1e8372e4984189a6bed1e,2024-02-22T10:23:33Z,removed restrictions on maximum range size,,Neargye,,,
+Neargye/magic_enum,d7c7675b56d4728e50afbfa6e9d1536756d51f8e,2024-02-22T10:22:46Z,update readme,,Neargye,,,
+Neargye/magic_enum,66e5a46094e4d2e743617354a91b8963e11059b2,2024-02-10T12:13:25Z,example_switch.cpp: properly return 0 (#336),,stephanlachnit,,,
+Neargye/magic_enum,b4ada55c8cea21f3c73c5a58cebd368a227465a1,2024-02-01T12:11:43Z,Bump the github-actions group with 2 updates (#333),,dependabot[bot],,,
+Neargye/magic_enum,40ecd7dfb428546f5091b1a039d1483ba4938905,2024-01-21T10:13:49Z,Tidy up Limitations page (#332),,svew,,,
+Neargye/magic_enum,d3f466bf0c5651ac41780be07f30eda4fbfe697f,2024-01-12T11:23:40Z,Bump the github-actions group with 4 updates (#331),,dependabot[bot],,,
+Neargye/magic_enum,414fb654d36620f7b899f782f2743e43122325f6,2024-01-01T22:50:34Z,update copyright,,Neargye,,,
+Neargye/magic_enum,81b9b054f65f1aa68eacf88acc43df737f228eec,2024-01-01T22:40:37Z,update readme,,Neargye,,,
+Neargye/magic_enum,aa465f7f376b68d16f98a1c3a86a3efccdcb4bf8,2024-01-01T22:39:10Z,update doc and example,,Neargye,,,
+Neargye/magic_enum,6992f41db737b6ffb3b107ebe74811d5c16cde29,2024-01-01T22:39:01Z,update readme,,Neargye,,,
+Neargye/magic_enum,73c1d83646d9673a8f4a4c075087c0eb64d9ddb6,2024-01-01T22:19:26Z,fix build,,Neargye,,,
+Neargye/magic_enum,9565965afd0e1c54442373ec965251567a1631ed,2024-01-01T22:04:57Z,clean-up,,Neargye,,,
+Neargye/magic_enum,c7a793d71af708e0af9859853dc5c9815e601913,2024-01-01T22:00:05Z,CI: hash-pin sensitive workflow and configure dependabot to keep them updated (#329),,diogoteles08,,,
+Neargye/magic_enum,f41e4cdc927311783a68125835f3349bf9d2cdf3,2023-12-20T06:40:10Z,Bazel: --incompatible_use_platforms_repo_for_constraints migrated (#325),,cpsauer,,,
+Neargye/magic_enum,e26b05e0a04529ed2ac2571919f9755ba0afee18,2023-12-17T20:56:13Z,clean-up,,Neargye,,,
+Neargye/magic_enum,e09f25780ac8be5523474dea1e707318274ab047,2023-12-16T13:00:00Z,checking that the enum is valid (not empty and not forward declaration) (#323),,Neargye,,,
+Neargye/magic_enum,41f674b0610aac4ee2d939b186379dcc5ac0e4b5,2023-12-09T19:56:44Z,fix enum_fuse,,Neargye,,,
+Neargye/magic_enum,804738ba8a33b7f5b14d1f4ea873c80e6588dcd9,2023-12-06T07:46:57Z,Add support for overriding MAGIC_ENUM_ASSERT (#322),,justinboswell,,,
+Neargye/magic_enum,48415f9ed0295aaed2057f4c09dc8007fbdae08e,2023-12-04T09:15:00Z,Ci: add scorecard action (#313),,diogoteles08,,,
+Neargye/magic_enum,e55b9b54d5cf61f8e117cafb17846d7d742dd3b4,2023-11-16T08:32:10Z,v0.9.5,,Neargye,,,
+Neargye/magic_enum,677636ec430912e75f07554259de6331660d8fc7,2023-11-15T19:07:55Z,clean-up,,Neargye,,,
+Neargye/magic_enum,56dcb011c237390abf80fb1342d0cce291ed603f,2023-11-15T18:25:49Z,Put `get` to `magic_enum::containers` namespace (#316),,IvanArkhipov1999,,,
+Neargye/magic_enum,016883d29a347e27fb5b3a4aa7c97fc97f957971,2023-11-15T10:17:08Z,Simplify Bazel (#312),,cpsauer,,,
+Neargye/magic_enum,3437129f30c926e740ae5943cef27cd0b836c4be,2023-11-14T17:07:33Z,Bazel: Make include directories consistent (#311),Addresses Bazel part of https://github.com/Neargye/magic_enum/issues/310,cpsauer,,,
+Neargye/magic_enum,d52a0c1c1866775051b57dd7e44c486f4296f8d7,2023-11-14T13:59:15Z,[CI] remove continue-on-error,,Neargye,,,
+Neargye/magic_enum,ea5b977b8db8f0eaf9c41540f1b7db99b8abe389,2023-11-12T13:36:48Z,v0.9.4,,Neargye,,,
+Neargye/magic_enum,cd5fd2c34315cb1b985d491788722cbf9a910c03,2023-11-12T13:30:10Z,Fix set erase function (#308),,Ry-DS,,,
+Neargye/magic_enum,3c92e9035bbddd2a56eae09a04b2e9f6d59c1372,2023-11-11T21:16:32Z,meson fix include_directories,,Neargye,,,
+Neargye/magic_enum,eb867ec9baaabc5b60816861923fdef53972cba2,2023-11-11T21:11:55Z,put headers in include/magic_enum directory,,Neargye,,,
+Neargye/magic_enum,5523803cfc0590e78a289c1a886cae46e7e0b4b8,2023-11-09T10:09:37Z,Explicitly mark the result of detail::names as constexpr (#305),"It might make no sense, but on MSVC it can generate a compile-time
+error, especially if an enumerator's value is out of range.
+
+Example:
+error C3615: constexpr function 'magic_enum::detail::names' cannot
+result in a constant expression
+...
+note: failure was caused by call of undefined function or one not
+declared 'constexpr'
+...
+note: see usage of '__builtin_array_init_helper'",vt4a2h,,,
+Neargye/magic_enum,5cf4eb3a535c88c2d9ee34f1ee449ee6ccfaf939,2023-11-09T10:07:16Z,fixes 'std::ptrdiff_t' to 'std::size_t' casting error and suppresses `-Wuseless-cast` warning for gcc and clang (#306),"* fixes 'std::ptrdiff_t' to 'std::size_t' casting error
+
+addresses this compiler warning:
+
+```text
+[..]/magic_enum_utility.hpp:101:31: warning: conversion to ‘std::size_t’ {aka ‘long unsigned int’} from ‘std::ptrdiff_t’ {aka ‘long int’} may change the sign of the result [-Wsign-conversion]
+  101 |       return enum_value<D, S>(index);
+      |                               ^~~~~
+```
+
+* suppresses `-Wuseless-cast` for static_cast<char_type>('\0')
+
+needed in case 'char_type' is 'char' (common on Linux but rare on Windows?)
+
+```text
+[..]/magic_enum.hpp:275:114: warning: useless cast to type ‘using magic_enum::char_type = using std::basic_string_view<char>::value_type = char’ {aka ‘char’} [-Wuseless-cast]
+  275 |   constexpr static_str(string_view str, std::integer_sequence<std::uint16_t, I...>) noexcept : chars_{str[I]..., static_cast<char_type>('\0')} {}
+      |                                                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```",RalphSteinhagen,,,
+Neargye/magic_enum,49bb72da8eb6b7abea4cf6b7c7a9165635363f42,2023-10-18T22:53:37Z,Remove superfluous semicolon (#304),,RaceTheMaSe,,,
+Neargye/magic_enum,a7926c63d4a3203531e9aaa9f044c602b9a20d72,2023-10-09T07:33:54Z,Fix link to Conan in README (#301),,RAnders00,,,
+Neargye/magic_enum,d67973d1181ff986ba63c756b47cc854f4d51d32,2023-10-04T15:14:27Z,fix Argument-dependent lookup results in enum_switch,,Neargye,,,
+Neargye/magic_enum,dfcd851dba72a72859a6d5d9461e3d2e9a32d33b,2023-10-04T15:13:20Z,fix build,,Neargye,,,
+Neargye/magic_enum,ed8bb5d63aaf953e93c606d6d8dd4525f0a01c66,2023-10-04T15:04:09Z,check for -D__PRETTY_FUNCTION__=__FUNCTION__,,Neargye,,,
+Neargye/magic_enum,b291b0ce5a76e808e05fc0141154e963407372da,2023-09-20T14:44:31Z,fix fmt::formatter,,Neargye,,,
+Neargye/magic_enum,33e4bb86404760b533d8e4d54387ea40b6ac8a9b,2023-09-15T10:30:21Z,update doc,,Neargye,,,
+Neargye/magic_enum,d705e50884d9647ddff3fc1b08d96c9cd4ce530a,2023-09-12T12:19:27Z,automatically create and upload bzlmod archive (#294),,zaucy,,,
+Neargye/magic_enum,8b185c82cf3ed16b1151833bc1275ecadaa976d1,2023-09-12T12:19:13Z,default bazel copts condition (#295),,zaucy,,,
+Neargye/magic_enum,745bf36a64962aa113bd04fb9d2d377e7878d2ef,2023-08-23T09:40:03Z,bazel updates (#291),,zaucy,,,
+Neargye/magic_enum,40e12d62295baabe3410bf55528fd5ca1ee987cf,2023-08-14T14:53:15Z,update readme,,Neargye,,,
+Neargye/magic_enum,45c8b5d92c17198ae4a64aaef435609475a41c5a,2023-08-14T14:41:40Z,update doc,,Neargye,,,
+Neargye/magic_enum,4904822db8770d04444add00a9e155568d3e8bd1,2023-06-28T16:05:12Z,fix CLI/C++,,Neargye,,,
+Neargye/magic_enum,e1ea11a93d0bdf6aae415124ded6126220fa4f28,2023-06-22T13:22:05Z,v0.9.3,,Neargye,,,
+Neargye/magic_enum,4555faae9e3ca3c95c23783c4c2edc3e3df76783,2023-06-22T13:05:17Z,clean-up containers,,Neargye,,,
+Neargye/magic_enum,288cb71861fbd6473036dfc3bfcd90c2346a12ee,2023-06-21T08:57:55Z,clean-up containers,,Neargye,,,
+Neargye/magic_enum,43070070e691b91998fd191ddee85f8afea0fda2,2023-06-21T08:45:59Z,fix enum_type_name in namespace,,Neargye,,,
+Neargye/magic_enum,4a862c932e51a62d4e3204e26d0b4505c6595ce1,2023-06-21T08:23:06Z,meson_options.txt: remove leftover noascii option (#282),,v1993,,,
+Neargye/magic_enum,8107ceb0fa44d4298ba81b85a13f7078e7e53791,2023-06-19T08:28:18Z,format containers throw,,Neargye,,,
+Neargye/magic_enum,f01fcf0373da4fe39d991cb02ffc5e8a9da79e79,2023-06-18T21:36:03Z,add assert in containers::[],,Neargye,,,
+Neargye/magic_enum,eb0f0510786b88237593d8687b9967c79ae7e39a,2023-06-18T21:25:00Z,add check in enum_flags_name,,Neargye,,,
+Neargye/magic_enum,fd9f70b91d04bf090699a4000b5d8b77781d125a,2023-06-16T02:04:33Z,fix _ITERATOR_DEBUG_LEVEL,,Neargye,,,
+Neargye/magic_enum,e43f7a9329b26346055f9ab51cd2bf1e680aff66,2023-06-15T20:30:02Z,update readme,,Neargye,,,
+Neargye/magic_enum,911cd2047bffffb3b32f1d621e34b6af8c1f3844,2023-06-13T23:02:45Z,fix VS_2017_WORKAROUND for resharper,,Neargye,,,
+Neargye/magic_enum,fd15349e179602902cb68b9e751c310b21e59b78,2023-06-12T13:49:35Z,fix warn,,Neargye,,,
+Neargye/magic_enum,fe122a8366b0b978ff791569b045aad8071f8c96,2023-06-12T13:46:11Z,move enum_for_each to magic_enum_utility.hpp,,Neargye,,,
+Neargye/magic_enum,7a881a68baee4c7742ceb54b573a42d4b47f6abc,2023-06-12T13:45:42Z,add enum_next_value and enum_prev_value,,Neargye,,,
+Neargye/magic_enum,cf963cba28fcdbdc124337e89ed1791f6be3b932,2023-06-12T13:44:50Z,add MAGIC_ENUM_NO_EXCEPTION,,Neargye,,,
+Neargye/magic_enum,64bc3dba6c652096970b899df6ce98fb6413a2f0,2023-06-12T13:43:57Z,add MAGIC_ENUM_ENABLE_HASH_SWITCH,,Neargye,,,
+Neargye/magic_enum,e7749da06b7fd5c2de32f2428decd0fa2924f3de,2023-06-12T13:43:19Z,add MAGIC_ENUM_NO_ASSERT,,Neargye,,,
+Neargye/magic_enum,cf659c59c867ac9b476c2b59f81466af24dffd1d,2023-06-12T13:40:10Z,add <magic_enum_all.hpp>,,Neargye,,,
+Neargye/magic_enum,5018ef9677521983bfedb127901284432d1a05a2,2023-06-10T11:30:32Z,v0.9.2,,Neargye,,,
+Neargye/magic_enum,8a26b3dc428cac74fbdacaa3981b9d71ac7cc4e4,2023-06-06T09:22:49Z,Re-enable Wenum-constexpr-conversion clang fix (#279),,rupprecht,,,
+Neargye/magic_enum,27f5b9d9256e044a3184fc888c663b39fc14ccec,2023-06-05T11:18:56Z,clean-up,,Neargye,,,
+Neargye/magic_enum,6e1978eea7d9211a2e0f37ffdeb566d07d7c7c69,2023-06-05T11:16:20Z,fix warn,,Neargye,,,
+Neargye/magic_enum,3b4967b21e517fae8ec6307b6aa27f0cc7893a85,2023-06-05T10:30:35Z,move all enum_flags_* func to enum_flags.hpp,,Neargye,,,
+Neargye/magic_enum,9508c563dac296ca7daec05d227a83e9fa368e12,2023-06-05T10:10:02Z,add enum_flags_test and enum_flags_test_any functions for flags (#277),Co-authored-by: Jon Petrissans <jon.petrissans@protonmail.com>,Neargye,,,
+Neargye/magic_enum,0b2c1cf07282d41412b7f9c0c6a8321863cbb794,2023-06-05T10:09:38Z,MAGIC_ENUM_VS_2017_WORKAROUND,,Neargye,,,
+Neargye/magic_enum,75cf5003f428a4eb50b828fb63ff8b6cc6a86f95,2023-06-05T09:48:44Z,fix enum-name on vs2017,,Neargye,,,
+Neargye/magic_enum,2274b77c8024e982b8f99c57cdac0f4c6d5ccd8a,2023-06-04T16:45:01Z,fix enum_subtype deduction,,Neargye,,,
+Neargye/magic_enum,1c94e914c216e9ea9389ba247de6de84a3e875d0,2023-06-02T07:50:02Z,fix #276,,Neargye,,,
+Neargye/magic_enum,f2ddc4ba620087f4b6fe8749bc283b75aa34c5a2,2023-06-02T07:24:25Z,add more test,,Neargye,,,
+Neargye/magic_enum,04ecb134ff444689510a0e2129b80f9c6ff6162f,2023-05-31T11:46:21Z,fix char_type cast,,Neargye,,,
+Neargye/magic_enum,67abcf483a4c5e5027aaf2976b338bd71e28c749,2023-05-31T10:58:31Z,v0.9.1,,Neargye,,,
+Neargye/magic_enum,06598d15950f15ad9cf739d1949ab4d4a3fff622,2023-05-30T13:58:31Z,remove unnecessary func,,Neargye,,,
+Neargye/magic_enum,e59f8736fe7396af6b69c6f370b99555ded38e0b,2023-05-30T13:18:07Z,remove unnecessary template instantiations,,Neargye,,,
+Neargye/magic_enum,6fe7ffbf35d8b27cdb2591dda992858b4ee1e9b5,2023-05-30T10:37:45Z,fix enum name in namespace,,Neargye,,,
+Neargye/magic_enum,6fec6f63860387ea6283f68805523026dddc8fdf,2023-05-30T09:24:25Z,add more test,,Neargye,,,
+Neargye/magic_enum,abf48fc20e46599d0fcf4278c4ff26634d956a99,2023-05-30T08:54:20Z,fix enum name in class,,Neargye,,,
+Neargye/magic_enum,930bcf0ba2f1c900f86be96c0348737125b7fe18,2023-05-30T08:29:52Z,fixed meson build for the tests (#275),,Tyler,,,
+Neargye/magic_enum,6304edd7f662c28bf762c16b123d27b0eab056bd,2023-05-26T13:33:03Z,update doc,,Neargye,,,
+Neargye/magic_enum,8f6c9905fdf901c27093f01b16b8a756073b1ea6,2023-05-24T15:05:20Z,Enable wchar_t as string_view value_type (#272),,Neargye,,,
+Neargye/magic_enum,fba99305d2104a2846624feb61058fc77e54d4f0,2023-05-24T09:51:51Z,v0.9.0,,Neargye,,,
+Neargye/magic_enum,50adc0691e94ac2da2c439aca40bae57333861b4,2023-05-23T17:12:42Z,fix clang-format,,Neargye,,,
+Neargye/magic_enum,dd2fb1b9a37100313423958c8f21573e67cf95d5,2023-05-23T16:43:04Z,Fix https://github.com/Neargye/magic_enum/issues/234#issuecomment-1468134598 (#271),,schaumb,,,
+Neargye/magic_enum,8f933fcfbd87fbc0b9c7ef07563fe34bd814291f,2023-05-23T07:37:51Z,Create Security Policy (#270),,diogoteles08,,,
+Neargye/magic_enum,629f7b09af87a83541eaeabaeefb92cbfa6f4b0e,2023-05-22T15:44:28Z,add support big range (#268),"* add support big range
+
+* remove string_view from n()
+
+* fix containers",Neargye,,,
+Neargye/magic_enum,4c54c094eaa03d7f5d8d20e66ee3be7b40339a77,2023-05-21T19:35:04Z,clean-up,,Neargye,,,
+Neargye/magic_enum,85e2c5be68c7fe3b5774ccf524f5a3eeaf33d66b,2023-05-21T17:13:35Z,add subtype to enum_fuse,,Neargye,,,
+Neargye/magic_enum,ed43fd5fa219662eec8854b935dba96996b5b6e2,2023-05-21T13:49:46Z,move iostream_operators to magic_enum_iostream,,Neargye,,,
+Neargye/magic_enum,57d7e795309437ec83246450b0b4f4bf60c5a82a,2023-05-21T13:38:39Z,clean-up,,Neargye,,,
+Neargye/magic_enum,18602fd224c93aeed0dab1369959ba3d940c0b6b,2023-05-21T13:32:22Z,optimize compile-time: removed unnecessary array copying,,Neargye,,,
+Neargye/magic_enum,9c710f611945a03e863be06d1ca6a3724bac8de0,2023-05-21T13:09:30Z,add more test,,Neargye,,,
+Neargye/magic_enum,f40a6215284d9f7574352bb799cd7b53c89b47c2,2023-05-21T00:20:14Z,switched to using idiomatic cmake set standard (#240),,embeddedpenguin,,,
+Neargye/magic_enum,427a47394f39ddb1517443acb808c1c861a35323,2023-05-20T23:39:52Z,* Remove MAGIC_ENUM_ENABLE_NONASCII,"* Optimize template instantiations
+* Remove auto is_flags
+* Change flags API",Neargye,,,
+Neargye/magic_enum,737ed4fc7f383bea54404a4a7f00f66a592ede78,2023-05-19T15:36:50Z,add fmt support,,Neargye,,,
+Neargye/magic_enum,5367f5183c38ed64231e0667d76a6c52e54d21b9,2023-05-13T09:15:23Z,Support gcc -fno-pretty-templates (#258),"https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html#index-fno-pretty-templates
+
+The gcc option -fno-pretty-templates changes the __PRETTY_FUNCTION__ from e.g.
+""auto n() [with E = E]"" to ""auto n<E>()"" (more like MSVC).
+
+Pass the entire __PRETTY_FUNCTION__ / __FUNCSIG__ to pretty_name(), and truncate it there, checking the last character if necessary to determine the format used.",ecatmur,,,
+Neargye/magic_enum,d4fa0c3dd3698c8a7a03b54673bfad91bffc276a,2023-05-13T08:49:24Z,Add gcc 12 and NONASCII flags to ubuntu build matrix. (#262),,talisein,,,
+Neargye/magic_enum,8111a0d17d4a2126a1feab7f3fe892e492c20340,2023-05-12T23:44:45Z,Move NONASCII tests to their own file (#261),,talisein,,,
+Neargye/magic_enum,d6fef8b171a93dd0f98aeeb40f54c742a8d9a789,2023-05-12T23:43:06Z,Add const to std::formatter method (#260),,talisein,,,
+Neargye/magic_enum,48054f64abcfc83f58d9aa2efbbd21604f93aca4,2023-04-26T16:16:08Z,add bzlmod support (#254),,zaucy,,,
+Neargye/magic_enum,fc88b4936a95bdb8c32980283aa4e04b3869bb18,2023-04-24T19:36:25Z,meson: add options and tests (#255),,v1993,,,
+Neargye/magic_enum,95c71dab42acb62bf5d4a781e8f29982f7f3046e,2023-03-29T12:03:50Z,Include <functional> (#252),"This is necessary to avoid compilation errors using recent libc++
+versions with C++23 due to libc++ taking steps to remove transitive
+includes in newer C++ versions [0].
+
+For a more concrete example, this program builds using Clang 16.0.0 and
+C++20, but fails to build with C++23:
+
+    #include <magic_enum.hpp>
+    enum class ec { RED };
+    template <>
+    constexpr auto magic_enum::customize::enum_name(ec val) noexcept
+        -> magic_enum::customize::customize_t {
+      switch (val) {
+      case ec::RED: return ""Red"";
+      };
+      return invalid_tag;
+    }
+
+The compiler hits the ""too many errors"" threshold when building with
+C++23, but I believe this is due to compiling failing to recover after
+the first error. The error message starts with:
+
+    include % /usr/local/opt/llvm/bin/clang++ -std=c++2b -c test.cpp
+    In file included from test.cpp:1:
+    ./magic_enum.hpp:324:61: error: no member named 'equal_to' in namespace 'std'
+      return std::is_same_v<std::decay_t<BinaryPredicate>, std::equal_to<string_view::value_type>> ||
+                                                           ~~~~~^
+    ./magic_enum.hpp:324:93: error: expected '(' for function-style cast or type construction
+      return std::is_same_v<std::decay_t<BinaryPredicate>, std::equal_to<string_view::value_type>> ||
+                                                                         ~~~~~~~~~~~~~~~~~~~~~~~^
+    ./magic_enum.hpp:324:96: error: expected expression
+      return std::is_same_v<std::decay_t<BinaryPredicate>, std::equal_to<string_view::value_type>> ||
+                                                                                                   ^
+
+std::equal_to is defined in <functional>, but <functional> is not
+directly included by magic_enum.hpp. <string> [1] and <string_view> [2]
+both include <functional> for C++20 and earlier, but they no longer
+include <functional> in C++23 and later, so a definition for
+std::equal_to is no longer visible, leading to the above error.
+
+Directly including <functional> fixes this error, but I'm not sure there
+aren't similar errors.
+
+[0]: https://github.com/llvm/llvm-project/commit/8ff2d6af6906261567d8c10be62711ce899fb485
+
+[1]: https://github.com/llvm/llvm-project/blob/llvmorg-16.0.0/libcxx/include/string#L4625
+
+[2]: https://github.com/llvm/llvm-project/blob/llvmorg-16.0.0/libcxx/include/string_view#L1027
+
+Co-authored-by: Alex Wang <ts826848@gmail.com>",ts826848,,,
+Neargye/magic_enum,73e91dc28c2993aef62702a8d949c0fb02e2231c,2023-03-07T21:57:54Z,ci: set minimal permissions on workflows (#248),,diogoteles08,,,
+Neargye/magic_enum,6542403248d46136031a6ec5e85bc103bfb1a70c,2023-02-16T08:04:09Z,Fix forgotten replacement in CPack packaging script (#243),,KOLANICH,,,
+Neargye/magic_enum,6527df91d2edddf34d95d9f31519867be8925e1a,2023-02-01T14:24:12Z,Support R++ builtins for type/enumerator name (#238),,Smertig,,,
+Neargye/magic_enum,769506a8e65f5b9fce095411559d31e45945c969,2023-01-31T17:56:59Z,fix Clang 16 build in GitHub Actions (#237),,striezel,,,
+Neargye/magic_enum,2d9fb26c46da651310156632d6335806b987a7dc,2023-01-31T13:36:01Z,Update actions/checkout in GitHub Actions workflows to v3 (#236),,striezel,,,
+Neargye/magic_enum,533c9509ef77d0fedd8be47d16dc6310877e24cf,2023-01-17T14:59:37Z,add constexpr containers (#187),,schaumb,,,
+Neargye/magic_enum,2a7658d0840079667b690152763f3cfcc0114540,2023-01-17T14:52:59Z,Implemented packaging using CPack. (#202),,KOLANICH,,,
+Neargye/magic_enum,d01a4f90a63444e910e66c796b93df25abffcfe0,2022-12-20T09:32:25Z,fix pretty_name with ENABLE_NONASCII,,Neargye,,,
+Neargye/magic_enum,d5e8530191c41416bfdfbe4ffb3d7a39f09f8fbe,2022-12-20T09:24:01Z,simplify pretty_name to speed up constexpr evaluation (#227),,AntonShalgachev,,,
+Neargye/magic_enum,e1a68e9dd3d2e9180b04c8aeacd4975db745e6b8,2022-12-09T11:52:24Z,v0.8.2,,Neargye,,,
+Neargye/magic_enum,b625fe721c8ab32e6454cea5856da73fce3708be,2022-11-28T12:32:59Z,ENABLE_NONASCII depends only on settings,,Neargye,,,
+Neargye/magic_enum,20cac97b53a432af0d4b5cde6962aef83ef6338e,2022-11-22T09:37:06Z,add missing magic_enum namespace (#223),,ilobilo,,,
+Neargye/magic_enum,aa1f2869f4aafab709c4b4d63b2dc8c6591240e0,2022-11-09T18:00:09Z,compile-time optimization,,Neargye,,,
+Neargye/magic_enum,684718c58bbd20bfa79a688cafa6c9e58d164da7,2022-11-08T20:00:34Z,clean-up,,Neargye,,,
+Neargye/magic_enum,612033ab5d2f5344a8c3c775ffc19ff648f1c289,2022-11-08T16:21:00Z,add suport enum_switch without defined MAGIC_ENUM_ENABLE_HASH,,Neargye,,,
+Neargye/magic_enum,c588771875ae59eb5d0576088291beda7cd934c6,2022-11-08T09:02:11Z,update doc,,Neargye,,,
+Neargye/magic_enum,3d64c1b5bb63303a475d0c5382480c6c23555f04,2022-11-07T19:26:44Z,clean-up,,Neargye,,,
+Neargye/magic_enum,f29ad727ba54d554b89f74703c95fca8aec8adf3,2022-11-07T19:14:24Z,enum_cast optimization,,Neargye,,,
+Neargye/magic_enum,099abc330abc1b90b121cbd7c37693ba14136451,2022-11-07T17:30:23Z,clean-up,,Neargye,,,
+Neargye/magic_enum,6fca52c1e72dd53cc8dc770bd8b7e3ece358f2d5,2022-11-07T17:10:41Z,compile-time optimization,,Neargye,,,
+Neargye/magic_enum,8bd403f888955fc9133b4bc79ffc3740c4f44034,2022-11-07T17:00:16Z,"fix #216, fix #199",,Neargye,,,
+Neargye/magic_enum,596f00c0db4977f5a6bcc6314c7d4dcc75c5deb2,2022-11-04T19:46:37Z,make streams and exceptions optional (#218),"* magic_enum: make streams optional
+this commit adds support to disable streams
+with macro MAGIC_ENUM_NO_STREAMS
+
+* magic_enum_format: add support to disable exceptions
+this commit adds support to disable exceptions
+with macro MAGIC_ENUM_NO_EXCEPTIONS",ilobilo,,,
+Neargye/magic_enum,159a35006d8e18172eb687b432b77e6f5baa61f6,2022-10-11T15:01:04Z,fix #215,,Neargye,,,
+Neargye/magic_enum,1b1194bcd5e0f62047a43161689bae593b12e607,2022-09-02T10:30:16Z,Remove redundant instantiation (#211),,Smertig,,,
+Neargye/magic_enum,1a57977ea3a286206b800e3e3fd79faa6f6e7404,2022-08-20T13:57:30Z,Typo fixed (#210),,nektonick,,,
+Neargye/magic_enum,d26a7a22930def5a35e87d14da644a1841570fe3,2022-08-17T17:38:30Z,No hash (#208),,Neargye,,,
+Neargye/magic_enum,8f9f4afee78aa291b769be61e9ea622939bb983c,2022-08-14T12:43:31Z,Exercise Bazel build in CI (#206),,Neargye,,,
+Neargye/magic_enum,0fec11eda3f9e1c96e2c24d68527ffa7ca08f095,2022-08-13T14:12:55Z,fix build,,Neargye,,,
+Neargye/magic_enum,cd1ec187e6c2a659a36d23a809bd2ff46cf4fdee,2022-08-13T14:09:42Z,fix #157,,Neargye,,,
+Neargye/magic_enum,b5116d078dc6f2b8d12c5f7ed54dd6a8e10f466e,2022-08-13T13:44:42Z,add aliases test,,Neargye,,,
+Neargye/magic_enum,e6ce44337a4a4e768a0c1f986aa08a7c0614d144,2022-08-13T13:44:32Z,hash_v inline,,Neargye,,,
+Neargye/magic_enum,f4ebb4f185ce956bf50b93acbef1516030ecdb36,2022-08-10T10:53:38Z,update ci (#205),,Neargye,,,
+Neargye/magic_enum,e0f8f14724d96da2e1e75e5339567e7fe996e888,2022-08-09T12:44:58Z,fix build clang trunk,,Neargye,,,
+Neargye/magic_enum,51d20f4d1897d52af4c4d0f7b3487d5a6ff63e22,2022-08-09T12:38:07Z,fix clang llvm-project#50055(reviews.llvm.org/D131307),,Neargye,,,
+Neargye/magic_enum,4211ff944bd0915b4ee59ce9c48ed7c75eae3c9c,2022-08-09T11:47:56Z,"ignored ""-Wenum-constexpr-conversion""",,Neargye,,,
+Neargye/magic_enum,4f7c7577b5fd86a7b86ebce9b7420907b98fa34d,2022-08-08T18:23:15Z,clean-up,,Neargye,,,
+Neargye/magic_enum,13ba445e9cb8730041de3b04ea5c8b71f46427e3,2022-08-08T17:07:05Z,clean-up,,Neargye,,,
+Neargye/magic_enum,95641a8f78da649f73b5cdd2b13bb65a5113d11b,2022-08-08T16:40:35Z,fix clang llvm-project#50055(reviews.llvm.org/D130058),,Neargye,,,
+Neargye/magic_enum,f5d6f707a97928198ab29d5178b89653db75d45c,2022-08-08T10:15:53Z,try fix IntelliSence,,Neargye,,,
+Neargye/magic_enum,0dfa61e7570a095e694b4e7aa7646ac85ced4330,2022-08-05T14:24:02Z,fix warning,,Neargye,,,
+Neargye/magic_enum,35a3c7c9da9eb2bb9592fd3debe83bea1e9668f8,2022-08-05T11:36:37Z,std::size_t -> std::uint16_t,,Neargye,,,
+Neargye/magic_enum,43a9272f450fd07e85868ed277ebd793e40806df,2022-08-04T12:12:39Z,v0.8.1,,Neargye,,,
+Neargye/magic_enum,4802f793bbc10731b213322d3fe4fab60153abd6,2022-06-28T10:57:34Z,clean-up,,Neargye,,,
+Neargye/magic_enum,b45b470bea4e55869ef8d908c5b5b370a6a9fefa,2022-06-28T10:57:02Z,update doc,,Neargye,,,
+Neargye/magic_enum,dd80219653d1c498fe356377176ab13dc97d4220,2022-06-28T10:45:47Z,Magic enum format in a separated header file  (#185),,schaumb,,,
+Neargye/magic_enum,c7cf02053b9e29e8a31c253d9628167c7dd12ae4,2022-06-28T10:43:20Z,"fix #190, #192",,Neargye,,,
+Neargye/magic_enum,6956c560330e21c7673ba8d5e43d53b71a7fce48,2022-05-28T18:55:51Z,"Fix compilation error, when including magic_enum after windows.h (#189)",,bamo-volue,,,
+Neargye/magic_enum,87190b811c5d6bb90f970902bcda28740f6c07d3,2022-05-10T19:37:52Z,v0.8.0,,Neargye,,,
+Neargye/magic_enum,c59aec8b1cd107b8c05a8f49f78c55a02d65b109,2022-05-10T17:22:57Z,fuse separated into separate header,,Neargye,,,
+Neargye/magic_enum,86e73be298f03067254672f03faa6d2928d358b2,2022-05-06T12:40:17Z,clean-up,,Neargye,,,
+Neargye/magic_enum,369642f2b0ab2288bd2df1a977e1ee053b54eba2,2022-05-05T19:55:11Z,fix#184 g++ 11.2: Compile error,,Neargye,,,
+Neargye/magic_enum,3d9bf92e2a2bfb3cf2407643e533696a0c40fcb0,2022-04-30T15:42:26Z,update readme,,Neargye,,,
+Neargye/magic_enum,b2ac76235b2261305bdfe562eb5982c808d07e73,2022-04-19T18:46:46Z,update readme,,Neargye,,,
+Neargye/magic_enum,ed09da9f36493e35b8a1a32e16825d08cc47314d,2022-04-17T19:40:54Z,Discontinouos uint8_t test + fix (#182),,schaumb,,,
+Neargye/magic_enum,88e239645d14c6079381e96411a93b3ab9081a10,2022-04-17T19:32:38Z,fix #180,,Neargye,,,
+Neargye/magic_enum,d1ccd22c853ac3afaf7a0f1c86019ea641e777c5,2022-04-14T13:58:37Z,fix linking error,,Neargye,,,
+Neargye/magic_enum,d2ec62779fcd15dfc4f6d03e6bac4e92bf7bd5b1,2022-04-07T15:24:11Z,fix operator>>,,Neargye,,,
+Neargye/magic_enum,b6bf0aa2a810e0ddc62d11333018b30271f31f2f,2022-04-07T15:18:44Z,add namespace magic_enum::istream_operators,,Neargye,,,
+Neargye/magic_enum,25d7f64dfb13ea17f149bd53c684edbb920638ac,2022-03-31T14:19:58Z,clean-up,,Neargye,,,
+Neargye/magic_enum,5e6637ecde5771cb5210c3ec37eaa9d6679dc432,2022-03-31T13:48:27Z,fix: GCC warning [-Werror=sign-conversion] (#176),,abdes,,,
+Neargye/magic_enum,2615fa5e7bb0dbfcf07febf05a8485512923e03a,2022-03-28T15:15:38Z,clen-up & improve (#173),,Neargye,,,
+Neargye/magic_enum,2e7313d3f7f8cc01d29114b1ad1b04227a4785c7,2022-03-28T14:56:16Z,clean-up & improve (#170),,Neargye,,,
+Neargye/magic_enum,cee99df7b5d0801d97c1951b304fa5f59b415e3b,2022-03-28T14:55:25Z,fix bool (#172),,Neargye,,,
+Neargye/magic_enum,64bedded2a9645470a26f3be0942bf5dad0f53e8,2022-03-18T12:07:00Z,Enum switch (#168),,schaumb,,,
+Neargye/magic_enum,542aacea41c350b8468ba3987b977e886d3ef169,2022-03-18T10:08:03Z,clean-up,,Neargye,,,
+Neargye/magic_enum,492d2b6a18ec8263fbab2fceb4f2b25ef700c84d,2022-03-18T09:59:09Z,Sparse only if have an element. Switch only if -. (#169),,schaumb,,,
+Neargye/magic_enum,60de6bff8c6b2304bf046d4aca04b4b536cb8545,2022-03-18T09:58:07Z,new customize (#166),,Neargye,,,
+Neargye/magic_enum,84efdbd2bff1efa912ab681ac1794f2f5871d228,2022-03-15T11:36:18Z,fix Werror=shadow,,Neargye,,,
+Neargye/magic_enum,948c7609394958bf617496719e202dc438eff755,2022-03-12T18:04:42Z,Add support for the ROS build system (#161),,Timple,,,
+Neargye/magic_enum,718d2601b2e4a583670383f6a553c8f692bf8897,2022-03-11T14:54:12Z,clean-up,,Neargye,,,
+Neargye/magic_enum,c1568c5b269a2d7447cb28ef3c4ce2377e29bed0,2022-03-11T12:08:25Z,Constexpr switch names (#142),,schaumb,,,
+Neargye/magic_enum,74123638d1c2e20027c86b0a43c5c23ed933f71c,2022-03-09T14:32:45Z,Fix optional masos (#160),,Neargye,,,
+Neargye/magic_enum,b0c0e02bdc94d6dac41c1b9a910f3793795dca0e,2022-03-09T08:07:09Z,add compile time enum_index (#159),,Neargye,,,
+Neargye/magic_enum,04a3d32d0fca3d3c79ae4ffde0f002bb4eb38bf8,2022-03-08T12:05:43Z,clean-up,,Neargye,,,
+Neargye/magic_enum,9d1cf196cf59cef8ac8da8ea95d896965f8bc22d,2022-03-08T08:38:19Z,Make enum_fuse typesafe (fixes #143) (#145),,pavelkryukov,,,
+Neargye/magic_enum,785b3f253d69ad08d177526d42d2cb7f8f3d9d9c,2022-03-08T08:32:38Z,clean-up,,Neargye,,,
+Neargye/magic_enum,8267d2860b3a80815da49d33b3ef445d5897b6c4,2022-03-05T19:56:17Z,remove std:: from optionals to enable again MAGIC_ENUM_USING_ALIAS_OPTIONAL  (#154),,schaumb,,,
+Neargye/magic_enum,ca89c5425b25609b0f1b7be862e6dad08ac32399,2022-03-02T19:26:02Z,Update README.md,,Neargye,,,
+Neargye/magic_enum,c9388f1c99f1867bb9b1d6c813156d599ee00438,2022-02-19T11:09:33Z,Fix docs (#144),,pavelkryukov,,,
+Neargye/magic_enum,ec87fc976c04302908def75c9e9fb52a762cbbbd,2022-02-19T10:26:06Z,Convert std::enable_if_t to static_assert for cleaner error message (#146),,pavelkryukov,,,
+Neargye/magic_enum,29285919fdcaa9be4185112097cdf1265877a4f8,2022-02-18T21:37:24Z,change std::size_t to std::uintmax_t (#141),,schaumb,,,
+Neargye/magic_enum,9268bb3042defcd2c4821705b0ee8906b3737713,2022-02-18T21:31:36Z,Case insensivity based on #112 (#139),,schaumb,,,
+Neargye/magic_enum,07181c5a11b06a39c5026fa8ace9329550539a6f,2022-02-18T15:52:09Z,support gcc8 with defined MAGIC_ENUM_NO_CHECK_SUPPORT and with specialized magic_enum::customize::enum_name (#137),,schaumb,,,
+Neargye/magic_enum,4e39c3ba5532bda74d0448d4cdc2dc59de39cd10,2022-02-16T17:18:43Z,clean-up,,Neargye,,,
+Neargye/magic_enum,756b139368aba753c9024ccf87f13478ca6bef79,2022-02-16T17:01:14Z,remove throw from enum_fuse,,Neargye,,,
+Neargye/magic_enum,9bfb90760a7f9928e0678863ed64893ea89e1d02,2022-02-11T16:54:59Z,clean-up,,Neargye,,,
+Neargye/magic_enum,5444f00a04c33a54633909940739eda818deb21f,2022-02-11T16:35:50Z,Use bitwise OR for magic_enum::enum_fuse (#131),,pavelkryukov,,,
+Neargye/magic_enum,e7b9231906870a8a5a430c850c3e099071c603dd,2022-02-10T23:14:05Z,fix enum_fuse if values out of range,,Neargye,,,
+Neargye/magic_enum,63ff515163efae979db27a7503f57ce6569a1a8f,2022-02-10T18:17:44Z,clean-up,,Neargye,,,
+Neargye/magic_enum,1f8e29b140f57ce3dd2a12e46e6b40a1da027aa4,2022-02-10T17:58:59Z,Add enum fusing function (#127),,pavelkryukov,,,
+Neargye/magic_enum,22242a613a09edac796f8177862539d27dd24924,2022-02-06T19:59:53Z,fix enum_type_name (#129),,v1nh1shungry,,,
+Neargye/magic_enum,db69b213b0c14c9fdc091047a018f038c936efdc,2022-02-04T22:17:05Z,fix doc,,Neargye,,,
+Neargye/magic_enum,ab2bf820e19d38381aee6f99e326d64b4e8ca023,2022-01-29T16:46:28Z,remove static assert for static string because it does not solve issue (#125),,rpatters1,,,
+Neargye/magic_enum,08089871aff0a2267b9a849055fe99fe60417de8,2022-01-27T17:33:37Z,enum_range more snifae-friendly,,Neargye,,,
+Neargye/magic_enum,9ed19fb9e9bd8ac5852dc034bd29f4dfe2e7e23a,2022-01-27T13:34:05Z,move is_flags to customize::enum_range,force set the enum-flag true or false,Neargye,,,
+Neargye/magic_enum,a8c9e57fbe1aac0c66cdc810d60308e9dbf1e357,2022-01-25T18:14:23Z,fix #122 add static_assert to limit size of N in static_string (#123),,rpatters1,,,
+Neargye/magic_enum,1f9e8c2993c783ea6675ded4e8b938d89f6ebc5e,2022-01-23T16:46:36Z,update,,Neargye,,,
+Neargye/magic_enum,dc162ff65a455213c46345de31c1363d6400c5d4,2022-01-23T15:38:12Z,update ci,,Neargye,,,
+Neargye/magic_enum,4ed0b743e85c263b2002db82ff24e9559ff890aa,2022-01-17T09:50:17Z,update,,Neargye,,,
+Neargye/magic_enum,e136070bc85a915b3df06550fd1e72e8899ad99b,2022-01-09T00:27:37Z,update,,Neargye,,,
+Neargye/magic_enum,aecf0db795f708a4397a2af591b4d387cf0dde7b,2022-01-08T15:30:44Z,New enum-flags API (#120),,Neargye,,,
+Neargye/magic_enum,6a1db3b8b6723991873cf97c605e12d96547754f,2022-01-04T20:00:03Z,add tests,,Neargye,,,
+Neargye/magic_enum,e500ae7f00f9f078651b5357c8c9adaf13f264a1,2022-01-04T19:49:22Z,fix flag::enum_value,,Neargye,,,
+Neargye/magic_enum,103cc617bab743c6b0ba5736f7168e3e8d859dd3,2021-12-28T16:14:16Z,update,,Neargye,,,
+Neargye/magic_enum,7ba70d48b442d38ea3e403393adba5a96cdf6622,2021-12-02T21:27:44Z,Add simple meson.build to make this repository as a subproject (#113),,gpollo,,,
+Neargye/magic_enum,7c6b66fcff1a3931e07b9771b40989ff1a532996,2021-11-29T21:34:25Z,update doc & examples,,Neargye,,,
+Neargye/magic_enum,aa1a30486080778495cc1595ee3b450ae9d1817e,2021-11-26T15:41:22Z,update doc,,Neargye,,,
+Neargye/magic_enum,f4738bef44782f161e949a831cb18910a9b2a5ba,2021-11-26T09:11:51Z,fix hard-limit on enum range,,Neargye,,,
+Neargye/magic_enum,5bc2689fa5dbfe543b70b87fc63b0d3bdaef963d,2021-11-05T17:24:11Z,Some code quality (#110),,florianbecker,,,
+Neargye/magic_enum,c7a0c83ed44ec793285ebab58a86b232d10b5082,2021-10-08T23:40:44Z,constexpr_for not work on vs2017,,Neargye,,,
+Neargye/magic_enum,018673a0a4061a87c50bd40856106afe55f3c6e9,2021-10-08T23:22:59Z,add tests constexpr_for,,Neargye,,,
+Neargye/magic_enum,032516711334cb51ae3703f24321b6c50f4dfc37,2021-10-08T23:13:00Z,add compile time get value,,Neargye,,,
+Neargye/magic_enum,38f86e4d093cfc9034a140d37de2168e3951bef3,2021-08-09T14:44:30Z,Added support for non-ASCII characters (UNIX/Linux) (#95),,uruha-komachin,,,
+Neargye/magic_enum,5d6e0e7707f67bfb50f1227270232a01cf71cd94,2021-08-09T08:23:28Z,update doc,,Neargye,,,
+Neargye/magic_enum,b19a54c27207ef44e9711c05c7701b202afc8413,2021-08-04T13:30:10Z,clean-up,,Neargye,,,
+Neargye/magic_enum,41c916432bfc1a51560f9f165d52ed5c89d4932e,2021-06-25T12:00:54Z,Fix underflow in out of range check (#88),"* Special case bool in cmp_less to avoid msvc's warnings
+
+* Fix underflow in out of range check
+
+The previous fix addressed bool but it seems that was not the heart
+of the issue.
+
+The problem is that (lhs - 1) can underflow.
+
+Another example of the check trigger when it shouldn't is:
+uint8_t with min_value set to 0 and a value of uint8_t::max
+lhs-1 would underflow and find max (see added test).
+
+The issue happens when lhs == rhs. To avoid that situation: flip the if-else!
+`cmp_less(rhs, lhs)`means that rhs is strictly less than lhs, so
+the check will not trigger when lhs == rhs.
+
+Also, cleanup the bool special-case, as it is no longer necessary.
+
+Note: for the bug to manifest, it is important that the min
+of the enums is customized to be 0, so corresponding enum_range
+specializations need to be present in the regression tests.",alexkaratarakis,,,
+Neargye/magic_enum,b9271516773a08a3501b43f5a45466ccb0e7a2ab,2021-06-24T14:52:04Z,update tests,,Neargye,,,
+Neargye/magic_enum,739942ab7d1c85f487b5ab58823fe039ce7b2757,2021-06-24T08:47:06Z,fix enums with underlying type bool,,Neargye,,,
+Neargye/magic_enum,5003c436d6e0b88dbc28fac19ffbde71a2155ff3,2021-06-24T08:46:20Z,update readme,,Neargye,,,
+Neargye/magic_enum,3d1f6a5a2a3fbcba077e00ad0ccc2dd9fefc2ca7,2021-06-21T18:00:39Z,v0.7.3,,Neargye,,,
+Neargye/magic_enum,25f32188cadd619e69a61853763780cb4ee62db1,2021-06-17T13:07:12Z,update ci,,Neargye,,,
+Neargye/magic_enum,081a77b96ace137c7474a05d3b1ea1d97980e261,2021-06-17T13:06:27Z,Add ability to include external configuration header (#86),"* Add ability to include external configuration header
+
+* Add documentation regarding MAGIC_ENUM_CONFIG_FILE",sajimon,,,
+Neargye/magic_enum,8c130658e1759fe6968ad0541bf965441c313698,2021-05-27T09:08:01Z,Add ARCH_INDEPENDENT so the generated cmake config files are really arch independent (#84),closes #83,Flow86,,,
+Neargye/magic_enum,98ffd0e29b872f15d8b4c1cc344c1568b6c57263,2021-05-27T08:10:10Z,update ci,,Neargye,,,
+Neargye/magic_enum,8deb7f96e74e62cd1d9fd8920debfbe27f4bb8d1,2021-05-07T08:16:24Z,fix typo in comment (#81),,jimmyorourke,,,
+Neargye/magic_enum,5091dc6acfa05777b48ce91c24cd348f12d3535d,2021-04-28T10:10:59Z,fix using leak,,Neargye,,,
+Neargye/magic_enum,5b282dd4e86a7874427760e6ce6d1f684b9f1b30,2021-04-22T09:43:04Z,fix range check,,Neargye,,,
+Neargye/magic_enum,1db1f585f498e7bf78cd53cf67071b2e3354ead3,2021-04-21T16:21:54Z,fix typo,,Neargye,,,
+Neargye/magic_enum,c646c9d76d8b4d5ca2b9f0fdb331950411c3e753,2021-04-21T16:19:03Z,fix hard error if enum is empty or non-reflected,,Neargye,,,
+Neargye/magic_enum,3cc7e2acdeee557c96fd9f87804b859088d24e75,2021-04-14T11:03:06Z,update catch2,,Neargye,,,
+Neargye/magic_enum,e5c1508465ce047c6ba7f45effe75b96aa769dd9,2021-04-14T11:02:49Z,update ci,,Neargye,,,
+Neargye/magic_enum,f9e08ba7929474bbc77bdc95fa10af55c72e01e0,2021-03-27T16:51:46Z,update readme,,Neargye,,,
+Neargye/magic_enum,252cbd01362ea64f33dd28efd9b1e65075be5d15,2021-03-27T16:51:41Z,update ci,,Neargye,,,
+Neargye/magic_enum,c5b5eea3bd1c61d12f05cd163c6a238568af56d4,2021-03-22T15:15:04Z,Added build2 support information (#78),,Wmbat,,,
+Neargye/magic_enum,ed2dbfd46c7763ef5b76e301fd5fda606a4a5c5f,2021-03-10T09:05:44Z,workaround std::array in some cases is missing constexpr on some of its functions (#76),,Neargye,,,
+Neargye/magic_enum,c1e7c1475a3db038380a2102cc4ac9c1774b911c,2021-02-22T16:10:47Z,chore: update catch2 to 2.13.4 for Apple Silicon support (#75),,gjasny,,,
+Neargye/magic_enum,58833fa067361a769892149b27b06cf60d89bf46,2021-02-09T17:33:32Z,Fix typo (#72),,pepsiman,,,
+Neargye/magic_enum,9830d319c468de3f258985311608413948ad2ff8,2021-01-22T16:55:40Z,silence some warning,,Neargye,,,
+Neargye/magic_enum,0810148baeb14f93a2c5426dffd75984012dcd04,2021-01-22T16:53:56Z,update copyring,,Neargye,,,
+Neargye/magic_enum,79fd207ccab7cd768d745098d919966c9504cff2,2021-01-12T08:31:53Z,update doc,,Neargye,,,
+Neargye/magic_enum,beb77df3f16f8fb7f2e525269d74983fe472b0fe,2021-01-10T12:54:49Z,clean-up,,Neargye,,,
+Neargye/magic_enum,36ab9fa1a43a43615539e0302fa3f75988a34d68,2021-01-10T12:43:47Z,Detect values out of range and fail compilation (#70),"This checks for a value at (range_min - 1) and (range_max + 1) for numerical enums
+(i.e. not flag enums) and fails compilation with a static_assert if any value is found
+
+Co-authored-by: Brandon Jacklyn <bjacklyn@tesla.com>",bjacklyn,,,
+Neargye/magic_enum,806f2530efb7fea18116a0f8bb3e0b5079a6f27f,2020-12-29T16:56:51Z,clean-up,,Neargye,,,
+Neargye/magic_enum,6654d24a82360b1d4feb4237892e489fd6832d02,2020-12-24T14:24:34Z,update,,Neargye,,,
+Neargye/magic_enum,dc8660e2bc07ab4bea211fbcdc2ab06fe01c1b36,2020-12-23T12:18:20Z,v0.7.2,,Neargye,,,
+Neargye/magic_enum,993e796e0df3aae3724a336b4723bd5260072f37,2020-12-23T12:17:39Z,update doc,,Neargye,,,
+Neargye/magic_enum,dee5abdfbd79e3f2bd9ad5e698aa4bfe926baf64,2020-12-23T12:14:28Z,update doc,fix #68,Neargye,,,
+Neargye/magic_enum,9ed98e3463568124588a0e76d980c141f222cb40,2020-12-21T15:52:42Z,fix #69,,Neargye,,,
+Neargye/magic_enum,74106766b579026046ff63c09213f17b3703ec75,2020-12-04T16:08:09Z,update ci,,Neargye,,,
+Neargye/magic_enum,f4d98123d9173396cd92329a56633b51b3ae4101,2020-12-02T10:07:30Z,v0.7.1,,Neargye,,,
+Neargye/magic_enum,e24befa5fdf47e82e1d97f33829750fde08fad28,2020-11-29T13:29:17Z,fix typo (#66),,nackdai,,,
+Neargye/magic_enum,9fb2ab9133f0cf7cdcea7d5bb3a60c729c71d3b3,2020-11-25T23:27:24Z,clean-up,,Neargye,,,
+Neargye/magic_enum,4da4b7564444fcc15fc533ec21a860b3f6b24759,2020-11-25T09:17:29Z,add namespace magic_enum::flags::bitwise_operators,,Neargye,,,
+Neargye/magic_enum,e8c57b0a2a0a668eefab75d62c07f71526fae573,2020-11-24T14:28:50Z,update ci,,Neargye,,,
+Neargye/magic_enum,72ba8a89d4d7342deaecab487e5b7e8cc453e5d6,2020-11-19T13:29:05Z,clean-up,,Neargye,,,
+Neargye/magic_enum,1b587718b7455d5873b1c11bedb0baa1cceb9560,2020-11-19T13:23:20Z,Compile fix for gcc 7.5 (#62),,schaumb,,,
+Neargye/magic_enum,6e932ef66dbe054e039d4dba77a41a12f9f52e0c,2020-11-11T15:32:27Z,update ci,,Neargye,,,
+Neargye/magic_enum,8f1d0ba39ff0c25952d097f19365384b5d52b802,2020-11-10T17:14:54Z,fix clang with msvc,,Neargye,,,
+Neargye/magic_enum,b828fe16f5375afb15da15f1f62152013f4eb582,2020-11-10T17:13:46Z,make the project to be used from a build directory,reference: https://cmake.org/cmake/help/latest/guide/tutorial/index.html#adding-export-configuration-step-11,Neargye,,,
+Neargye/magic_enum,ad441519c3f7fbebf5a3ad21d06f149f810c14dc,2020-11-09T13:22:47Z,Create FUNDING.yml,,Neargye,,,
+Neargye/magic_enum,ae7aabf63d61564d6a0c252d2492c4c6b8f6b601,2020-11-08T20:00:23Z,update comments,,Neargye,,,
+Neargye/magic_enum,caa2f9e6ef882671bc8be84dd98a225ad12d62bf,2020-10-22T12:48:26Z,Fix typo in readme (#61),,tim-lyon-arup,,,
+Neargye/magic_enum,bb32605276a5a31e80fb0725d5af66739a2daa01,2020-10-21T15:02:40Z,Fix extra-semi-stmt (#60),,florianbecker,,,
+Neargye/magic_enum,3080a1d7269fb96b70186512d8e849b09c424daf,2020-10-19T07:19:10Z,update readme,,Neargye,,,
+Neargye/magic_enum,77c66013dbeb2f44cfb4f0734d65da79498c8d41,2020-10-18T18:23:35Z,update ci,,Neargye,,,
+Neargye/magic_enum,4623301e1a7a13f48be7d1f73dc07230a6114ff5,2020-10-17T13:45:16Z,Exercise Bazel build in CI (#59),,HackAttack,,,
+Neargye/magic_enum,702e2d3271c9649dd49ee4507a15e89dbb77734a,2020-10-16T13:03:53Z,bump version,,Neargye,,,
+Neargye/magic_enum,7fe7de5130878e07a67f8261db3500cb0a3a6a6e,2020-10-16T07:14:40Z,update readme,,Neargye,,,
+Neargye/magic_enum,701bff915916309b8880e3ecf12dad8330da93be,2020-10-14T17:03:02Z,v0.7.0,,Neargye,,,
+Neargye/magic_enum,24e06d6eef739e844f0cdf8f94ecf7b6df7dd212,2020-10-13T10:36:18Z,fix build,,Neargye,,,
+Neargye/magic_enum,e73c1b1168fbd5d59ff3292e74769759bcca9f78,2020-10-13T10:29:21Z,more comfortable static check,,Neargye,,,
+Neargye/magic_enum,8edf2e328614448890db570e6694d9b2054cb766,2020-10-13T10:14:09Z,fix noising assert,,Neargye,,,
+Neargye/magic_enum,b61af87b2073f6591b5715e7890569b8a8a75bbc,2020-10-08T17:05:31Z,update readme,,Neargye,,,
+Neargye/magic_enum,f3b4a01ce24751da7a27d73db7a973e413ece88c,2020-10-08T07:10:15Z,Add support for bazel (#56),"* Add support for bazel
+
+Bazel support for the magic_enum repository would help others using
+bazel integrate this library into their projects.
+
+This PR adds a BUILD file which enables magic_enum to be imported
+seamlessly into other WORKSPACE files without having to write a custom
+BUILD file.
+
+It also adds bazel binaries & tests to enable running them via bazel
+locally:
+
+   export CC=clang ; bazel build //... ; bazel test //... ; bazel run //:example
+
+Finally, bazel compilation artifacts are added to the gitignore file.
+
+* Update BUILD file & specify http_archive in README
+
+* Lint BUILD file",FelixDuvalletKodiak,,,
+Neargye/magic_enum,7063621bce226c8925905c5643650b680e3a4b3b,2020-09-24T13:55:57Z,Add MAGIC_ENUM_OPT_INSTALL option in CMakeLists.txt (#54),"This option allows to skip install target which can be useful when
+vendoring magic_enum.
+
+Co-authored-by: Gary Marigliano <gary.marigliano@ecorobotix.com>",krypty,,,
+Neargye/magic_enum,4813c049270dd25e313347ba5468f2fe402943f5,2020-09-15T21:26:01Z,fix #53,,Neargye,,,
+Neargye/magic_enum,59aa63ac647b9747443a7e9b688ad3dcfc687fcf,2020-09-08T17:37:20Z,update doc,,Neargye,,,
+Neargye/magic_enum,690486e7f2d3879277942e4a1b02f52579a9c981,2020-09-07T09:55:59Z,improve customize,,Neargye,,,
+Neargye/magic_enum,000551a65530116f3face9395f08736698b1b7b6,2020-09-01T11:01:49Z,clean-up,,Neargye,,,
+Neargye/magic_enum,9ed88dea3ba28e189f7f48d8fd847d2d981663d9,2020-08-30T07:45:18Z,clean-up,,Neargye,,,
+Neargye/magic_enum,5eadad52722826298d2d87fb0ec2fe09fc0649ee,2020-08-30T07:43:06Z,update test flag,,Neargye,,,
+Neargye/magic_enum,93384d2fa3e39c3f91c5f63989f22c74c6f48d0a,2020-08-30T07:42:56Z,add example custom name,,Neargye,,,
+Neargye/magic_enum,d0e279ae597456c157545665b096a6c742910a51,2020-08-18T05:19:05Z,fix cmp_equal,,Neargye,,,
+Neargye/magic_enum,d085812be2ec3a7b81997d0b51b221b59d21562a,2020-08-16T20:37:07Z,update tests,,Neargye,,,
+Neargye/magic_enum,8fd0ddb13c7b89df89275726d318b2990c7baa4b,2020-08-16T20:28:35Z,update example,,Neargye,,,
+Neargye/magic_enum,e55d4cea83c803d1bbc3da9c9cd9e05fb63b748c,2020-08-16T20:27:56Z,remove unused magic_enum::flags::bitwise_operators,,Neargye,,,
+Neargye/magic_enum,02f2249239097b21fac3e70557c40e63e1d2f514,2020-08-16T12:43:22Z,clean-up,,Neargye,,,
+Neargye/magic_enum,521b753a86c8a558de7674a99e05f78f2e5f2510,2020-08-16T11:12:53Z,fix warnings,,Neargye,,,
+Neargye/magic_enum,971a548693dde41341ae3f6e66bab021becb42c8,2020-08-16T10:16:15Z,remove strict enum_name,,Neargye,,,
+Neargye/magic_enum,9c40cae91af8b11c03366b5bc40f42c62eccd65d,2020-08-16T09:58:48Z,add enum-flags test,,Neargye,,,
+Neargye/magic_enum,b6743e4a26933a78135e647531e63a43e1827150,2020-08-16T06:00:31Z,workaround enum_type_name,,Neargye,,,
+Neargye/magic_enum,d73a985f520aa25a432d1bbf5525663b93c189a0,2020-08-15T18:56:54Z,add MAGIC_ENUM_SUPPORTED_ALIASES,,Neargye,,,
+Neargye/magic_enum,32e2e6318da633c159a5fe1856fd98fac1889f56,2020-08-15T17:52:22Z,add flags (#43),,Neargye,,,
+Neargye/magic_enum,e2578822edd9da570f577cfdb0a8dc615c135083,2020-08-15T17:52:03Z,wip,,Neargye,,,
+Neargye/magic_enum,d525acae66237298bf8fb87f3fcf70ffcba8fab9,2020-08-15T17:47:20Z,wip,,Neargye,,,
+Neargye/magic_enum,789251699094b182a4a66cb282c1e02785b25905,2020-08-15T16:55:52Z,wip,,Neargye,,,
+Neargye/magic_enum,0228a6249733462c4b52ab7418307c6aafb07f4f,2020-08-15T15:30:35Z,wip,,Neargye,,,
+Neargye/magic_enum,8f31ad7cfaa0588a759adaaf9ef45eef192081a4,2020-08-15T14:52:37Z,wip,,Neargye,,,
+Neargye/magic_enum,619164687f3cfa479a4ee677310ce2a412530559,2020-08-15T13:52:41Z,wip,,Neargye,,,
+Neargye/magic_enum,0c0b03131a82abc5e028dc2ac9c1ae3a17c6052f,2020-08-15T13:09:27Z,wip,,Neargye,,,
+Neargye/magic_enum,0fbecb49478732ad12f5bfe55fcc79926d4aaee7,2020-07-10T07:27:31Z,fix naming vcpkg,,Neargye,,,
+Neargye/magic_enum,bcbabba3e4cdda76107dc4a3e789f1e5c0c785aa,2020-07-08T16:14:43Z,wip,,Neargye,,,
+Neargye/magic_enum,573bc60011048f4cce5d58cd33b5cae8c80a9397,2020-07-06T14:22:53Z,wip,,Neargye,,,
+Neargye/magic_enum,c025c43ffec41c88da9ac882eebe07448b6f53d7,2020-07-06T05:56:07Z,fix cmake config (#42),,Neargye,,,
+Neargye/magic_enum,13eff83de55a41786aa06828403f9c8b371c2464,2020-07-05T12:13:25Z,wip,,Neargye,,,
+Neargye/magic_enum,cbbb86d2d1df5d9bd0c4cae0495add029fd52350,2020-07-05T11:37:24Z,wip,,Neargye,,,
+Neargye/magic_enum,c5894cf573efb3d3ed945cbb6b9086748cf25825,2020-07-05T10:55:24Z,wip,,Neargye,,,
+Neargye/magic_enum,8e343c47b8cedc8a44011d2dc4d46e583f29b3e7,2020-07-05T10:12:05Z,wip,,Neargye,,,
+Neargye/magic_enum,604054df5ac9434e8aefbba48d88cff13f09c92c,2020-07-05T08:18:29Z,wip,,Neargye,,,
+Neargye/magic_enum,81f288812588ff19e494086aec091b842277c2be,2020-07-04T20:29:21Z,wip,,Neargye,,,
+Neargye/magic_enum,25912781ee84cb2e6d1f7d26a6600b9b43781f5f,2020-07-04T10:38:50Z,wip,,Neargye,,,
+Neargye/magic_enum,d2904860b8a234897de78f0391fff1cabe9134b8,2020-07-04T10:13:15Z,wip,,Neargye,,,
+Neargye/magic_enum,d9f4cd5e748136b16b1d1417bbf1881264c25920,2020-07-04T09:57:25Z,wip,,Neargye,,,
+Neargye/magic_enum,06cb3163f1c94d6c4fb0ec24662dbb1a81f18ee5,2020-07-02T12:37:19Z,update ci,,Neargye,,,
+Neargye/magic_enum,98d234fafa640cb227b0c30cc892afd53975f8f3,2020-06-29T09:39:21Z,fix unnecessary move,,Neargye,,,
+Neargye/magic_enum,dbd1c76400740425caaee93a8c6b30bb7e0ed5c9,2020-06-27T06:22:29Z,now in conan-center (#41),,Neargye,,,
+Neargye/magic_enum,2b0dcc9cfd1be7dc2401f92e3bc74ad4566ddd99,2020-06-26T16:34:40Z,update readme,,Neargye,,,
+Neargye/magic_enum,709e9a7acb6870800bffdb935880ce9aad0dcc8d,2020-06-17T09:55:08Z,update ci,,Neargye,,,
+Neargye/magic_enum,d3c97fe3956a88fe1b6b6593cedda1c4ad71a622,2020-06-17T09:53:47Z,ignore some noising warning,,Neargye,,,
+Neargye/magic_enum,78664d926310c84b877c95fa2c3c51958c63adfb,2020-06-09T09:40:41Z,clean-up,,Neargye,,,
+Neargye/magic_enum,94e27267370bcfd19adb2ed9d56e2bdc9facea5d,2020-06-09T09:39:44Z,update readme,,Neargye,,,
+Neargye/magic_enum,97e6f35c464aa1feb5fe983ee74d66e88bd47639,2020-06-06T09:01:17Z,add missing static_assert,,Neargye,,,
+Neargye/magic_enum,963ee65e95d878f49fb5622badc6c81b07c717a9,2020-06-05T13:15:27Z,v0.6.6,,Neargye,,,
+Neargye/magic_enum,4e82bfe21c59b1d3ba5e543791e4a75ce10609e2,2020-06-05T10:32:08Z,clean-up,,Neargye,,,
+Neargye/magic_enum,86e4564748c7bbaccb2248fbef9625a6c6f85c4d,2020-06-04T08:27:22Z,improve compiler check,,Neargye,,,
+Neargye/magic_enum,33a62f9847aaa29c32a2338d50ae15e41a0da671,2020-05-31T12:22:34Z,update doc,,Neargye,,,
+Neargye/magic_enum,27ee484f8560dae77897f5a99a8dad160a9d112a,2020-05-25T09:52:09Z,improve enum_cast,,Neargye,,,
+Neargye/magic_enum,b9450675bbbd8779da5088353cf52417c567eb85,2020-05-24T11:23:01Z,clean-up,,Neargye,,,
+Neargye/magic_enum,2b9f24fd2c18c58b3e5ec94da92af1834cd393be,2020-05-24T11:11:08Z,remove enum_traits (#38),,Neargye,,,
+Neargye/magic_enum,11b9c109b379b198cd226c306051148289270b3f,2020-05-11T13:48:06Z,update doc,,Neargye,,,
+Neargye/magic_enum,703db3613d4ea2c2930255b9f1a4bd9429eeb03d,2020-05-11T11:25:00Z,update doc,,Neargye,,,
+Neargye/magic_enum,dab56da58ca7d49aee308221c2f60dea3fdefcda,2020-05-11T10:26:33Z,update test,,Neargye,,,
+Neargye/magic_enum,6a340016d4099931181eaabd2df4da3685c6bcc7,2020-05-11T10:22:56Z,update doc,,Neargye,,,
+Neargye/magic_enum,66d04cbe25bc1a9ec3746b99c29daacc36ec3cda,2020-05-11T09:30:33Z,add more test,,Neargye,,,
+Neargye/magic_enum,cb395dd852c3631969d95ee33d9cfc8835878ceb,2020-05-11T09:06:55Z,compatibility with legacy,,Neargye,,,
+Neargye/magic_enum,e9046161022d5044e9a9972f47ce62ec15190722,2020-05-01T13:06:46Z,update readme,,Neargye,,,
+Neargye/magic_enum,3d7aa36e42d3ff0a9409156610e2da460715ba92,2020-04-29T09:00:57Z,remove duplicated code,,Neargye,,,
+Neargye/magic_enum,c080a591ee9a9db5ff8ab04044a1857bbcd74e0b,2020-04-06T09:01:38Z,add CPM,,Neargye,,,
+Neargye/magic_enum,ef61dc38ebe166faec414576ca943399d2a79621,2020-04-02T12:17:27Z,clean-up,,Neargye,,,
+Neargye/magic_enum,306b1d07049842e9f7b5c7d9213b5695b4fedfbf,2020-04-02T12:08:42Z,add comparison predicate for enum_cast,,Neargye,,,
+Neargye/magic_enum,a76480629c39ed60e6302ac55c773fe03042fcf4,2020-03-13T13:10:09Z,Change contains_value to enum_contains (#31),"* change contains_value to enum_contains
+
+* update test
+
+* update doc",Neargye,,,
+Neargye/magic_enum,aa2446161395f1da13dc3864c8a9d2f73fda5a4f,2020-03-13T09:12:01Z, Introduce contains_value(),"* split enum_traits index
+
+* add more proper way to check if enum contains certain value
+
+* change description of contains_value() and add it in readme",oficsu,,,
+Neargye/magic_enum,1e6c9a5a5a44184c771df1f7d8f3563fe01960c4,2020-03-12T06:28:09Z,replace C-style cast with static_cast,,oficsu,,,
+Neargye/magic_enum,94b133abd80ddb935adb3c0d5c3af6d312314fbe,2020-02-25T10:52:19Z,update copyright,,Neargye,,,
+Neargye/magic_enum,f42605bbf17dfb6c0fb84370a77e05fe6f0f69be,2020-02-14T10:09:51Z,update doc,,Neargye,,,
+Neargye/magic_enum,cae43830a39a230f9150d384180547fe95ad191e,2020-02-14T10:09:03Z,more friendly static checks,,Neargye,,,
+Neargye/magic_enum,52d7323bcab2be4b32191ef587825736c5eef879,2020-01-31T09:22:19Z,fix doc,,Neargye,,,
+Neargye/magic_enum,2327f53634396ec7131e9d411d0e420c6ec361b1,2020-01-31T09:13:11Z,v0.6.5,,Neargye,,,
+Neargye/magic_enum,59a9cddb6db79307454b33ed5d8b0fa4b443612c,2020-01-31T09:08:38Z,clean-up,,Neargye,,,
+Neargye/magic_enum,2f0a3bcae7e666d9d10de509306b6d22efc132dc,2020-01-31T09:55:50Z,improve conan compiler version check (#24),,pck,,,
+Neargye/magic_enum,e01940170f2ca0bb5867baa35f8db2788a7053c1,2020-01-29T10:34:19Z,update ci,,Neargye,,,
+Neargye/magic_enum,0361df110f0d34f0d7295188174a311144b662ec,2020-01-25T18:52:21Z,update doc,,Neargye,,,
+Neargye/magic_enum,e3dd165a4af89bd1b17efaa449557ce8d6ad283f,2020-01-25T18:51:50Z,add compile check at enum_name,,Neargye,,,
+Neargye/magic_enum,6b220c83fc088d1e45a4eede59c9d4b8fb82945e,2020-01-25T18:05:24Z,update doc,,Neargye,,,
+Neargye/magic_enum,79a1916df2bba9ed22dee69c9da25ff136347947,2020-01-25T18:04:44Z,fix doc,,Neargye,,,
+Neargye/magic_enum,06a8669d494eb90d66a8c91678f5f2c92ac93756,2020-01-25T17:55:18Z,update doc,,Neargye,,,
+Neargye/magic_enum,a576c077beaf10aaacf186285bb0700286ad07b2,2020-01-15T10:42:42Z,fix code style,,Neargye,,,
+Neargye/magic_enum,f900f4e01dfe0a72e3d920884523a7c669848bfa,2019-12-30T12:17:18Z,v0.6.4,,Neargye,,,
+Neargye/magic_enum,5aa0f247a3d7170577728d1a52cc390b2a23ff1b,2019-12-30T12:00:31Z,update example,,Neargye,,,
+Neargye/magic_enum,1b9dea08927de5ba5be123d221478864246b72b4,2019-12-17T12:39:22Z,update readme,,Neargye,,,
+Neargye/magic_enum,1d7f773bfa9953ac3518566e68a41f31d9e176a5,2019-12-13T06:22:11Z,explicit ctr,,Neargye,,,
+Neargye/magic_enum,70cf23a7e366dbaa29f6c9010f2eac60ed700d20,2019-12-13T06:19:21Z,suppress specific warnings,,Neargye,,,
+Neargye/magic_enum,5bea6283aa06e05babd5e8a45b944d914dba1238,2019-12-13T06:18:34Z,update example,,Neargye,,,
+Neargye/magic_enum,3393b85145dcddf4dede36aa8a361442ace414ca,2019-11-23T14:40:30Z,clean-up,,Neargye,,,
+Neargye/magic_enum,35fe1b1a201757c050060cf1f67b3675445b1223,2019-11-20T12:14:40Z,update ci,,Neargye,,,
+Neargye/magic_enum,3b2ebf7e553d6ae4969281d506d9045acb1eafb7,2019-11-18T08:35:59Z,add enum concept,,Neargye,,,
+Neargye/magic_enum,e325a7066309ebbff7a5c521eef851fcf04f043a,2019-11-18T08:35:45Z,fix macro check support,,Neargye,,,
+Neargye/magic_enum,60948a48106e7416fd0581ff5b87bf7b33ec9eda,2019-11-18T07:42:57Z,update ci,,Neargye,,,
+Neargye/magic_enum,49d2429cf110f804048bc459b1d2c126d43b0a9a,2019-10-26T17:08:46Z,update doc and example,,Neargye,,,
+Neargye/magic_enum,f951f3f04e3983767cf75ef8a0bbc39401ceeff4,2019-10-24T10:30:10Z,Fix typo in version (#20),,alexkaratarakis,,,
+Neargye/magic_enum,10d09b1c99c81de3fa7f3348fc17a36d0d0f4ccd,2019-10-18T14:21:47Z,add cstdint because used std::int*_t,,Neargye,,,
+Neargye/magic_enum,64856beffb8ef45168735d24232b2e8678c0570a,2019-10-18T08:32:02Z,v0.6.3,,Neargye,,,
+Neargye/magic_enum,5a33daa76624b5d4bf10e5ea81050559ebbb33b8,2019-10-17T08:18:37Z,update enum_traits,,Neargye,,,
+Neargye/magic_enum,497a0c0b69758c86be6abfb0057b43b97d82a643,2019-10-17T08:08:44Z,update gitignore,,Neargye,,,
+Neargye/magic_enum,69709876c3772866de7ffb88eac559dab60c556c,2019-10-16T09:12:54Z,update ci,,Neargye,,,
+Neargye/magic_enum,a6d25eb4c853f95cbf77eb38fc8c88aaccc0bf0a,2019-10-16T09:11:25Z,update catch to fix clang-9 build,,Neargye,,,
+Neargye/magic_enum,d022583a1a250b13062dc8381b2eb845e749e273,2019-10-16T09:11:15Z,"clean-up cast, size check",,Neargye,,,
+Neargye/magic_enum,00f46ae79cef03ae25c72652016fe85b0a2ce1db,2019-10-14T15:55:49Z,fix test,,Neargye,,,
+Neargye/magic_enum,a36721d6c7f6169436edb986028e1211281edbbf,2019-10-14T14:45:03Z,clang 5 linker fail: undefined reference to `magic_enum::enum_range<number>::min/max',,Neargye,,,
+Neargye/magic_enum,3804a9d3b2e64a2840091000227107790683c743,2019-10-14T12:55:45Z,update test,,Neargye,,,
+Neargye/magic_enum,851e7f1a4eab4f441a0fc05cd13ceb68cd863fa1,2019-10-14T12:47:36Z,clean-up test,,Neargye,,,
+Neargye/magic_enum,6c9c498faa6e8e333caa69f3a0805554b3546b3a,2019-10-14T12:29:35Z,clean-up mixed_sign_less,,Neargye,,,
+Neargye/magic_enum,1c04e115de652c73b62ba2518e3bf262c38f755a,2019-10-14T10:16:58Z,update readme,,Neargye,,,
+Neargye/magic_enum,5873f123f37088b02e56488ba84e0a6492c58bd2,2019-10-14T08:54:17Z,clean-up,,Neargye,,,
+Neargye/magic_enum,4066fa35e5bb3bc30b6825741ae2b208e6726202,2019-10-14T08:10:15Z,get values on all reflected_range to avoid additional work,,Neargye,,,
+Neargye/magic_enum,6b95773b05333883e78a6766c27696b3750afc3d,2019-10-14T08:03:28Z,clean-up tests,,Neargye,,,
+Neargye/magic_enum,db4c55c36ac21e202d252d99d29f731c45666d1e,2019-10-14T07:44:42Z,Change the way range_min()/max() is calculated (#19),"This was previously done via parameter expansion. The expanded form
+looks like this:
+A(128) && A(127) && ... && A(X) && ... && A(0)
+
+where A(X) is the actual range_max which is crafted to return 'false'.
+Static analysis detects that expressions after A(X) are
+dead code due to short-circuiting.
+
+The new implementation uses a simple loop to find the extrema,
+similarly to the loop in detail::values().
+Furthermore, it uses only one parameter expansion (for reflected_set_v),
+as opposed to two (one for range_min and one for range_max).",alexkaratarakis,,,
+Neargye/magic_enum,0f36cd5b0f9d4d1a146a9470fb2e107f859fa819,2019-10-14T07:44:09Z,Introduce mixed_sign_less()/min()/max() (#18),"Previously, there was mixed sign comparison:
+```
+reflected_min_v = -120 > 0U ? -120 : 0
+```
+which returns -120 because the condition is true, since the
+compiler casts the signed value to unsigned, leading to a huge value.
+This caused the following values as result:
+
+```
+reflected_min_v == -120
+min_v = -1
+static_cast<U>(min_v) = 18446744073709551615
+```
+
+The last one is used in magic_enum::enum_index().",alexkaratarakis,,,
+Neargye/magic_enum,1f3ea64407d419e667454844898d2d9422c00386,2019-10-08T08:20:14Z,v0.6.2,,Neargye,,,
+Neargye/magic_enum,00bd8528ceca1906d8c73d54a77874a204aec46c,2019-10-04T08:58:08Z,update doc,fix MAGIC_ENUM_NO_CHECK_SUPPORT,Neargye,,,
+Neargye/magic_enum,2a259f1b5505e32e085cf48642e9bc33d4631b7b,2019-10-03T14:43:18Z,update doc,,Neargye,,,
+Neargye/magic_enum,cd73e2b974c8f98a6abd5fe6a664f17fb9806e05,2019-10-03T14:40:42Z,add doc,,Neargye,,,
+Neargye/magic_enum,1f61e72c264e5097e07cdeb7d7c6b65e54681ef8,2019-10-03T12:33:18Z,fix type cast,,Neargye,,,
+Neargye/magic_enum,77314d254d89e143066e525fa015692913cd6b9d,2019-10-03T11:16:59Z,clean-up,,Neargye,,,
+Neargye/magic_enum,0b262f7cc89914b79a8b7840c89db4a2c850909a,2019-10-03T09:50:09Z,fix cvref,,Neargye,,,
+Neargye/magic_enum,3f0aad9f746381e71aab75d126ce9b3ac0a0b6cb,2019-10-03T07:02:39Z,Fix regression of enum_cast<>() when used with refs (EnumT& vs EnumT) (#16),,alexkaratarakis,,,
+Neargye/magic_enum,cbbb6dd8f1954b08759c747fe09ae9f3923d0ce4,2019-10-02T12:52:04Z,add comment to MAGIC_ENUM_SUPPORTED,,Neargye,,,
+Neargye/magic_enum,105c8f067e5e251ed7b75826f11de4527945398b,2019-10-02T12:06:36Z,remove is_fixed_enum,non stable and useless,Neargye,,,
+Neargye/magic_enum,c947afdbae1061e07e0b16afa43534fc0cd7141c,2019-10-02T10:28:53Z,change check support compiler,,Neargye,,,
+Neargye/magic_enum,75c9d9bce53ad603eab3420756d966f805ee59e0,2019-10-01T11:58:55Z,caching entries,,Neargye,,,
+Neargye/magic_enum,2c0b00a7ed7731559e3e6763b1699734c173ee79,2019-10-01T11:58:35Z,"add error if count < 0, fix #15",,Neargye,,,
+Neargye/magic_enum,92dfab4ac45c003131d202d2b2da133e0f732733,2019-09-30T14:08:29Z,improve enum_value for dense enums,,Neargye,,,
+Neargye/magic_enum,77918a74c56ee52b33cfb46fa5d4284e5264336f,2019-09-30T12:17:50Z,fix build on gcc<9,,Neargye,,,
+Neargye/magic_enum,2f9400bcf3f3c3465ca0780dc089e9f8cb4991e1,2019-09-29T12:50:05Z,"wow, msvc not follow standard",,Neargye,,,
+Neargye/magic_enum,52f36fc5a0132f0465d14479f30304ba03d5b85a,2019-09-29T12:47:54Z,removed definition that used only once,,Neargye,,,
+Neargye/magic_enum,8eb87a9a88a071175f20ec8d10628e2e9686dfa4,2019-09-29T11:31:58Z,v0.6.1,,Neargye,,,
+Neargye/magic_enum,26dcd30d9a3824d32a2fe0399db41591a77eae3b,2019-09-29T11:25:26Z,update ci,,Neargye,,,
+Neargye/magic_enum,289b96e56181b0cb1b643d9cf9621d355d8eb1d1,2019-09-29T11:22:58Z,update example,,Neargye,,,
+Neargye/magic_enum,254118087415fe357f9e5df14113987cfbd17cff,2019-09-29T11:22:47Z,update test,,Neargye,,,
+Neargye/magic_enum,48ff12026f47b6e78194b9ddb699829b151ec9f4,2019-09-29T11:22:25Z,update readme,,Neargye,,,
+Neargye/magic_enum,370a1d523684532eb743ec78213fd323f4b011f3,2019-09-26T13:53:11Z,improvement,"* SFINAE-friendly
+* overhead reduction
+* add enum_index
+* add enum_traits
+* less bin size",Neargye,,,
+Neargye/magic_enum,455e4dcf9b3fa557dcaf98e947c1b8f8210b58fb,2019-09-09T14:38:30Z,strengthened noexcept,,Neargye,,,
+Neargye/magic_enum,3edfd58e59356c5dd3419e19fc43ae34612c7818,2019-09-03T12:53:26Z,clean-up naming,,Neargye,,,
+Neargye/magic_enum,2eac4ccd067a9ccd138c0c7816ff20a9705c33ed,2019-08-29T21:35:59Z,update readme,,Neargye,,,
+Neargye/magic_enum,1f94f282c0d995f72a94bff4913bab63b50eb347,2019-08-29T21:35:47Z,fix conan.py,,Neargye,,,
+Neargye/magic_enum,c0ae150a264d4279e2f34d64d4366f352948a491,2019-08-29T13:51:11Z,add macro to no check support,,Neargye,,,
+Neargye/magic_enum,317029850ae60b29b0ee6952fd055f1cd13a2ca9,2019-08-29T13:50:38Z,fix type cast and clean-up,,Neargye,,,
+Neargye/magic_enum,c9337182f41a0a440d3c354b2794415f13b6ab35,2019-08-27T14:53:58Z,fix is_magic_enum_supported,,Neargye,,,
+Neargye/magic_enum,a9a8892026dcac402c411339265fc43c0f9f8094,2019-08-27T13:14:02Z,fix static_assert msg,,Neargye,,,
+Neargye/magic_enum,669b7ac9bce85110b96ed3de9add3da2c3aab31b,2019-08-27T12:12:21Z,update conan.py,,Neargye,,,
+Neargye/magic_enum,e30e8d81bd38fe665811914a64849a2cd5c0155f,2019-08-26T17:05:49Z,"less bin size, improving check supported compiler, clean-up",thanks @rollbear,Neargye,,,
+Neargye/magic_enum,2e61a86b2f2a8bf14b70180e4e99613a9b91bd51,2019-08-25T12:02:00Z,improve name_impl,,Neargye,,,
+Neargye/magic_enum,22167885d779632f193d0644e0d5c9a2135343c5,2019-08-24T15:09:50Z,update tests,,Neargye,,,
+Neargye/magic_enum,850196eb02fae9b7f216104c877cbb35d9051104,2019-08-24T12:40:44Z,fix test_package,,Neargye,,,
+Neargye/magic_enum,65662f0491e33a208bf9d4c4e7a8ca0353f11d27,2019-08-24T09:16:29Z,update ci,,Neargye,,,
+Neargye/magic_enum,7707d08ff52f3d03682d87a5ef6db4c628c5fb90,2019-08-24T09:16:24Z,error if unsupported compiler,,Neargye,,,
+Neargye/magic_enum,a9f8797ff2ccff4f025ecd767e25beccb4090b6b,2019-08-24T08:19:38Z,add compiler explorer to readme,,Neargye,,,
+Neargye/magic_enum,6e4a051424ddbf604efa744861974d25edcee1f6,2019-08-24T08:15:31Z,update ci,,Neargye,,,
+Neargye/magic_enum,a2bb347f05516a679c98ebad308c7b70a8b3a295,2019-08-24T08:10:55Z,update cmake,,Neargye,,,
+Neargye/magic_enum,91b36336cb1d65680505f5ea13ea2af4de60a322,2019-08-24T07:41:24Z,update readme,,Neargye,,,
+Neargye/magic_enum,409e9e1afda1dc7d32ada8db853f39cb5adc1805,2019-08-24T07:23:22Z,add conan,,Neargye,,,
+Neargye/magic_enum,ef36e2e218373febbef40b0480f96c6965b5a1de,2019-08-20T12:15:31Z,update readme,,Neargye,,,
+Neargye/magic_enum,7c7cdc906b88ec62974cc82609c933dba86d6886,2019-08-19T19:01:53Z,fix bitwise_operators,,Neargye,,,
+Neargye/magic_enum,e15c38ac65bce942a93ff1c5aebbd80d9336e60d,2019-08-19T16:58:58Z,update tests,,Neargye,,,
+Neargye/magic_enum,2b768276984874bce6dcbe93119012afb3ab8e89,2019-08-19T16:58:52Z,clean-up bitwise_operators,,Neargye,,,
+Neargye/magic_enum,885b202dc625e4184ce63238e506fa0d5428e62f,2019-08-19T16:53:06Z,remove optional auto,,Neargye,,,
+Neargye/magic_enum,777792339c991106f524a455044cf56fdee0dff5,2019-08-18T22:19:30Z,clean-up ostream operator,,Neargye,,,
+Neargye/magic_enum,f5ef718120d5937d9051c7e9f7d48a4cc5b6b6df,2019-08-14T06:56:00Z,fix minor typo (#8),,knatten,,,
+Neargye/magic_enum,8187796f3dd9a3053403145797fd9da587873f1e,2019-07-27T12:56:53Z,v0.6.0,,Neargye,,,
+Neargye/magic_enum,fe007d25fa9e9a76f0f82541bb77440abe7eedd5,2019-07-27T12:56:45Z,update readme,,Neargye,,,
+Neargye/magic_enum,c3f158324a536d5da6bca9be4e7e0c5004b80b56,2019-07-27T12:52:29Z,clean-up,,Neargye,,,
+Neargye/magic_enum,34c86eaf119eaa842d102321b8bce6ff05f81306,2019-07-24T19:38:11Z,update readme,,Neargye,,,
+Neargye/magic_enum,172c6855479ac210e508880f4d32dc78c71a926e,2019-07-24T19:37:59Z,"improve name_impl, ostream_operators",,Neargye,,,
+Neargye/magic_enum,99e4d7c7aa492080deac5f67a9dccaec71286e5e,2019-07-24T19:11:13Z,update example,,Neargye,,,
+Neargye/magic_enum,e57ea6f550981e5e900399390ae48a9a8b3014d3,2019-07-24T14:39:59Z,update example,,Neargye,,,
+Neargye/magic_enum,8f5a34a7f9782c92ec71fa86a95df921fb99300b,2019-07-24T14:38:23Z,update readme,,Neargye,,,
+Neargye/magic_enum,6f3723746f8608798ad92a144df35694b67d1679,2019-07-24T13:48:23Z,improving compile times,,Neargye,,,
+Neargye/magic_enum,9a700b545d7b9b9f4fe9dfb599f79036a97f778e,2019-07-24T13:47:36Z,add bitwise_operators,,Neargye,,,
+Neargye/magic_enum,cd01fa1ba4c5d829d3f4c5ce1089615b536cb2ce,2019-07-24T13:47:13Z,update test,,Neargye,,,
+Neargye/magic_enum,6a977cbe9aab6c562830effa91c81418159e1336,2019-07-23T14:54:41Z,refactoring,,Neargye,,,
+Neargye/magic_enum,ef5ab60f3726538faf5bde49eb3769a4fac4b822,2019-07-14T16:51:17Z,improving,,Neargye,,,
+Neargye/magic_enum,58c0b9ac59ca847fdb1d9fba5b8f992be17d1b9a,2019-07-13T14:11:39Z,"Fixing Syntax Error caused by ""Windows.h"" (#7)",OMG! Windows.h define wack macro...max() min()!,GameForPeople,,,
+Neargye/magic_enum,b307dfd88338917dccf1fb3f093119aa92403357,2019-07-13T14:06:29Z,update readme,,Neargye,,,
+Neargye/magic_enum,e429b61128b2bf6711bc825891752b7ede0a5835,2019-07-11T15:23:32Z,update example,,Neargye,,,
+Neargye/magic_enum,6fb880356c083116da552c05a52d578af1aefda8,2019-07-11T15:23:21Z,add enum traits,,Neargye,,,
+Neargye/magic_enum,251d9484388849090e916ce525b739b10570c19d,2019-07-10T13:08:53Z,fix formatting,,Neargye,,,
+Neargye/magic_enum,b8f7722a4f4acfce69a35a5bc05f52bba405c737,2019-07-04T21:59:14Z,fix #6,,Neargye,,,
+Neargye/magic_enum,e2b1301dd83b67dd6e6d10c13362e83bd045c5e1,2019-06-11T11:27:03Z,clean-up ci,,Neargye,,,
+Neargye/magic_enum,4dfaa4b7b4814c2cf85b08ad3084fc28c8b129c6,2019-06-07T17:45:24Z,Fix CMakeLists.txt (#5),,SuperWig,,,
+Neargye/magic_enum,f1e781fe5251d48a04816dc4c4aea86979f6d476,2019-05-28T12:53:26Z,update include guard,,Neargye,,,
+Neargye/magic_enum,98070735f482998f9e73e1840d043a0fbd4b077f,2019-05-26T09:37:26Z,update readme,,Neargye,,,
+Neargye/magic_enum,54960b54eb9c091254ae43ced233e390ddc116af,2019-05-26T09:37:21Z,update ci,,Neargye,,,
+Neargye/magic_enum,7673a7c696782276aba09f3e76fe97b21856a3d7,2019-05-26T09:37:16Z,clean-up cmake,,Neargye,,,
+Neargye/magic_enum,ec40e17aa2f803ac1fb835d1a2223f8295843df6,2019-05-21T16:46:29Z,gcc-9 install fail,,Neargye,,,
+Neargye/magic_enum,26432febc75b05a18310ab2150838fba8a7af3e3,2019-05-21T16:17:28Z,update ci,,Neargye,,,
+Neargye/magic_enum,b7f84490beb8643a79fe833e8ca769ade31036c7,2019-05-02T15:02:27Z,v0.5.0,,Neargye,,,
+Neargye/magic_enum,e38cb269d40b2ee26f42ba58843d91c07f523b98,2019-05-02T14:59:25Z,update readme,,Neargye,,,
+Neargye/magic_enum,18bb7ae1bdaf71d4b67730e8fda23d291c18d817,2019-05-02T14:51:02Z,update readme,,Neargye,,,
+Neargye/magic_enum,34fb3ba22a80160a3d1154f6a76628b0a4ce6ea4,2019-05-02T14:40:51Z,add enum_name for static storage enum variable,,Neargye,,,
+Neargye/magic_enum,b79706d64d88f4789eaac01b6fb58603709de856,2019-05-01T14:47:26Z,change include guard,,Neargye,,,
+Neargye/magic_enum,f059e71c6f244c9f52e00a950f34d858588e148c,2019-04-30T14:03:50Z,update readme,,Neargye,,,
+Neargye/magic_enum,babf616d3592268c82fefaf414e5f0a9c50ac4d6,2019-04-30T12:09:11Z,update test,,Neargye,,,
+Neargye/magic_enum,8f095f8c22b8d62d41e8b6b6aca4a3cce6580d6d,2019-04-30T06:42:31Z,enum_integer_value -> enum_integer,,Neargye,,,
+Neargye/magic_enum,39c5ed518d701a19c826eaee9a27b3c5e500b718,2019-04-30T05:31:39Z,update readme,,Neargye,,,
+Neargye/magic_enum,09373fbd6ad07f004a73e180255429228231b812,2019-04-30T05:31:34Z,wip new version,,Neargye,,,
+Neargye/magic_enum,39138d6ddf3346afb6759ed83c3260765285dcd1,2019-04-30T05:20:00Z,Werror,,Neargye,,,
+Neargye/magic_enum,f27572c32a89a026048fb9bd410e0adcbaf0a37c,2019-04-30T05:19:49Z,update Catch2,,Neargye,,,
+Neargye/magic_enum,d3027d904f47d9bc9497114900694cd0f4bc0696,2019-04-29T15:21:12Z,wip,,Neargye,,,
+Neargye/magic_enum,6230ca9b932f9134f4528c82bc066c7cec5d2377,2019-04-23T13:38:08Z,clean-up if,,Neargye,,,
+Neargye/magic_enum,132e0b35eeb28dda12e601129772e86494d1853c,2019-04-23T13:07:23Z,fix enableif operator <<,,Neargye,,,
+Neargye/magic_enum,39d8adff8ba201456aa559609e4b215f32ddce2b,2019-04-23T13:07:10Z,clean-up cmake,,Neargye,,,
+Neargye/magic_enum,6698de1bc73db60ebb3832ba32c2f4e9cbd90285,2019-04-23T12:47:05Z,add more useful operator<<,,Neargye,,,
+Neargye/magic_enum,2aba428d7ab6aaba5d2aec86d3ac0a1a56da20dd,2019-04-23T12:46:49Z,clean-up cmake,,Neargye,,,
+Neargye/magic_enum,9c2d53b844fbeffc6e5c50798fd907697345ffaa,2019-04-23T12:16:14Z,Merge remote-tracking branch 'origin/master' into dev,,Neargye,,,
+Neargye/magic_enum,158c736a326c2639017c7c8df2b2f72fc761a114,2019-04-22T20:35:24Z,update enum_entries,,Neargye,,,
+Neargye/magic_enum,eef1ac9339cf7cd2c01933f67b0d38eee4cb0a02,2019-04-22T15:51:07Z,refactoring,,Neargye,,,
+Neargye/magic_enum,e10ba181f1883ea46321afd6836725aa05b8517b,2019-04-21T22:26:21Z,CMake enhancements,"* Add magic_enum as an interface library
+* Enable tests and examples only if is top project
+* Use more modern approach to include directories
+* Add install target",abelfodil,,,
+Neargye/magic_enum,9dc22008a7c8a207e4131c8415073b3b6017a474,2019-04-21T15:52:14Z,enum_name returns string_view,,Neargye,,,
+Neargye/magic_enum,8ddfae18d1d714a1b15d638f116549ad9bba50d0,2019-04-20T10:01:09Z,change enum_pairs -> enum_entries,,Neargye,,,
+Neargye/magic_enum,f643be2f212164acd56ea16ad39d8eecf0ab09b2,2019-04-11T17:24:53Z,improve name_impl,,Neargye,,,
+Neargye/magic_enum,fb262944fc0b2be821de6436952fcc93e6d3d35c,2019-04-11T10:37:57Z,add enum_pairs,,Neargye,,,
+Neargye/magic_enum,54fbc2de9572a2de78890c216cb6e855466d6ccb,2019-04-11T10:37:44Z,clean-up,,Neargye,,,
+Neargye/magic_enum,0c1128947b557c483c2268ec0418fe9dac93b414,2019-04-11T00:25:40Z,add integer_cast,,Neargye,,,
+Neargye/magic_enum,4a540b1a2ec8c337a91dce324032d28215d5a5b2,2019-04-10T20:03:07Z,add more test,,Neargye,,,
+Neargye/magic_enum,d3e0801a716df0a3ba2067e2cb4cf5ee5bc3c68b,2019-04-10T19:39:56Z,clean-up,,Neargye,,,
+Neargye/magic_enum,20568660ddc9fdabcbbf4797c9aeb18bcc1e69d8,2019-04-10T16:24:47Z,update readme,,Neargye,,,
+Neargye/magic_enum,34a0ee72b6fd77c3a90c9c789dbf452da52e2f64,2019-04-10T09:48:03Z,v0.4.2,,Neargye,,,
+Neargye/magic_enum,479b4b237bb735fff2e36cddde67efaee87e195a,2019-04-09T09:47:26Z,fix doc,,Neargye,,,
+Neargye/magic_enum,866b957213623d5d7428d764239cc0aea3cf83a6,2019-04-09T09:36:21Z,update readme,,Neargye,,,
+Neargye/magic_enum,0d4dad3ab3e874f89118e18bd21e1178eb197305,2019-04-09T09:35:21Z,more customizing range,,Neargye,,,
+Neargye/magic_enum,bc99650db9c0b2db08d5ba6019a881860830c021,2019-04-09T09:34:55Z,clean-up comments,,Neargye,,,
+Neargye/magic_enum,c8de9e398efe22913ce04815d399f2dfe441fd89,2019-04-08T21:55:04Z,fix enum_range max/min,,Neargye,,,
+Neargye/magic_enum,729cf3d22224089a31412e94e8896e3524515392,2019-04-08T19:56:30Z,fix decay,,Neargye,,,
+Neargye/magic_enum,4549cdbc3bfa3948d2045c82087cbcdc5de8bce6,2019-04-08T18:35:38Z,clean-up,,Neargye,,,
+Neargye/magic_enum,4e1af5dc4ebf71408976755628363e8bb5510bd2,2019-04-08T18:35:51Z,fix decay enum,,Neargye,,,
+Neargye/magic_enum,da76bd607fa9a9f5d09e7abaf7d1bd0cf7ac6af6,2019-04-08T18:03:33Z,update comments,,Neargye,,,
+Neargye/magic_enum,aba62c4556d8023458c24c2c52c8a151be705fd8,2019-04-08T17:19:39Z,v0.4.1,,Neargye,,,
+Neargye/magic_enum,b3450868688f849ea4dbb5c8038c8ab6a5eadade,2019-04-08T14:27:09Z,add url to doc,,Neargye,,,
+Neargye/magic_enum,05c2b7dc8447423bba09e09a4d9f5f534011359c,2019-04-08T14:18:43Z,add type_traits example,,Neargye,,,
+Neargye/magic_enum,f08837e1ae04fec905d4cc32d9bd52d5f49c5eda,2019-04-08T14:18:26Z,fix readme,,Neargye,,,
+Neargye/magic_enum,0836f085810ac54025cb948ec3af09a6a0f8bd5f,2019-04-08T14:14:39Z,update readme,,Neargye,,,
+Neargye/magic_enum,9786f361c22da50521480d642396e7620bae9f2f,2019-04-08T13:30:13Z,add remarks about alias,,Neargye,,,
+Neargye/magic_enum,d24d38ea50f9b13a216c6473d933cc9f4d12880e,2019-04-08T13:29:03Z,add is_unscoped_enum/is_scoped_enum,,Neargye,,,
+Neargye/magic_enum,11a03664214df9ae0248f6dc72ce25b97b4837d5,2019-04-08T09:58:30Z,v0.4.0,,Neargye,,,
+Neargye/magic_enum,82a326876dccc1242883f7102c7f42226d4a6281,2019-04-07T22:13:19Z,fix warnings,,Neargye,,,
+Neargye/magic_enum,c425706289b3aa37eb360e56a6344edfe796263c,2019-04-07T21:33:48Z,v0.3.0,,Neargye,,,
+Neargye/magic_enum,bbda253f8b301a7dcbd22beea588c63cb44d5425,2019-04-07T21:32:20Z,update range,,Neargye,,,
+Neargye/magic_enum,fae022c8489089a1c97eb4c496bdf572349fa9c0,2019-04-07T21:23:51Z,clean-up,,Neargye,,,
+Neargye/magic_enum,74eac12c1160f74b148b1e7c6904f033aafb4b14,2019-04-06T23:02:53Z,dev v0.3.0,,Neargye,,,
+Neargye/magic_enum,5a3d4b53e6ebac2fcb58ac8a88de4d02d62e97d1,2019-04-06T13:35:09Z,v0.2.0,,Neargye,,,
+Neargye/magic_enum,122aa8028dd69eefb0e558b4faa81de9818b37da,2019-04-06T13:16:29Z,update example,,Neargye,,,
+Neargye/magic_enum,26f225b71fd04c80c1f397849cab12f5c2f55fd5,2019-04-06T13:16:22Z,add doc,,Neargye,,,
+Neargye/magic_enum,2144c44eecca22de023ce3f6486ef1df3d271688,2019-04-06T13:16:14Z,update test,,Neargye,,,
+Neargye/magic_enum,0ac07739f6169f3de98e96d7d73b66f238ef599e,2019-04-05T15:53:42Z,v0.1.2,,Neargye,,,
+Neargye/magic_enum,48e70234b54cd25ea8192b13e4f105ef6934fb28,2019-04-04T06:01:17Z,update doc,,Neargye,,,
+Neargye/magic_enum,6e9fdcc6da912137ee956787ba33455f69c730f1,2019-04-03T16:33:38Z,update readme,,Neargye,,,
+Neargye/magic_enum,194e82ed10ed40803a45f9feaa118ca78e44d642,2019-04-02T13:15:57Z,update readme,,Neargye,,,
+Neargye/magic_enum,c74e53aabe4107a3228090c443b4bc1734ddfaa5,2019-04-02T10:10:55Z,v0.1.1,,Neargye,,,
+Neargye/magic_enum,f2c3bd8fe569aaeea94a2b4a652c1242e8f92378,2019-04-02T09:54:55Z,update readme,,Neargye,,,
+Neargye/magic_enum,6a5fe48e4badfb55690187597b912e7c2e17f626,2019-04-02T07:08:44Z,gcc-9 yeat unstable,,Neargye,,,
+Neargye/magic_enum,7a56aee1d5d833c911da5f275d728e2b6ed88988,2019-04-01T19:25:50Z,fix enum_to_string_impl,,Neargye,,,
+Neargye/magic_enum,00ae62deae1365a316b481730e531d5f854777e2,2019-04-01T19:05:51Z,update readme,,Neargye,,,
+Neargye/magic_enum,0530e2c5bdd013ac1440cd0832074c89fd5b4907,2019-04-01T19:05:34Z,clean-up,,Neargye,,,
+Neargye/magic_enum,d9ba68f01c70001c05e8b5eb6a8e4d1c13ee8b77,2019-03-31T15:29:02Z,add check to enum_to_string,,Neargye,,,
+Neargye/magic_enum,100ca7ba8ca8710c5f8313119d82a0844a0b4bd3,2019-03-31T15:05:20Z,"improve enum_from_string, static_assert and doc",,Neargye,,,
+Neargye/magic_enum,935f80ee49670656f7148ff72a53b6dd3af2c4bd,2019-03-30T21:55:01Z,update readme,,Neargye,,,
+Neargye/magic_enum,ac6444fae5846f93524fa0dc521acd5ab05a918b,2019-03-30T21:24:36Z,v0.1.0,,Neargye,,,

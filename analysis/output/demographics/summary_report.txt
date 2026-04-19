@@ -1,0 +1,10 @@
+ROS Package Dataset Analysis
+============================
+
+Total packages: 1851
+Average dependencies: 8.79
+Average other packages used: 8.66
+Median dependencies: 8.0
+Maximum dependencies: 48
+Minimum dependencies: 0
+Correlation between Dependencies and Other Packages Used: 0.014

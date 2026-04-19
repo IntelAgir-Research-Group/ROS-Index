@@ -1,0 +1,389 @@
+date,year,discussion_type,title
+2023-01-02 00:11:47+00:00,2023,stackoverflow,Waiting for service /gazebo/spawn_urdf_model
+2023-01-03 00:47:13+00:00,2023,stackoverflow,How to know actual result of `proc_output.waitFor` if `expected_output` is wrong?
+2023-01-03 05:18:16+00:00,2023,stackoverflow,Is py_trees library of python which is used for creating behavior trees only used in ROS or can it be run on some other platform as well?
+2023-01-03 20:15:47+00:00,2023,stackoverflow,How do I run an integrated ros service using ONLY a launch file?
+2023-01-04 08:55:31+00:00,2023,stackoverflow,how to fix: Cannot infer topic type for topic turtle1/teleport_absolute as it is not yet advertised ROS
+2023-01-04 13:34:06+00:00,2023,stackoverflow,"ROS2 on multiple machines: ros2 multicast working, talker/listener not working"
+2023-01-04 13:57:37+00:00,2023,stackoverflow,How to calculate the angle between Quaternions
+2023-01-05 07:55:50+00:00,2023,stackoverflow,"Python class has not attribute ""x"", using odometry data in a action server"
+2023-01-06 07:02:54+00:00,2023,stackoverflow,How to allows /tmp file access when running robot_upstart
+2023-01-06 11:07:09+00:00,2023,stackoverflow,undefined reference to `pcl::PCLBase<pcl::PCLPointCloud2>::setInputCloud(std::shared_ptr<pcl::PCLPointCloud2 const> const&)
+2023-01-06 16:50:25+00:00,2023,stackoverflow,Failing to Install ROS apt packages on clean Ubuntu
+2023-01-07 05:17:14+00:00,2023,stackoverflow,cmake error while catkin_make in catkin_ws?
+2023-01-07 17:22:36+00:00,2023,stackoverflow,Why would the .text section of my object file be empty?
+2023-01-09 03:24:16+00:00,2023,stackoverflow,MoveIt: How to initialize collision_detection::CollisionEnvFCL with the currently active environment so I can use CollisionEnvFCL::distanceRobot()?
+2023-01-09 05:45:11+00:00,2023,stackoverflow,"Ros2 foxy, No module named 'pkg_resources' during colcon build command"
+2023-01-09 06:25:52+00:00,2023,stackoverflow,"Ros and another process running on same machine,how can they communicate with each other using zeromq"
+2023-01-09 07:18:02+00:00,2023,stackoverflow,Is there an inverse to the rs-convert function that can convert from ply to bag?
+2023-01-09 18:20:17+00:00,2023,stackoverflow,ros tuetlebot3 launh file
+2023-01-09 18:50:45+00:00,2023,stackoverflow,issue with laser reading in robot turn 90 degree right using ROS
+2023-01-11 19:14:34+00:00,2023,stackoverflow,ROS melodic with python3 got openCV error
+2023-01-11 20:16:56+00:00,2023,stackoverflow,Robotic arm fall to ground in gazebo
+2023-01-13 12:44:17+00:00,2023,stackoverflow,"How to convert (ROS) ""geometry_msgs/Point"" to sensor_msgs/PointCloud2?"
+2023-01-13 17:03:12+00:00,2023,stackoverflow,"""catkin build"" not working in ros noetic via docker"
+2023-01-15 03:08:51+00:00,2023,stackoverflow,Unsure why yolo_v3.launch file in darknet_ros package gives me error
+2023-01-16 19:03:24+00:00,2023,stackoverflow,gazebo9 no longer opens up
+2023-01-17 19:09:39+00:00,2023,stackoverflow,Unable to use underlay ros2 installation with drake-ros as an external in a Bazel Workspace
+2023-01-21 09:32:59+00:00,2023,stackoverflow,unable to get the messages from the mqtt topic to ros topic. ||Mqtt to Ros bridge
+2023-01-22 20:55:48+00:00,2023,stackoverflow,ROS doesn't see numpy
+2023-01-23 03:17:44+00:00,2023,stackoverflow,CMake refuses to link shared library
+2023-01-25 18:42:11+00:00,2023,stackoverflow,How would I modify this URDF to make include the gripper arm?
+2023-01-26 06:34:34+00:00,2023,stackoverflow,"When I run the roslaunch command, an RLException error occurs"
+2023-01-27 14:30:58+00:00,2023,stackoverflow,I can't install ar_track_alvar on ROS Noetic
+2023-01-27 16:00:46+00:00,2023,stackoverflow,How to use a single Boost::asio::io_context for multiple sockets and serial ports
+2023-01-27 16:25:13+00:00,2023,stackoverflow,How can the depth_image_proc ROS nodelet be used with an Intel RealSense 435 .bag file?
+2023-01-29 14:30:55+00:00,2023,stackoverflow,Importing python files/functions from the same directory in ROS (as simple as it sounds!)
+2023-01-29 23:05:30+00:00,2023,stackoverflow,Issue with ros NodeHandle.subscribe with a class method
+2023-01-30 05:48:52+00:00,2023,stackoverflow,What should go in world.launch file?
+2023-01-30 11:15:59+00:00,2023,stackoverflow,Storing subscribed topic data in roslibpy to variable
+2023-01-30 13:08:15+00:00,2023,stackoverflow,ROS2 colcon build failure
+2023-01-31 05:32:05+00:00,2023,stackoverflow,ROS1 Callback Threads Behavior: Two Callback Accessing Shared Data
+2023-01-31 08:08:47+00:00,2023,stackoverflow,problems loading 2 custom controllers in gazebo
+2023-01-31 09:38:23+00:00,2023,stackoverflow,"I'm using ROS noetic over wsl in Windows 11, but rospy library is not loaded in VS code"
+2023-01-31 10:48:30+00:00,2023,stackoverflow,Gazebo controller spawner connection error
+2023-02-01 14:30:34+00:00,2023,stackoverflow,Is there a way to use CV-Bridge within conda virtual environment with ROS-Noetic?
+2023-02-02 08:51:57+00:00,2023,stackoverflow,Can Real Sense post processing be enabled through ROS?
+2023-02-02 12:23:27+00:00,2023,stackoverflow,Can't import rospy in Debian 11 bullseye. Although pakage is installed it shows no module named rospy
+2023-02-02 15:38:40+00:00,2023,stackoverflow,How can I segment a point cloud using normals?
+2023-02-04 07:39:24+00:00,2023,stackoverflow,Failed to process package 'rosconsole':
+2023-02-04 14:29:08+00:00,2023,stackoverflow,How can i fix error 121 remote i/o error with mpu6050 on raspberry pi model 3 b ROS
+2023-02-04 17:24:26+00:00,2023,stackoverflow,How to publish a ROS topic with a delay?
+2023-02-04 22:09:16+00:00,2023,stackoverflow,ROS - ImportError: No module named yaml
+2023-02-05 03:39:34+00:00,2023,stackoverflow,Running ros joint state publisher ends up with no executable found
+2023-02-05 10:24:24+00:00,2023,stackoverflow,How do we fix our flickering depth image when using an Orbecc Astra Camera and Rviz?
+2023-02-06 17:26:47+00:00,2023,stackoverflow,Is it possible that /set_camera_info service not listed in rosservice list?
+2023-02-07 13:44:48+00:00,2023,stackoverflow,Boost in catkin dependency after installing from source
+2023-02-07 15:18:36+00:00,2023,stackoverflow,Using std::vector from an object referenced by shared_ptr after shared_ptr's destruction
+2023-02-07 18:32:32+00:00,2023,stackoverflow,How do you change the default topic subscription options while using Rosbridge for Foxglove?
+2023-02-08 16:54:25+00:00,2023,stackoverflow,Unable to include a header-only library in ROS
+2023-02-08 19:15:13+00:00,2023,stackoverflow,ROS2 C++ Message Builder Pattern: error use of auto before deduction of auto
+2023-02-08 19:56:19+00:00,2023,stackoverflow,ROS Publisher is not publishing continuously
+2023-02-09 09:29:16+00:00,2023,stackoverflow,gtsam is not able to find Eigen
+2023-02-09 10:19:18+00:00,2023,stackoverflow,How could I send a String to arduino uno from jetson nano through rosserial?
+2023-02-09 10:19:21+00:00,2023,stackoverflow,ROS setBool service always False
+2023-02-09 16:05:44+00:00,2023,stackoverflow,Issue while installing naoqi with ROS
+2023-02-09 16:20:13+00:00,2023,stackoverflow,"No module named rospy, how do i fix this?"
+2023-02-10 03:18:24+00:00,2023,stackoverflow,plc_modbus read and write taking too much time
+2023-02-11 03:34:25+00:00,2023,stackoverflow,How can I use node API like spawn to run rosbag?
+2023-02-14 16:54:13+00:00,2023,stackoverflow,boost::detail::sp_member_access<T>::type = const std_msgs::String_<std::allocator<void> >*]: Assertion `px != 0' failed. Aborted (core dumped)
+2023-02-14 19:48:59+00:00,2023,stackoverflow,Error in Cmake list while making custom messages?
+2023-02-15 05:51:29+00:00,2023,stackoverflow,failed to open image in ROS Kinetic
+2023-02-15 16:27:42+00:00,2023,stackoverflow,Object of type ndarray is not JSON serializable
+2023-02-16 14:34:59+00:00,2023,stackoverflow,Micro-Ros for Arduino-rpi pico multiple publishers issue
+2023-02-17 01:01:39+00:00,2023,stackoverflow,How to run ROS2 without gui from Gazebo?
+2023-02-17 18:46:40+00:00,2023,stackoverflow,ROSBridge connection with Android
+2023-02-18 18:43:06+00:00,2023,stackoverflow,Migrating C++ code from ROS1 to ROS2 - How to use C++ serial library in ROS2?
+2023-02-19 20:29:11+00:00,2023,stackoverflow,How to fix Ros2 foxy install error on ubuntu mate?
+2023-02-22 11:42:52+00:00,2023,stackoverflow,How can i send my PointCloud sensor data topic to costmap2d node?
+2023-02-22 12:37:12+00:00,2023,stackoverflow,Controller manager not available in ROS2
+2023-02-23 02:03:18+00:00,2023,stackoverflow,Police car or ambulance options in CARLA simulator
+2023-02-23 05:22:02+00:00,2023,stackoverflow,ros2 command not found. any fixes?
+2023-02-27 08:22:25+00:00,2023,stackoverflow,cannot use ydlidar on ros2 rolling
+2023-03-01 08:43:18+00:00,2023,stackoverflow,"""xacro: in-order processing became default in ROS Melodic. You can drop the option"" error"
+2023-03-02 13:02:21+00:00,2023,stackoverflow,turtlebot3_teleop_keyboard-1 process has died
+2023-03-02 14:14:38+00:00,2023,stackoverflow,display lidar data from gazebo simulation
+2023-03-02 17:41:02+00:00,2023,stackoverflow,OpenCV libraries conflicting?
+2023-03-02 19:54:47+00:00,2023,stackoverflow,Ways of tracking hot path in C++ program (Ubuntu)
+2023-03-04 11:49:13+00:00,2023,stackoverflow,Getting Error while trying to install gazebo9 after installing ROS noetic in ubuntu 20.04 LTS
+2023-03-04 21:40:06+00:00,2023,stackoverflow,How can I add a detected object in cost map that generated from move_base package
+2023-03-05 18:52:21+00:00,2023,stackoverflow,XML parsing error mismatched tag Invalid <param> tag: Cannot load command parameter [robot_description]: command
+2023-03-07 19:13:53+00:00,2023,stackoverflow,Docker error: QStandardPaths: qt.qpa.screen: QXcbConnection: Could not connect to display :1 Could not connect to any X display
+2023-03-09 16:21:34+00:00,2023,stackoverflow,ROS RVIZ: How to visualize PCL Model with correct orientation?
+2023-03-10 00:07:29+00:00,2023,stackoverflow,How to implement a OpenCV code on ROS Melodic
+2023-03-10 06:31:32+00:00,2023,stackoverflow,ROS call-back function doesn't functionate
+2023-03-10 08:46:40+00:00,2023,stackoverflow,How to set a specific version of exec_depend in ROS package.xml
+2023-03-11 08:50:57+00:00,2023,stackoverflow,ROS Service to Show Image
+2023-03-11 18:17:42+00:00,2023,stackoverflow,ROS Service server/client (.text.startup+0x0): multiple definition of `main'
+2023-03-12 08:12:22+00:00,2023,stackoverflow,Segmentation Fault in some OpenCV Functions
+2023-03-13 14:42:25+00:00,2023,stackoverflow,Warning message in Ros navigation stack
+2023-03-14 10:23:32+00:00,2023,stackoverflow,"i cant open this ""rosbag play airground_rig_s3_2013-03-18_21-38-48.bag"" , i already download that file before run thats command"
+2023-03-14 13:29:40+00:00,2023,stackoverflow,ROS use two same controllers(drivers) for seperate motors
+2023-03-15 09:15:42+00:00,2023,stackoverflow,How to fuse Visual SLAM (ORB_SLAM2) with detected obstacle using 2D Lidar and IMU to obtain robot localization?
+2023-03-15 20:49:48+00:00,2023,stackoverflow,error is boost shared_ptr and class inheritance
+2023-03-16 07:07:35+00:00,2023,stackoverflow,Odom not published when using image_transport_plugins
+2023-03-17 06:19:38+00:00,2023,stackoverflow,Can ı restart regular ros2 node?
+2023-03-17 09:24:54+00:00,2023,stackoverflow,how to save turtlebot3 world and use nav2
+2023-03-17 09:28:54+00:00,2023,stackoverflow,rqt_action: command not found
+2023-03-17 17:41:55+00:00,2023,stackoverflow,Outdoor 3D reconstruction using Intel realsense D435 camera
+2023-03-19 22:50:39+00:00,2023,stackoverflow,Drawing ROS markerArrays using OpenCV?
+2023-03-20 05:45:47+00:00,2023,stackoverflow,Interpretation of IMU-Data for position tracking
+2023-03-20 18:17:02+00:00,2023,stackoverflow,I am searching a roadmap to operate a robotic arm simulation
+2023-03-23 10:59:54+00:00,2023,stackoverflow,Is a script inside a node executed indefinitely? (ROS Question)
+2023-03-23 11:28:26+00:00,2023,stackoverflow,ROS2 (Python) Timer callback only calling once when I call spin_once( ) within it
+2023-03-23 16:31:43+00:00,2023,stackoverflow,Colcon: How to change the Cmake path
+2023-03-24 08:00:07+00:00,2023,stackoverflow,ROS2 Topic on WSL Can not Find All Available Topics
+2023-03-24 23:28:53+00:00,2023,stackoverflow,How to subscribe laserscan topic using ros service?
+2023-03-28 17:28:48+00:00,2023,stackoverflow,How to get world position of detected Aruco markers with openCv?
+2023-03-28 21:40:34+00:00,2023,stackoverflow,ros remap what is the difference between ~ and /?
+2023-03-29 07:33:29+00:00,2023,stackoverflow,MATLAB PID loop implementation for drone target tracking
+2023-03-29 16:57:24+00:00,2023,stackoverflow,message_filter.ApproximateTimeSynchronizer method is not able to invoke the callback function
+2023-03-30 13:39:52+00:00,2023,stackoverflow,Visualize points in Rviz2
+2023-03-30 15:09:30+00:00,2023,stackoverflow,Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino'
+2023-04-04 11:59:09+00:00,2023,stackoverflow,Can't import rospy because of ModuleNotFoundError: No module named 'rospkg'
+2023-04-04 12:48:07+00:00,2023,stackoverflow,"Publisher Message Type Problem in ROS, publishing point cloud array"
+2023-04-09 21:22:38+00:00,2023,stackoverflow,ROS /clock not being published
+2023-04-10 14:41:45+00:00,2023,stackoverflow,Cannot locate node of type [septentrio_gnss_driver_node]
+2023-04-10 17:39:45+00:00,2023,stackoverflow,UR3_Sim RVIZ Simulation sometimes moves by itself
+2023-04-11 12:24:03+00:00,2023,stackoverflow,automated testing ros2 on multiple simulation worlds / multiple sceanrios
+2023-04-11 15:22:01+00:00,2023,stackoverflow,Gazebo (ROS2) need to prevent tiling of textures
+2023-04-11 20:04:25+00:00,2023,stackoverflow,How to add an mp4 file to an existing rosbag?
+2023-04-12 10:06:53+00:00,2023,stackoverflow,cv2 destroyWindow() does not work in ros callback function
+2023-04-12 11:50:08+00:00,2023,stackoverflow,Increase Frequency of IMU Sensor
+2023-04-13 19:15:02+00:00,2023,stackoverflow,How to run launch file in ROS from C++ .cpp file
+2023-04-13 23:36:40+00:00,2023,stackoverflow,How to convert Python script to ROS script? (Measuring distance between two points using RealSense depth camera)
+2023-04-14 06:06:25+00:00,2023,stackoverflow,File 'Makefile' has modification time 86 s in the future
+2023-04-14 21:36:07+00:00,2023,stackoverflow,ROS Foxy on Ubuntu 20.04 : source command keeps failing fails
+2023-04-15 16:47:03+00:00,2023,stackoverflow,All other transforms disappear after broadcasting my custom odom to base_link transform (ROS2 Foxy)
+2023-04-16 14:32:27+00:00,2023,stackoverflow,Rviz is not updating /joint_states
+2023-04-17 09:39:14+00:00,2023,stackoverflow,PCA line keeping with laser scan data?
+2023-04-17 16:02:15+00:00,2023,stackoverflow,Launch ROS2 Nodes depending on output of earlier started Node in Python launch file
+2023-04-18 16:14:32+00:00,2023,stackoverflow,Error RVIZ extrapolation into the future on the same machine
+2023-04-19 20:20:46+00:00,2023,stackoverflow,ROS - LaserScan moves instead of robot
+2023-04-20 06:29:59+00:00,2023,stackoverflow,Error when using Principle Component Analysis with Point Clouds in ROS?
+2023-04-20 15:43:35+00:00,2023,stackoverflow,"How to access a button press from the /joy node, while outside the callback function in ROS python"
+2023-04-20 22:35:39+00:00,2023,stackoverflow,ROS2: GPU LIDAR Selectively Interact with Objects in Gazebo
+2023-04-21 00:09:47+00:00,2023,stackoverflow,How to launch several ROS Docker terminals connected to the same container with all ROS commands working?
+2023-04-21 14:30:06+00:00,2023,stackoverflow,Point Cloud Library (PCL) filtering timeout
+2023-04-21 14:38:05+00:00,2023,stackoverflow,Gazebo doesn't open GUI on Ubuntu 20.04
+2023-04-21 18:47:06+00:00,2023,stackoverflow,Ignore a quotation when calling terminal command using Python
+2023-04-21 21:09:57+00:00,2023,stackoverflow,Rosrun did not work with hello world program in C++
+2023-04-23 19:55:57+00:00,2023,stackoverflow,Unable to launch online_sync_launch.py from launch file
+2023-04-23 20:12:53+00:00,2023,stackoverflow,Segmentation fault (core dumped) error when running Python script with pykinect_azure and MoveIt
+2023-04-24 02:58:23+00:00,2023,stackoverflow,Error Call to publish() on an invalid Publisher?
+2023-04-25 14:58:37+00:00,2023,stackoverflow,ERROR: service [/gazebo/spawn_urdf_model] responded with an error: b''
+2023-04-26 08:10:11+00:00,2023,stackoverflow,Visualize Sensor_msgs/PointCloud2
+2023-04-26 17:18:49+00:00,2023,stackoverflow,How to list nodes in ROS with `rclpy`?
+2023-04-27 00:05:15+00:00,2023,stackoverflow,Ros1: Callback function of subscriber only works after publishing 3-4 times
+2023-04-27 19:44:25+00:00,2023,stackoverflow,Can I get location of Aruco markers on Rviz using aruco_ros?
+2023-04-30 23:38:07+00:00,2023,stackoverflow,ROS2 Float32MultiArray error converting from python to c
+2023-05-01 15:40:09+00:00,2023,stackoverflow,"When trying to set up the simulation on Docker, it gives an error: ""xhost: command not found"""
+2023-05-03 13:03:46+00:00,2023,stackoverflow,Raspberry Pi3 Lidar mapping hector mapping error
+2023-05-04 09:45:32+00:00,2023,stackoverflow,Accessing the Callback function in ROS while inside a while loop?
+2023-05-04 11:03:58+00:00,2023,stackoverflow,How can I visualize the waveform in react from the audio generated in ros?
+2023-05-07 07:32:47+00:00,2023,stackoverflow,launch xxx.launch in catkin_ws
+2023-05-07 10:00:40+00:00,2023,stackoverflow,How to get consecutive images with a delay between using rospy.Subscriber
+2023-05-10 06:36:51+00:00,2023,stackoverflow,No module named 'roslib' when convert .bag to .mp4
+2023-05-11 15:06:19+00:00,2023,stackoverflow,"OpenCV getting error ""Cant parse contours. Input argument doesnt provide sequence protocol"" in Python ROS"
+2023-05-11 15:30:37+00:00,2023,stackoverflow,Transformation between two coordinate frames (tf)
+2023-05-15 11:41:43+00:00,2023,stackoverflow,Problem displaying multiple robots in Gazebo and RViz
+2023-05-18 03:27:33+00:00,2023,stackoverflow,Receiving ImportError attempting to import custom service file to service server node
+2023-05-18 04:37:05+00:00,2023,stackoverflow,have little problem with webcam publish in ROS2
+2023-05-18 23:15:44+00:00,2023,stackoverflow,Is there a way to have a callback triggered when any new topic is created in ROS1?
+2023-05-19 19:46:39+00:00,2023,stackoverflow,Unable to create workspace on ROS foxy
+2023-05-23 12:30:54+00:00,2023,stackoverflow,Making an updating plot of a ROS input
+2023-05-23 16:49:26+00:00,2023,stackoverflow,Issue with Publishing Velocity Control from MATLAB to Turtlebot3 in ROS
+2023-05-24 19:37:36+00:00,2023,stackoverflow,Invalid size when Initializing Eigen::Vector4f
+2023-05-26 05:32:25+00:00,2023,stackoverflow,How to turn Turtlebot3 90 degrees using IMU feedback in Python?
+2023-05-28 07:13:53+00:00,2023,stackoverflow,How can I make a turtlebot in ROS circle around another turtlebot that I am controlling?
+2023-05-28 11:34:35+00:00,2023,stackoverflow,Trying to make a turtlebot circle another moving turtlebot in ROS
+2023-05-29 06:51:22+00:00,2023,stackoverflow,What is the correct way to suppress deprecation warnings when building with `catkin build` in ROS?
+2023-05-29 10:58:52+00:00,2023,stackoverflow,note: format string is defined here (ROS2 C++)
+2023-05-30 15:31:04+00:00,2023,stackoverflow,Why do ROS enviroment break after conda?
+2023-05-31 10:02:47+00:00,2023,stackoverflow,Keep Intesity when converting pcl PointCloud<PointXYZI> to ros PointCloud2
+2023-06-01 08:32:57+00:00,2023,stackoverflow,How can I fix the cudnn_cmake_module error when building Autoware with colcon?
+2023-06-08 14:20:39+00:00,2023,stackoverflow,"Could not find a package configuration file for ""qpOASES"""
+2023-06-15 13:58:04+00:00,2023,stackoverflow,How to solve the error occurred when I try to use function in tf_conversions in ROS1-melodic in a python3 environment
+2023-06-17 04:18:18+00:00,2023,stackoverflow,Need to know how to Integrate Gazebo with Python code
+2023-06-19 11:38:11+00:00,2023,stackoverflow,error while launching ekf_template.launch in ros noetic
+2023-06-19 18:29:05+00:00,2023,stackoverflow,conda ROS gazebo ardupilot gazebo
+2023-06-20 17:04:31+00:00,2023,stackoverflow,"""sudo apt update"" gives GPG error, and ""sudo apt-key adv"" (even though successful) didn't resolve the issue"
+2023-06-23 05:52:39+00:00,2023,stackoverflow,How to export image and video data from a bag file in ros2
+2023-06-23 07:47:05+00:00,2023,stackoverflow,What is going on behind the publisher node and subscriber node?
+2023-06-23 12:12:02+00:00,2023,stackoverflow,CMakeLists.txt cannot find OpenCV and cv_bridge in ROS2
+2023-06-26 04:54:22+00:00,2023,stackoverflow,"I have make installed pcl-1.13.0, however python can't import it"
+2023-06-26 13:05:42+00:00,2023,stackoverflow,How to launch a ros launch file using a button in react app?
+2023-06-27 20:35:36+00:00,2023,stackoverflow,ROS2 synchronizer register callback inside a class problem
+2023-06-28 13:20:35+00:00,2023,stackoverflow,Why does mapping out the Turtlebot 3 World from Gazebo in RViz SLAM GMapping result in a spontaneously cut off map?
+2023-07-03 14:55:45+00:00,2023,stackoverflow,How to fixate to models to each other in Gazebo?
+2023-07-05 16:00:59+00:00,2023,stackoverflow,rosbags - write uncompressed image to bag
+2023-07-07 22:09:34+00:00,2023,stackoverflow,Save all recorded bag files acquired from a sensor using `rosbag record`
+2023-07-09 14:53:04+00:00,2023,stackoverflow,Local planner not working in ROS noetic - Ubuntu 20.04 LTS
+2023-07-10 11:36:11+00:00,2023,stackoverflow,Starting G-streamer in C++ with ROS2 and Opencv
+2023-07-12 07:20:36+00:00,2023,stackoverflow,Error with FAST_LIO_LC package: Invalid quaternion in transform
+2023-07-13 16:31:52+00:00,2023,stackoverflow,Gazebo crashes immediately on startup on Ubuntu 22.04 ARM VM on parallels desktop in MacBook Air M1
+2023-07-15 01:32:41+00:00,2023,stackoverflow,How to enter the source file of a dynamic lib (.so) when debugging
+2023-07-17 12:39:31+00:00,2023,stackoverflow,"cmake: symbol lookup error: /lib/x86_64-linux-gnu/libp11-kit.so.0: undefined symbol: ffi_type_pointer, version LIBFFI_BASE_7.0"
+2023-07-19 05:01:23+00:00,2023,stackoverflow,Error when get linear velocity from the linear acceleration using Euler integration in ORB_SLAM3?
+2023-07-19 20:20:34+00:00,2023,stackoverflow,"What does ""as e "" mean in ""rospy.ServiceException as e"""
+2023-07-20 03:05:56+00:00,2023,stackoverflow,Using PCL in ROS2 eloquent can't pass the compilation
+2023-07-20 05:09:36+00:00,2023,stackoverflow,extracting RGB image frames from the bag file: rosbag.bag.ROSBagException: unsupported compression type: lz4
+2023-07-23 14:40:24+00:00,2023,stackoverflow,ROS topic remapping does not work for TransformBroadcaster
+2023-07-24 15:26:59+00:00,2023,stackoverflow,Configure VS code to understand ros package imports - Pylance import errors
+2023-07-24 16:17:37+00:00,2023,stackoverflow,ModuleNotFoundError: No module named 'cv_bridge.boost.cv_bridge_boost'
+2023-07-25 08:36:11+00:00,2023,stackoverflow,How to do tf2 transform and pose publish with ROS2 and humble?
+2023-07-26 09:56:34+00:00,2023,stackoverflow,Can not receive image using ROS2 functions in the node?
+2023-07-27 02:01:57+00:00,2023,stackoverflow,C++ syntax issues applied to the ROS fram
+2023-07-28 08:38:12+00:00,2023,stackoverflow,How to use QoS in Subscriber with message_filters in ROS2 and C++?
+2023-07-28 19:30:26+00:00,2023,stackoverflow,ROS Client doesn't receive response
+2023-07-30 23:33:57+00:00,2023,stackoverflow,Use ros subscriber to modify class attribute
+2023-08-02 03:29:06+00:00,2023,stackoverflow,ROS Unable to open rqt_graph in ubuntu 20.4
+2023-08-04 07:52:07+00:00,2023,stackoverflow,Cannot create ROS2 debian packages with OpenCV
+2023-08-05 17:05:05+00:00,2023,stackoverflow,Inquiry on ROS melodic package compatibility with Naoqi OS 2.5.7.1
+2023-08-07 18:35:11+00:00,2023,stackoverflow,Uanble to move turtlebot 3 using teleop
+2023-08-09 19:28:58+00:00,2023,stackoverflow,ros-iron-nav-bringup not found
+2023-08-10 21:29:17+00:00,2023,stackoverflow,I was trying to make my own msgs in ROS in a separate package and then accessing the msg from another package using a node a publisher on a topic
+2023-08-18 12:08:04+00:00,2023,stackoverflow,ROS2 message topics time stamps handle and syncronisation?
+2023-08-21 09:21:02+00:00,2023,stackoverflow,"ros Unable to correct problems, you have held broken packages. can not find any solution， try harder？"
+2023-08-21 18:22:43+00:00,2023,stackoverflow,Publishing to a ROS topic to open robot hand through Python script
+2023-08-22 18:36:40+00:00,2023,stackoverflow,Encountering Rviz issues while trying to create a map with Hector SLAM
+2023-08-24 16:15:10+00:00,2023,stackoverflow,"Docker socket issue: ""OSError: [Errno 99] Cannot assign requested address"""
+2023-08-29 16:01:58+00:00,2023,stackoverflow,"How can i use the python of the anaconda environment when I use ""rosrun"" to run a python file in ROS Noetic"
+2023-09-07 11:08:40+00:00,2023,stackoverflow,Invoke a method using reflection
+2023-09-09 00:37:32+00:00,2023,stackoverflow,"Running ROS2 turtlesim on Ubuntu 22.04: ""qt.qpa.xcb: could not connect to display"""
+2023-09-14 17:19:56+00:00,2023,stackoverflow,Installing ROS on Raspbian
+2023-09-15 03:28:50+00:00,2023,stackoverflow,How does Gazebo's physics engine simulate flight of a drone or an UAV?
+2023-09-18 06:07:23+00:00,2023,stackoverflow,Error when installing ROS Noetic Ubuntu 22.04: 404 Not Found [IP: 140.211.166.134 80]
+2023-09-18 14:40:56+00:00,2023,stackoverflow,"Running rviz in the background using ""docker exec -d"""
+2023-09-19 05:22:09+00:00,2023,stackoverflow,"When I add constraint in move_group_python_interface, the generated trajectory in MoveIt isn't respecting the constraint at all"
+2023-09-19 08:53:36+00:00,2023,stackoverflow,How to solve a connection error within ros_azure_iothub from ROS to Azure IoT Hub?
+2023-09-19 12:04:58+00:00,2023,stackoverflow,Unable to locate package ros-iron-robotis-manipulator
+2023-09-28 16:13:15+00:00,2023,stackoverflow,How can I establish a very stable connection between my host computer and Jetson NX Devkit?
+2023-09-29 05:56:56+00:00,2023,stackoverflow,How can i Import ROS2D library in VSCode?
+2023-09-29 16:32:29+00:00,2023,stackoverflow,How to sync 2 or multiple node in ros2?
+2023-10-03 15:17:12+00:00,2023,stackoverflow,Pylon Camera Emulator Issue: No device is available
+2023-10-05 07:56:22+00:00,2023,stackoverflow,Problem trying to deploy ROS to a different machine: 'failed to load any RMW implementations'
+2023-10-07 04:55:44+00:00,2023,stackoverflow,ROS topic and ROS INFO publishes different format for same data
+2023-10-13 08:39:28+00:00,2023,stackoverflow,How to publish and subscribe 2D string array/lists with ROS?
+2023-10-14 18:25:25+00:00,2023,stackoverflow,Yolov8 Classes names to txt
+2023-10-19 14:56:56+00:00,2023,stackoverflow,ROS installation - broken packages
+2023-10-21 10:43:35+00:00,2023,stackoverflow,Will old ROS release work on new LTS version of Ubuntu?
+2023-10-21 14:03:44+00:00,2023,stackoverflow,UE5 Very poor performance of Memcpy
+2023-10-23 13:41:12+00:00,2023,stackoverflow,Generating sphinx documentation for ROS package - No module named '..'
+2023-10-26 06:09:00+00:00,2023,stackoverflow,cannot activate the 'ros' extension because it depends on an unknown 'ms-vscode.cpptools' extension. on code server
+2023-10-27 18:31:07+00:00,2023,stackoverflow,ROS2 stream video image from usb camera through websocket
+2023-10-30 21:54:27+00:00,2023,stackoverflow,Trouble opening Gazebo
+2023-10-31 12:30:42+00:00,2023,stackoverflow,Raspberry pi won't boot when booting with LIDAR connected to raspberry pi
+2023-11-01 08:37:39+00:00,2023,stackoverflow,How to scale down the joint axes in RVIZ?
+2023-11-01 12:50:35+00:00,2023,stackoverflow,ROS - rosbag playback speed
+2023-11-05 09:06:49+00:00,2023,stackoverflow,C++ OpenCV findHomography problem with json
+2023-11-08 06:38:33+00:00,2023,stackoverflow,Robot controller uploaded but not working properly
+2023-11-10 16:14:57+00:00,2023,stackoverflow,Switch between different ROS (Robot Operating System) versions
+2023-11-13 20:45:15+00:00,2023,stackoverflow,Kinect Camera not recognized by Raspberry Pi
+2023-11-14 18:44:48+00:00,2023,stackoverflow,ModuleNotFoundError: No module named 'openai.embeddings_utils'
+2023-11-16 19:48:27+00:00,2023,stackoverflow,ROS 2 how have a callback and main code in same node / fille?
+2023-11-19 14:19:21+00:00,2023,stackoverflow,ROS2 nodes communication between Raspberry Pi and PC is not working
+2023-11-22 19:15:21+00:00,2023,stackoverflow,Rust cargo build fails when I depend on r2r and opencv
+2023-11-27 15:46:15+00:00,2023,stackoverflow,Is there a way to publish a ROS AnyMsg in Python?
+2023-11-29 16:31:57+00:00,2023,stackoverflow,ImportError from file to file of the same folder in ROS Noetic package
+2023-12-10 09:26:35+00:00,2023,stackoverflow,How to use ackermann plugin in ROS2 Humble
+2023-12-11 10:01:35+00:00,2023,stackoverflow,Viewing laser scan data coming from Raspberry pi using Laptop
+2023-12-11 20:06:31+00:00,2023,stackoverflow,AttributeError: 'module' object has no attribute 'RAW_OPT'
+2023-12-13 15:23:23+00:00,2023,stackoverflow,I Can see topic in rostopic list but cannot echo
+2023-12-18 10:57:10+00:00,2023,stackoverflow,error: ‘ArucoDetector’ is not a member of ‘cv::aruco’
+2023-12-18 11:47:46+00:00,2023,stackoverflow,Use OpenCV bounding box coordinates in pointcloud
+2023-12-20 10:58:41+00:00,2023,stackoverflow,How can i solve gazebo sdf warning?
+2023-12-20 12:39:53+00:00,2023,stackoverflow,Problem with Docker display and apps with Qt Platform in ROS
+2023-12-30 21:36:22+00:00,2023,stackoverflow,ROS (Robot Operating System) simple publisher and subscriber using class in python
+2023-12-31 16:26:25+00:00,2023,stackoverflow,header file .h not find by main.cpp in a ros package
+2024-01-03 10:27:46+00:00,2024,stackoverflow,Segmentation fault in PCL viewer
+2024-01-05 11:15:59+00:00,2024,stackoverflow,Why can't I get the param from the launchfile in ROS?
+2024-01-11 14:08:06+00:00,2024,stackoverflow,"After trying to build a package in ROS-Melodic i get the ERROR: ""Could NOT find Boost"""
+2024-01-16 07:33:26+00:00,2024,stackoverflow,Increase processing time in Unity with captureDeltaTime
+2024-01-20 14:56:14+00:00,2024,stackoverflow,NullReferenceException when setting up UR3 robot with Unity Robotics Hub
+2024-01-21 22:06:46+00:00,2024,stackoverflow,rosrun can't find executables even though {workspace_directory}/devel/setup.bash was sourced correctly
+2024-01-22 16:44:09+00:00,2024,stackoverflow,"error, Unable to locate package ros-humble-ros-gzgarden"
+2024-01-24 16:56:52+00:00,2024,stackoverflow,ROS Service response return an empty array
+2024-01-25 22:57:06+00:00,2024,stackoverflow,ROS: Can't publish on Topic using python
+2024-01-29 11:11:54+00:00,2024,stackoverflow,How to solve the ERROR Cannot locate rosdep definition for [PCL]?
+2024-01-29 17:19:01+00:00,2024,stackoverflow,Conflicting OpenCV versions with cv_bridge
+2024-01-31 08:47:31+00:00,2024,stackoverflow,Recommendation for proper way to export URDF from the CAD model
+2024-02-02 11:00:32+00:00,2024,stackoverflow,SOLVED No matching function for call to ‘pcl::VoxelGrid<pcl::PointXYZ>::VoxelGrid(bool) for using getRemovedIndices()
+2024-02-03 21:28:05+00:00,2024,stackoverflow,cannot find gazebo_ros package in robostack / how run gazebo with ros2-humble in robostack?
+2024-02-04 12:08:13+00:00,2024,stackoverflow,error: no matching function for call to -- ROS (C++)
+2024-02-07 18:19:50+00:00,2024,stackoverflow,Running a python node in ROS2 (humble)
+2024-02-09 06:12:56+00:00,2024,stackoverflow,tf2_ros ImportError: dynamic module does not define module export function (PyInit__tf2)
+2024-02-09 23:17:53+00:00,2024,stackoverflow,Why does the following code only publish a single ROS message?
+2024-02-12 16:37:07+00:00,2024,stackoverflow,Jetson Orin cannot receive tf message from master
+2024-02-20 22:40:27+00:00,2024,stackoverflow,Changing the format of logging messages coming from Rospy
+2024-02-21 10:42:15+00:00,2024,stackoverflow,Why does the gazebo gui not run correctly?
+2024-02-27 21:45:07+00:00,2024,stackoverflow,Undefined Reference error with a defined reference in PlatformIO
+2024-02-29 07:18:50+00:00,2024,stackoverflow,Trying to install Pytorch in an Anaconda env but it is throwing an error related to libculas
+2024-02-29 15:49:14+00:00,2024,stackoverflow,Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)). (Ros Installation)
+2024-03-04 13:06:40+00:00,2024,stackoverflow,Setup ROS on Android Studio using Java
+2024-03-12 14:49:33+00:00,2024,stackoverflow,Dockerfile or image for running ROS noetic with nvidia gpu
+2024-03-13 11:22:18+00:00,2024,stackoverflow,Using variable from rostopic in another python file
+2024-03-14 08:50:13+00:00,2024,stackoverflow,rqt_graph not working despite having the package
+2024-03-15 12:19:29+00:00,2024,stackoverflow,How do I modify this DC motor encoder code to work with 4 DC motors?
+2024-03-16 11:26:46+00:00,2024,stackoverflow,ros noetic installation problem on ubuntu
+2024-03-19 23:42:27+00:00,2024,stackoverflow,Unable to apply Camera Distortion on Gazebo Harmonic
+2024-03-20 02:10:56+00:00,2024,stackoverflow,How to convert local radar laser to global position？
+2024-03-26 00:19:58+00:00,2024,stackoverflow,Transform error while launching multiple turtlebots in ROS NOETIC
+2024-03-28 19:53:03+00:00,2024,stackoverflow,cmake and g++ cross compilation looking for library in host sysroot path instead of target sysroot
+2024-03-29 15:01:18+00:00,2024,stackoverflow,How do I stream data from TUM RGB-D to ORB-SLAM3 and analyse/record data from that
+2024-03-31 02:57:30+00:00,2024,stackoverflow,Python cv2 imwrite() - RGB or BGR
+2024-04-03 10:11:55+00:00,2024,stackoverflow,how do i extract the x and y coordinates of the bounding boxes
+2024-04-04 20:28:38+00:00,2024,stackoverflow,Unable to create a python socket listener inside a docker container
+2024-04-09 12:45:22+00:00,2024,stackoverflow,ROS2 and QT5 - Undefined refernce to 'main' by using SET(CMAKE_AUTOMOC ON)
+2024-04-11 03:57:57+00:00,2024,stackoverflow,Debug `ros::NodeHandle nh` received a SIGSTOP while using gdb in qtcreator
+2024-04-12 00:37:06+00:00,2024,stackoverflow,SDL2 Window not closing
+2024-04-16 09:38:20+00:00,2024,stackoverflow,ROS2 Humble Installation Environment Setup Issue - ros2: command not found
+2024-04-17 03:47:15+00:00,2024,stackoverflow,How to make OpenGL within a Docker container utilize an NVIDIA GPU in a docker-compose.yml file
+2024-04-22 09:50:38+00:00,2024,stackoverflow,cv2.stereoRectify works only when the rotation and translation are from camera 2 to camera 1
+2024-04-23 09:54:57+00:00,2024,stackoverflow,Encountering issues when trying to run .launch file with ROS 2 Humble
+2024-04-27 12:36:03+00:00,2024,stackoverflow,"ROS2 Humble colcon build error asked CMake to find a package configuration file provided by ""catkin"", but CMake did not find one"
+2024-05-01 21:52:10+00:00,2024,stackoverflow,Docker ENTRYPOINT not working as intended
+2024-05-06 14:54:30+00:00,2024,stackoverflow,Connect DJI Ryze Tello drone to WSL through ROS
+2024-05-08 01:28:55+00:00,2024,stackoverflow,VS Code debugging on Ubuntu w ROS - build and runs but no breakpoints?
+2024-05-08 08:33:37+00:00,2024,stackoverflow,how to install libgeographiclib-dev
+2024-05-11 06:46:10+00:00,2024,stackoverflow,Problems in Python
+2024-05-12 19:09:28+00:00,2024,stackoverflow,Unable to execute specific package with rosrun
+2024-05-13 04:48:19+00:00,2024,stackoverflow,Trouble running ROS2 launch files from a non-interactive SSH command
+2024-05-15 15:04:41+00:00,2024,stackoverflow,ArUco marker detection not working with ROS2 and PX4 SITL
+2024-05-16 11:12:12+00:00,2024,stackoverflow,ROS2 rate blocked
+2024-05-17 13:01:03+00:00,2024,stackoverflow,Problem with Docker image ROS noetic on Fedora-40
+2024-05-17 17:08:04+00:00,2024,stackoverflow,"How to resolve ""context mismatch in svga_surface_destroy""?"
+2024-05-18 14:18:34+00:00,2024,stackoverflow,rosserial arduino multiarray callback does not run
+2024-05-22 09:36:34+00:00,2024,stackoverflow,Apt fails to fetch data from reachable IP
+2024-05-24 15:54:26+00:00,2024,stackoverflow,Robotics PD controller
+2024-06-04 07:27:22+00:00,2024,stackoverflow,gazebo: error while loading shared libraries: libopenh264.so.5: cannot open shared object file: No such file or directory
+2024-06-06 06:12:18+00:00,2024,stackoverflow,Subscriber doesn't receive any messages
+2024-06-06 09:08:15+00:00,2024,stackoverflow,ROS2 Generating Odometry with GPS and IMU Data and Visualizing in RViz
+2024-06-07 11:43:44+00:00,2024,stackoverflow,ROS 2 Jazzy: Unable to Install Webots distributed package
+2024-06-07 13:27:58+00:00,2024,stackoverflow,pcl_conversions fails to convert from sensor_msgs::PointCloud2 to pcl::PointCloud2 on Jetson (arm architecture)
+2024-06-10 12:07:53+00:00,2024,stackoverflow,Spawn service failed
+2024-06-13 01:48:45+00:00,2024,stackoverflow,Publisher send the messages but subscribers cannot receive correctly in ROS
+2024-06-27 09:51:03+00:00,2024,stackoverflow,How could I accomplish the equivalent of a ROS service in ZeroMQ?
+2024-07-02 16:03:11+00:00,2024,stackoverflow,catkin_make error - ros-noetic-catkin-virtualenv
+2024-07-04 12:00:22+00:00,2024,stackoverflow,Issues with Aligning Infrared and RGB Images from Intel RealSense D435i in ROS
+2024-07-05 08:08:16+00:00,2024,stackoverflow,No Point Cloud Output When using depth_image_proc/point_cloud_xyzrgb in ROS
+2024-07-07 09:24:15+00:00,2024,stackoverflow,ESP32S3 Dev Kit keeps crashing when trying to receive serial commands
+2024-07-09 15:51:15+00:00,2024,stackoverflow,Convert a ros2 topic to a v4l2 virtual camera
+2024-07-10 20:30:32+00:00,2024,stackoverflow,"VSCode C++ Extension cannot locate ""physics::ModelPtr"" from gazebo library"
+2024-07-14 16:10:11+00:00,2024,stackoverflow,TypeError: cannot unpack non-iterable NoneType object how can ı solve this problem
+2024-07-30 04:56:59+00:00,2024,stackoverflow,"How to Load and Display a .sdf File as a 3D Model Using Swift, UIKit, and SceneKit?"
+2024-08-09 00:08:58+00:00,2024,stackoverflow,ROS1 slam_toolbox map has lots of ghosted walls
+2024-08-13 18:05:35+00:00,2024,stackoverflow,How to test a function on a ROS 2 node that requires a static transform to be published?
+2024-08-16 10:01:09+00:00,2024,stackoverflow,ROS2 Node Publishing GPS Data Drifts Out of Bounds After Several Seconds
+2024-08-20 06:28:43+00:00,2024,stackoverflow,"Displaying gazebo realsense image using ROS, depth image looks weird and having different size from the raw"
+2024-08-20 08:25:18+00:00,2024,stackoverflow,Create Custom microROS Messages in PlatformIO
+2024-08-21 06:25:35+00:00,2024,stackoverflow,"roslaunch running error process has died [pid 4185027, exit code -8,"
+2024-08-27 05:09:20+00:00,2024,stackoverflow,teleop_twist_keyboard moving the bot in reverse
+2024-08-28 15:32:47+00:00,2024,stackoverflow,rosrun rosserial_python serial_node.py /dev/ttyUSB0 error while running this file
+2024-09-06 13:09:14+00:00,2024,stackoverflow,Getting the error munmap_chunk(): invalid pointer: 0x00007ffe53bfa2c0 *** but not using free or malloc
+2024-09-24 03:13:58+00:00,2024,stackoverflow,How do I use positional argument to initialize Pose from geometry_msgs of ROS?
+2024-09-25 05:37:14+00:00,2024,stackoverflow,Why do we need to specify the object in std::bind() to describe it as a functor?
+2024-09-26 02:47:19+00:00,2024,stackoverflow,PointCloud2 is not display correct
+2024-09-27 19:07:11+00:00,2024,stackoverflow,rmw_cyclonedds_cpp on windows using humble distro
+2024-09-29 08:52:16+00:00,2024,stackoverflow,Use ROS to connect raspberry pi 5 with ubuntu24 and laptop with ubuntu20
+2024-10-07 19:41:50+00:00,2024,stackoverflow,ROS2 Node runs using python3 command but not with ros2 run
+2024-10-08 05:58:23+00:00,2024,stackoverflow,Delegate of my function has a null target
+2024-10-10 11:30:10+00:00,2024,stackoverflow,"In the TurtleBot3 Gazebo simulation, the angular velocity exhibits significant fluctuations at certain points, leading to instability"
+2024-10-21 09:27:43+00:00,2024,stackoverflow,ROS2 launch error when installing my package
+2024-10-26 22:52:16+00:00,2024,stackoverflow,Unable to load controllers for URDF model in Gazebo and ROS Noetic
+2024-10-29 12:57:36+00:00,2024,stackoverflow,How do we infer the way create_publisher should be defined in ROS from the documentation?
+2024-10-30 19:56:06+00:00,2024,stackoverflow,TurtleBot3 Navigation Issue with Custom Local Costmap Using Intel RealSense D435i Data (ROS1)
+2024-10-31 18:15:33+00:00,2024,stackoverflow,Unable to get CAN network to show up in Docker Container despite passing the --network host parameter
+2024-11-07 14:32:17+00:00,2024,stackoverflow,Unable to Connect ROS 2 Controller to Webots Instance from Docker Container
+2024-11-15 06:25:14+00:00,2024,stackoverflow,WebRTC connection does not happen after ICE exchange
+2024-11-17 07:11:20+00:00,2024,stackoverflow,implement nav2 navigation using d455 realsense camera
+2024-11-17 23:47:18+00:00,2024,stackoverflow,What is the best way to deal with protoc generated file with docker?
+2024-11-20 05:02:37+00:00,2024,stackoverflow,ROS1: RobotModel errors in RViz
+2024-11-20 06:10:02+00:00,2024,stackoverflow,URDF in ros2 no transform between lidar to base_link
+2024-11-25 20:48:11+00:00,2024,stackoverflow,"Testing global and local lplannes using created footprint and static map, is not working when given pose goal, why?"
+2024-11-28 04:18:02+00:00,2024,stackoverflow,Visual Enabled does not work in rviz when running 'roslaunch husky_viz view_robot.launch'
+2024-11-28 09:45:02+00:00,2024,stackoverflow,Try to convert pointcloud2 from rosbag to google draco point cloud (encoded)
+2024-12-02 14:37:47+00:00,2024,stackoverflow,"Package 'ros_gz_sim' not found: ""package 'ros_gz_sim' not found, searching:"
+2024-12-06 09:48:40+00:00,2024,stackoverflow,LsLidar Poll Timeout
+2024-12-07 18:01:13+00:00,2024,stackoverflow,python3 dowgrade in ubuntu 22.04.1
+2024-12-20 04:22:49+00:00,2024,stackoverflow,rviz2 doesnt detect one of the joint/link combos in the urdf while other urdf viewers do
