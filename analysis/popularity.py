@@ -8,7 +8,7 @@ output_dir = "output/popularity"
 os.makedirs(output_dir, exist_ok=True)
 
 # Load the CSV file
-df = pd.read_csv("../mining/ros_packages_with_github_metrics.csv")
+df = pd.read_csv("../mining/demographics/ros_packages_with_github_metrics.csv")
 
 # Column names
 stars_column = "GitHub Stars"

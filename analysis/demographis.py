@@ -7,7 +7,7 @@ import os
 # ==========================
 # Configuration
 # ==========================
-CSV_FILE = "./mining/ros_packages_url.csv"
+CSV_FILE = "./data/mining/demographics/ros_packages_url.csv"
 OUTPUT_DIR = "./analysis/output/demographics"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)

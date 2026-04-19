@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # --------------------------------------------------
 # Load discussion data
 # --------------------------------------------------
-df = pd.read_csv("../mining/discussion_dates.csv")
+df = pd.read_csv("../mining/data/discussion/discussion_dates.csv")
 
 # Parse dates
 df["date"] = pd.to_datetime(df["date"], errors="coerce", utc=True)
