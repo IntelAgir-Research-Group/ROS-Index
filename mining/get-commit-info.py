@@ -17,11 +17,11 @@ if GITHUB_TOKEN:
     headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
 
 # input_csv = "ros_repository_github.csv"
-input_csv = "ros_repository_github_top10.csv"
+input_csv = "./data/demographics/ros_repository_github_top10.csv"
 # output_csv = "github_repository_activity.csv"
-commits_output_csv = "github_commits.csv"
-issues_output_csv = "github_issues.csv"
-prs_output_csv = "github_pull_requests.csv"
+commits_output_csv = "./data/popularity/github_commits.csv"
+issues_output_csv = "./data/popularity/github_issues.csv"
+prs_output_csv = "./data/popularity/github_pull_requests.csv"
 
 COMMITS_PER_REPO = 100
 ISSUES_PER_REPO = 100
@@ -72,39 +72,97 @@ def extract_owner_repo(repo_url):
 #         print(f"Request error for {url}: {e}")
 #         return None
 
-def safe_request(url, params=None, timeout=30):
-    try:
-        response = requests.get(
-            url,
-            headers=headers,
-            params=params,
-            timeout=timeout
-        )
+# def safe_request(url, params=None, timeout=30):
+#     try:
+#         response = requests.get(
+#             url,
+#             headers=headers,
+#             params=params,
+#             timeout=timeout
+#         )
 
-        if response.status_code == 403:
-            remaining = response.headers.get("X-RateLimit-Remaining")
-            reset_time = response.headers.get("X-RateLimit-Reset")
+#         if response.status_code == 403:
+#             remaining = response.headers.get("X-RateLimit-Remaining")
+#             reset_time = response.headers.get("X-RateLimit-Reset")
 
-            print(f"Rate limit reached. Remaining: {remaining}, Reset: {reset_time}")
-            return None
+#             print(f"Rate limit reached. Remaining: {remaining}, Reset: {reset_time}")
+#             return None
 
-        if response.status_code != 200:
+#         if response.status_code != 200:
+#             print(f"Request failed: {url} -> {response.status_code}")
+#             return None
+
+#         return response
+
+#     except requests.exceptions.Timeout:
+#         print(f"Timeout while requesting: {url}")
+#         return None
+
+#     except requests.exceptions.ConnectionError:
+#         print(f"Connection error while requesting: {url}")
+#         return None
+
+#     except requests.exceptions.RequestException as e:
+#         print(f"Request error for {url}: {e}")
+#         return None
+from datetime import datetime
+import time
+import requests
+
+
+def safe_request(url, params=None, timeout=20):
+    while True:
+        try:
+            response = requests.get(
+                url,
+                headers=headers,
+                params=params,
+                timeout=timeout
+            )
+
+            # Success
+            if response.status_code == 200:
+                return response
+
+            # Rate limit reached
+            if response.status_code in [403, 429]:
+                remaining = response.headers.get("X-RateLimit-Remaining")
+                reset_time = response.headers.get("X-RateLimit-Reset")
+
+                print(f"Rate limit reached. Remaining: {remaining}, Reset: {reset_time}")
+
+                if reset_time:
+                    reset_timestamp = int(reset_time)
+                    current_timestamp = int(time.time())
+
+                    sleep_seconds = max(reset_timestamp - current_timestamp + 5, 5)
+
+                    reset_datetime = datetime.utcfromtimestamp(reset_timestamp)
+
+                    print(f"Sleeping for {sleep_seconds} seconds until {reset_datetime} UTC...")
+                    time.sleep(sleep_seconds)
+                    continue
+
+                else:
+                    print("Sleeping for 60 seconds...")
+                    time.sleep(60)
+                    continue
+
+            # Other errors
             print(f"Request failed: {url} -> {response.status_code}")
             return None
 
-        return response
+        except requests.exceptions.Timeout:
+            print(f"Timeout while requesting: {url}")
+            return None
 
-    except requests.exceptions.Timeout:
-        print(f"Timeout while requesting: {url}")
-        return None
+        except requests.exceptions.ConnectionError:
+            print(f"Connection error while requesting: {url}")
+            return None
 
-    except requests.exceptions.ConnectionError:
-        print(f"Connection error while requesting: {url}")
-        return None
-
-    except requests.exceptions.RequestException as e:
-        print(f"Request error for {url}: {e}")
-        return None
+        except requests.exceptions.RequestException as e:
+            print(f"Request error for {url}: {e}")
+            return None
 
 
 def get_default_branch(owner, repo):
