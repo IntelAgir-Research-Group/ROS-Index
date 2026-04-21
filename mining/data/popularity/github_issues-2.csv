@@ -1,0 +1,41 @@
+repository,issue_number,issue_state,issue_title,issue_created_at,issue_closed_at,issue_author,issue_comments
+ros-planning/navigation2,6099,open,"Can DWB be tuned to penetrate deeper into the XY goal region before final rotation, without changing xy_goal_tolerance?",2026-04-21T07:09:31Z,,maartenkoks,0
+ros-planning/navigation2,6096,closed,IsGoalNearby condition ignores frame parameters of  BT navigator,2026-04-20T12:15:28Z,2026-04-20T19:48:42Z,fabmene,1
+ros-planning/navigation2,6095,open,Feature Request: Virtual Costmap Layer for Dynamic Zones,2026-04-17T12:10:09Z,,sherif1152,5
+ros-planning/navigation2,6085,closed,Stack smash in AMCL,2026-04-14T09:15:55Z,2026-04-14T15:17:01Z,Hugal31,1
+ros-planning/navigation2,6084,closed,ObstacleLayer marks spurious LETHAL cells due to cell-distance discretization mismatch after PR #5697,2026-04-14T02:58:33Z,2026-04-20T19:14:01Z,Cheny5863,2
+ros-planning/navigation2,6082,open,GoalUpdated condition node cannot halt global recovery,2026-04-13T13:43:10Z,,polben,3
+ros-planning/navigation2,6080,open,Feature: Add SurfaceConditionFilter costmap filter plugin,2026-04-11T03:00:42Z,,aki1770-del,5
+ros-planning/navigation2,6079,open,Experiment with semgrep,2026-04-10T19:33:36Z,,tonynajjar,3
+ros-planning/navigation2,6078,open,Add Claude.md,2026-04-10T19:31:38Z,,tonynajjar,1
+ros-planning/navigation2,6075,open,Smac Planner No effect of reverse_penalty parameter during analytic expansions,2026-04-10T09:14:00Z,,remyrol,3
+ros-planning/navigation2,6073,closed,[nav2_docking] `backward_projection` Direction Incorrect When `dock_backwards:=true`,2026-04-09T07:19:38Z,2026-04-13T10:27:11Z,swwdsy,3
+ros-planning/navigation2,6067,closed,BT Navigator cannot find wait action server during bringup,2026-04-06T19:46:59Z,2026-04-07T18:43:51Z,mjimenezm00,9
+ros-planning/navigation2,6065,open,[MPPI] Add model delay to represent physical latency,2026-04-05T14:22:56Z,,BriceRenaudeau,1
+ros-planning/navigation2,6061,open,Investigate Bond overhead and reduce its CPU usage,2026-04-02T18:38:58Z,,SteveMacenski,3
+ros-planning/navigation2,6057,closed,[IDEA] Implementing FollowPath as a Route Operation Plugin,2026-04-01T05:53:34Z,2026-04-02T02:38:59Z,NTques,4
+ros-planning/navigation2,6056,closed,Navigation for humanoid robot,2026-03-31T19:41:19Z,2026-03-31T20:04:59Z,FranRFH,3
+ros-planning/navigation2,6054,closed,ComputeAndTrackRoute blocks PipelineSequence,2026-03-31T05:48:02Z,2026-03-31T21:27:27Z,NTques,1
+ros-planning/navigation2,6049,open,Evaluate the use of zero-copy access to BT blackboard,2026-03-27T10:23:15Z,,DylanDeCoeyer-Quimesis,6
+ros-planning/navigation2,6048,closed,Shouldn't nav2_behaviors be a dependency of nav2_bt_navigator?,2026-03-26T14:35:01Z,2026-03-27T13:54:24Z,EGAlberts,2
+ros-planning/navigation2,6045,closed,question about SimpleChargingDock external detection rotation,2026-03-21T18:51:36Z,2026-04-09T20:49:36Z,nikolaos-drosinos,2
+ros-planning/navigation2,6042,closed,MPPI: Velocity constraint inconsistency: vx_min violated but no cost applied in ConstraintCritic,2026-03-19T05:08:35Z,2026-04-20T19:06:05Z,prajwalthakur,3
+ros-planning/navigation2,6041,open,Lifecycle manager deadlock when shutting down during bringup and clean shutdown (humble),2026-03-18T09:55:19Z,,ninowegleitner,2
+ros-planning/navigation2,6033,open,New FallbackToleranceGoalChecker?,2026-03-13T08:21:19Z,,tonynajjar,9
+ros-planning/navigation2,6032,open,[MPPI Controller] Feature request: Add plugins for control set generation and motion model selection,2026-03-13T08:02:40Z,,Alessio-Parmeggiani,10
+ros-planning/navigation2,6031,closed,Robot will not drive forward despite the path's being clear,2026-03-13T07:52:19Z,2026-03-13T21:49:06Z,FWAiden,1
+ros-planning/navigation2,6030,closed,bad_weak_ptr and Race Condition on ARM64,2026-03-13T06:53:19Z,2026-04-20T10:02:10Z,Xu1024,9
+ros-planning/navigation2,6025,open,Support OSM Graph File Loader in nav2_route,2026-03-11T09:05:30Z,,RamanRobotics,5
+ros-planning/navigation2,6024,closed,Dynamic Object Following in Humble,2026-03-11T07:49:42Z,2026-03-11T16:02:43Z,s-w3i,1
+ros-planning/navigation2,6023,closed,DWPP dynamic window calculation: commanded velocity vs odom feedback,2026-03-11T07:09:38Z,2026-03-11T08:53:43Z,prajwalthakur,1
+ros-planning/navigation2,6015,closed,Cannot compile nav2_route using clang,2026-03-06T02:31:08Z,2026-03-06T17:27:34Z,solonovamax,1
+ros-planning/navigation2,6014,closed,Cannot compile MPPI controller using clang on Linux,2026-03-06T01:02:12Z,2026-03-06T17:27:31Z,solonovamax,1
+ros-planning/navigation2,6013,closed,Data race in StaticLayer::updateCosts() (static_layer.cpp:463),2026-03-06T00:56:54Z,2026-03-06T17:43:15Z,Finder16,1
+ros-planning/navigation2,6012,closed,Data race in ObstacleLayer::updateBounds() (obstacle_layer.cpp:438),2026-03-06T00:52:04Z,2026-03-06T17:43:12Z,Finder16,1
+ros-planning/navigation2,6011,closed,Data race in InflationLayer::updateCosts() (inflation_layer.cpp:316),2026-03-06T00:45:12Z,2026-03-06T17:43:08Z,Finder16,1
+ros-planning/navigation2,6010,closed,Data race in CostmapSubscriber::toCostmap2D(),2026-03-06T00:34:50Z,2026-03-06T17:43:06Z,Finder16,1
+ros-planning/navigation2,6009,closed,Data race in CostmapSubscriber::costmapCallback() on costmap_received_,2026-03-06T00:26:37Z,2026-03-13T00:55:08Z,Finder16,9
+ros-planning/navigation2,6003,closed,[Humble][macOS] Build Failure in nav2_mppi_controller on macOS (Apple Clang xtensor template ambiguity),2026-03-04T16:39:10Z,2026-03-11T16:10:49Z,idesign0,9
+ros-planning/navigation2,6002,open,Design Overview: Operations Server,2026-03-04T15:35:19Z,,NOTMOVETON,9
+ros-planning/navigation2,6001,closed,Allow specifying output directory for RewrittenYaml to support long-running respawning nodes,2026-03-04T14:48:29Z,2026-03-06T20:43:39Z,DylanDeCoeyer-Quimesis,1
+ros-planning/navigation2,5999,closed,Ackermann robot drives past the corner and reverses when leaving route nodes in narrow space,2026-03-04T04:53:15Z,2026-03-27T03:32:45Z,iumida,3

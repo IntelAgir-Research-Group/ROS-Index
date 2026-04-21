@@ -1,46 +1,12 @@
 repository,issue_number,issue_state,issue_title,issue_created_at,issue_closed_at,issue_author,issue_comments
-Neargye/magic_enum,451,open,Iterate over empty enum,2026-04-08T12:22:19Z,,Rayman,0
-Neargye/magic_enum,449,closed,It does not work if multiple keys in the enum class have the same value,2026-03-05T23:11:57Z,2026-03-05T23:16:51Z,by408,1
-Neargye/magic_enum,447,open,Add public is_flags type trait,2026-02-20T10:26:20Z,,jannejy,0
-Neargye/magic_enum,446,closed,Add custom separator symbol for enum_flags_cast from string,2026-02-20T08:12:01Z,2026-02-27T16:46:12Z,jannejy,1
-Neargye/magic_enum,444,closed,Compile error occurs in latest code in master branch,2026-02-05T13:02:08Z,2026-02-07T17:21:14Z,TE-9004095894,3
-Neargye/magic_enum,441,closed,"When using magic_enum in combination with fmtlib, compilation errors occur with older versions of compilers.",2026-01-20T06:59:16Z,2026-02-06T07:02:16Z,WtDMaO0,2
-Neargye/magic_enum,437,open,Clangd21 check failed in magic_enum.hpp,2025-12-03T07:10:35Z,,guankeliang2021-dot,2
-Neargye/magic_enum,434,open,using namespace magic_enum::bitwise_operators; is very evil,2025-10-20T16:03:25Z,,oxiKKK,6
-Neargye/magic_enum,431,closed,Any new release planned?,2025-10-07T14:20:57Z,2025-10-08T18:29:15Z,andrabullar,1
-Neargye/magic_enum,428,closed,Magic Enum Fails to Fully Enumerate Enum Values on MinGW 13,2025-09-05T21:16:21Z,2025-09-05T21:44:08Z,tfinnegan937,6
-Neargye/magic_enum,427,closed,Linking fails with multiple compilation units,2025-09-02T23:45:04Z,2025-09-05T15:52:09Z,craigpepper,2
-Neargye/magic_enum,425,closed,Link issue on Ubuntu 20.02 with clang-20,2025-09-01T07:23:29Z,2025-09-01T08:10:36Z,DmitriiKuchevskii,2
-Neargye/magic_enum,420,open,ROS2 Kilted Sync (2025-07-28) ~ 0.9.7-1 : Fails to resolve is_nothrow_invocable_v in magic_enum::detail,2025-07-29T19:41:36Z,,jacstofberg,11
-Neargye/magic_enum,419,open,The binary installation and source code installation paths are different,2025-07-29T02:48:11Z,,Plumezz,4
-Neargye/magic_enum,418,closed,Cmake: allow to install even if is a subproject,2025-07-19T17:56:42Z,2025-07-19T18:07:35Z,EddyTheCo,1
-Neargye/magic_enum,415,closed,How to comfortably get a c_str?,2025-06-13T07:43:01Z,2025-07-17T09:54:47Z,kaddkaka,10
-Neargye/magic_enum,412,closed,Design Question Why is the API function based instead of variable based,2025-06-09T11:36:25Z,2025-06-29T17:08:46Z,ZXShady,3
-Neargye/magic_enum,411,closed,C++20 module is not installed via vcpkg,2025-05-12T09:19:32Z,2025-05-12T09:20:22Z,Stevan1996,0
-Neargye/magic_enum,410,closed,Fails to cast enum name,2025-05-05T10:29:12Z,2025-05-05T10:33:54Z,Biblehome,3
-Neargye/magic_enum,409,closed,Flags with missing value not working as expected,2025-05-04T13:11:49Z,2025-11-21T14:32:25Z,florianbecker,2
-Neargye/magic_enum,404,open,Enum values EmptyAndUnknown(512) andUnsupportednot detected inenum_values(),2025-03-21T02:35:18Z,,ggboooy,1
-Neargye/magic_enum,402,closed,Feature request: remove prefix from enum name,2025-02-20T18:51:29Z,2025-09-04T14:51:16Z,durka,2
-Neargye/magic_enum,400,closed,Missing entries in enum_names and enum_count,2025-02-12T11:49:55Z,2025-02-13T10:47:12Z,psyinf,3
-Neargye/magic_enum,397,closed,Using with std::format fails with gcc/libstdc++,2025-01-12T22:02:04Z,2025-11-21T14:35:00Z,MoshiKoi,3
-Neargye/magic_enum,396,open,Installing module interafce file,2025-01-07T19:55:06Z,,helynranta,1
-Neargye/magic_enum,393,open,std::hash impl for magic_enum::containers::bitset?,2024-12-13T05:09:22Z,,jadebenn,2
-Neargye/magic_enum,388,closed,enum_name output for undefined enum values,2024-11-04T10:47:37Z,2024-11-07T17:35:59Z,ivrolan,3
-Neargye/magic_enum,386,closed,enum_fuse seems to generate duplicate values,2024-11-02T12:00:59Z,2024-11-13T23:04:45Z,bshm,1
-Neargye/magic_enum,384,closed,Runtime Reflection?,2024-10-21T21:49:25Z,2024-11-13T23:42:45Z,stellarpower,2
-Neargye/magic_enum,381,closed,please add an ADL version of customize::enum_range<> (code included),2024-10-13T17:17:12Z,2025-06-11T17:03:18Z,lsemprini,9
-Neargye/magic_enum,379,closed,Including fmt/ranges.h and magic_enum/magic_enum_format.hpp fails to compile,2024-09-18T14:03:09Z,2025-02-20T08:37:59Z,edelmanjm,7
-Neargye/magic_enum,378,open,Working as intended? Named combined bitflags cannot be casted to,2024-09-06T15:38:43Z,,JWCS,8
-Neargye/magic_enum,377,closed,Pollutes /usr/local/include install directory with too many headers,2024-09-04T20:53:22Z,2024-10-14T15:08:08Z,JWCS,1
-Neargye/magic_enum,373,closed,"Releasing the same Version multiple times changes Hash, breaks VCPKG",2024-08-13T10:47:31Z,2024-08-18T17:48:07Z,anders-wind,7
-Neargye/magic_enum,372,closed,Tag v0.9.6 appears to be misplaced,2024-08-12T13:50:44Z,2024-08-13T11:07:51Z,tomzy-0,2
-Neargye/magic_enum,371,open,Is magic_enum supported on nvc++?,2024-08-09T20:12:25Z,,Jasonguo9019,4
-Neargye/magic_enum,368,open,Question about dead case filling part of calculate_cases function,2024-07-21T08:38:51Z,,duinggulgi,0
-Neargye/magic_enum,366,closed,Construct bitset from string_view,2024-07-19T09:52:27Z,2024-07-19T12:52:06Z,asolwa,1
-Neargye/magic_enum,362,closed,test_containers.cpp: error: > value computed is not used [-Werror=unused-value],2024-06-27T06:55:01Z,2024-06-28T19:59:34Z,MarkAtBosch,3
-Neargye/magic_enum,361,closed,example.cpp does not work unless i customize names,2024-06-19T16:00:06Z,2025-02-26T14:54:50Z,cyrilDamae,1
-Neargye/magic_enum,359,closed,Support for C++11,2024-06-05T06:17:37Z,2024-06-08T18:12:45Z,rhvarrier,2
-Neargye/magic_enum,357,closed,magic_enum::enum_name Fails on large enums,2024-06-02T07:50:13Z,2024-06-08T18:11:11Z,Antidote,1
-Neargye/magic_enum,355,closed,[Feature request] add support for something like std::in_range for eums,2024-05-27T10:23:05Z,2024-06-29T13:51:46Z,stkw0,1
-Neargye/magic_enum,353,closed,error: declaration of ‘parent’ shadows a member of ‘magic_enum::containers::bitset<T>::reference_impl<magic_enum::containers::bitset<T>*>’ [-Werror=shadow],2024-05-25T09:13:04Z,2024-05-25T14:30:52Z,alex-tee,2
-Neargye/magic_enum,352,closed,enum literals with values > 127,2024-05-24T05:35:53Z,2024-05-25T14:25:44Z,smoehne,1
+ToyotaResearchInstitute/gauges2,36,open,UserWarning: Unknown distribution option: 'tests_require',2025-07-27T02:15:40Z,,Plumezz,0
+ToyotaResearchInstitute/gauges2,27,closed,/ character breaks autocomplete,2024-01-11T19:07:00Z,2024-02-16T14:53:42Z,andrewbest-tri,2
+ToyotaResearchInstitute/gauges2,26,closed,Steerirng Wheel widget needs to truncate values,2024-01-11T18:44:53Z,2024-01-15T12:34:36Z,andrewbest-tri,2
+ToyotaResearchInstitute/gauges2,25,closed,Segfault on repeated clicks. ,2024-01-11T18:43:41Z,2024-02-16T14:54:36Z,andrewbest-tri,1
+ToyotaResearchInstitute/gauges2,18,closed,Transfer repository to ToyotaReaserchInstitute organization,2023-12-13T12:14:02Z,2023-12-13T16:08:43Z,francocipollone,0
+ToyotaResearchInstitute/gauges2,11,closed,Investigate crashes,2023-12-13T09:39:12Z,2024-01-03T16:51:10Z,ahcorde,1
+ToyotaResearchInstitute/gauges2,9,closed,Document the repository,2023-03-31T17:26:02Z,2023-12-13T12:27:33Z,francocipollone,1
+ToyotaResearchInstitute/gauges2,8,closed,Move all the helper methods used on the widgets to a single module.,2023-03-30T15:23:02Z,2024-01-03T16:51:00Z,Voldivh,1
+ToyotaResearchInstitute/gauges2,6,open,Log a warning when the message goes off the range,2023-03-16T14:04:28Z,,francocipollone,0
+ToyotaResearchInstitute/gauges2,5,closed,Speedometer widget being re-sizable,2023-03-16T14:00:08Z,2024-01-03T16:50:48Z,francocipollone,1
+ToyotaResearchInstitute/gauges2,1,closed,[META] Create a RQT Plugin with visualization tools,2022-09-06T18:01:38Z,2023-12-13T12:27:51Z,Voldivh,0
