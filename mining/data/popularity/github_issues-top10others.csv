@@ -1,0 +1,342 @@
+repository,issue_number,issue_state,issue_title,issue_created_at,issue_closed_at,issue_author,issue_comments
+carla-simulator/carla,9704,open,"When packaging CARLA on Ubuntu 20.04 + Clang 10, the following error occurs: Boost rational.hpp displays the message ""cannot use 'try' with exceptions disabled""",2026-04-29T06:05:14Z,,jiandaoshou-aidehua,1
+carla-simulator/carla,9700,open,Request static assets for Carla 0.10,2026-04-28T11:47:58Z,,QWBO111,1
+carla-simulator/carla,9695,open,Custom Vehicle Model Import Failure,2026-04-25T16:51:29Z,,gokcerSnmzck,5
+carla-simulator/carla,9693,open,getting (301) Moved Permanently Redirect while getting UnrealEngine patch file,2026-04-25T15:25:39Z,,YousefSedik,0
+carla-simulator/carla,9691,open,Left-handed traffic (LHT) is not implemented in the loaded town,2026-04-23T11:42:10Z,,itaykrisher,0
+carla-simulator/carla,9688,open,UnrealTraceServer process causes build to stall,2026-04-22T16:44:44Z,,qhaas,0
+carla-simulator/carla,9685,open,EnvironmentObject Id link to instance segmentation image tags,2026-04-17T12:55:21Z,,waleed-abu-laban,0
+carla-simulator/carla,9684,closed,Biker animation not working in CARLA 0.10.0 ue5,2026-04-17T10:50:50Z,2026-04-17T11:46:11Z,Lungooo,1
+carla-simulator/carla,9683,closed,EnvironmentObject Id link to instance segmentation map tags,2026-04-17T09:52:24Z,2026-04-17T10:20:25Z,waleed-abu-laban,1
+carla-simulator/carla,9680,open,Apply UE 5.5.4 hotfix patch to CARLA's Unreal Engine fork,2026-04-15T04:27:51Z,,youtalk,3
+carla-simulator/carla,9679,closed,"Can I use Carla to make a racing game to run on Steam Deck, and publish it to Steam?",2026-04-15T03:28:37Z,2026-04-16T06:15:54Z,nwy140,1
+carla-simulator/carla,9677,closed,"ComputeEdgesForLanemark always applies extra_lane_width, shifting solid lane markings",2026-04-14T18:43:28Z,2026-04-16T06:18:22Z,youtalk,0
+carla-simulator/carla,9675,closed,RViz2 intermittent segfault on shutdown when using run_rviz.sh,2026-04-14T16:08:18Z,2026-04-16T15:20:03Z,LuisPovedaCano,2
+carla-simulator/carla,9674,closed,CycloneDDS ROS2 Jazzy Warnings,2026-04-14T16:03:49Z,2026-04-16T15:20:22Z,LuisPovedaCano,4
+carla-simulator/carla,9673,closed,CycloneDDS bad performance,2026-04-14T15:56:44Z,2026-04-14T18:41:42Z,LuisPovedaCano,2
+carla-simulator/carla,9668,closed,"ninja: error: '/home/tami/carla/Build/fast-dds-install/lib/libfastrtps.a', needed by 'LibCarla/cmake/test/libcarla_test_server_release', missing and no known rule to make it",2026-04-13T03:18:04Z,2026-04-14T07:37:14Z,zycwow,2
+carla-simulator/carla,9667,open,NVIDIA NuRec tutorial is broken,2026-04-12T08:06:19Z,,BaderTim,2
+carla-simulator/carla,9664,open,LHF is not working,2026-04-09T12:17:18Z,,hacked-bd-vuw,0
+carla-simulator/carla,9648,closed,Missing CARLA Content when building CarlaUE5 on Windows11,2026-04-07T10:34:46Z,2026-04-07T14:08:00Z,mfuu,1
+carla-simulator/carla,9646,open,Semantic lidar problem in UE5 verison of CARLA,2026-04-06T12:46:37Z,,Bestdriver411,0
+carla-simulator/carla,9642,closed,Unable to create a fog weather in 0.10.0 version,2026-04-02T12:43:40Z,2026-04-02T15:22:02Z,Bestdriver411,2
+carla-simulator/carla,9635,open,Port ue4-dev features and fixes to ue5-dev (tracking issue),2026-04-02T00:31:05Z,,youtalk,4
+carla-simulator/carla,9634,open,"Port ue4-dev misc improvements to ue5-dev (Category 9: OpenDrive, Traffic, Python)",2026-04-02T00:30:48Z,,youtalk,0
+carla-simulator/carla,9633,open,Port ue4-dev left-hand traffic support to ue5-dev (Category 8: LHT),2026-04-02T00:30:36Z,,youtalk,0
+carla-simulator/carla,9632,open,Port ue4-dev segmentation fixes to ue5-dev (Category 7: Segmentation),2026-04-02T00:30:32Z,,youtalk,0
+carla-simulator/carla,9631,open,Port ue4-dev new sensors to ue5-dev (Category 6: Sensors),2026-04-02T00:30:26Z,,youtalk,0
+carla-simulator/carla,9630,open,Port ue4-dev vehicle/physics/control API to ue5-dev (Category 5: Vehicle API),2026-04-02T00:30:17Z,,youtalk,0
+carla-simulator/carla,9629,open,Port ue4-dev TrafficManager improvements to ue5-dev (Category 4: TM),2026-04-02T00:30:06Z,,youtalk,0
+carla-simulator/carla,9628,open,Port ue4-dev recorder/replay features to ue5-dev (Category 3: Recorder),2026-04-02T00:30:02Z,,youtalk,0
+carla-simulator/carla,9627,closed,Port ue4-dev ROS2 enhancements to ue5-dev (Category 2: ROS2),2026-04-02T00:29:52Z,2026-04-07T21:30:40Z,youtalk,1
+carla-simulator/carla,9626,closed,bug(NaniteBuilder): ClusterDAG assertion crash due to int8 overflow in ExternalEdges (UE 5.5.0),2026-04-01T22:21:59Z,2026-04-09T14:39:41Z,youtalk,3
+carla-simulator/carla,9624,closed,sensor bugs of UE5-dev version,2026-04-01T08:36:36Z,2026-04-02T12:48:25Z,Bestdriver411,2
+carla-simulator/carla,9616,closed,Missing CARLA content when building CarlaUE5 on Ubuntu (CMake Error: Missing CARLA content) cann't download the git lfs,2026-03-29T14:21:02Z,2026-04-13T11:43:07Z,zaid-damag,2
+carla-simulator/carla,9615,closed,Map Mine_01 Material lost in UE5-dev version,2026-03-29T06:21:59Z,2026-04-01T08:35:03Z,Bestdriver411,3
+carla-simulator/carla,9614,closed,Seeking open-source map generation alternative for UE4/UE5,2026-03-28T17:57:04Z,2026-03-30T07:56:51Z,Floriangit12,1
+carla-simulator/carla,9610,open,Missing relative transform in GetActorBoundingBox,2026-03-27T11:10:56Z,,LuisPovedaCano,1
+carla-simulator/carla,9609,open,Add unit/integration test for RPC server shutdown deadlock fix,2026-03-27T10:07:39Z,,LuisPovedaCano,0
+carla-simulator/carla,9604,open,make package error on ue4-dev,2026-03-25T16:03:49Z,,csonthomihaly,9
+carla-simulator/carla,9600,closed,LHT issues,2026-03-23T04:48:50Z,2026-03-25T15:26:47Z,hacked-bd-vuw,1
+ArduPilot/ardupilot,32926,open,AC_WPNav_OA: add SITL check that origin and destination are of the same alt frame,2026-04-28T07:30:37Z,,rmackay9,0
+ArduPilot/ardupilot,32917,open,Rover: Consider turn rate in S-curves,2026-04-26T23:44:52Z,,stephendade,1
+ArduPilot/ardupilot,32913,open,[Bug] RTL path not re-initialized after ADS-B avoidance interruption in AUTO mode,2026-04-26T03:40:01Z,,Drone-Lab,1
+ArduPilot/ardupilot,32909,open,[meta] ArduPilot 5.x wish list,2026-04-25T04:20:05Z,,Ryanf55,4
+ArduPilot/ardupilot,32907,open,Create GitHub automation for size changes (zero binary),2026-04-24T13:49:37Z,,Ryanf55,0
+ArduPilot/ardupilot,32905,open,Add native DShot / BDShot telemetry error counters and per-ESC error rate,2026-04-24T08:02:42Z,,IPv777,2
+ArduPilot/ardupilot,32899,closed,"CubeOrangePlus: FrSky SPort passthrough fails on TELEM2, works on GPS2 (Plane 4.6.3)",2026-04-23T18:01:42Z,2026-04-23T23:25:10Z,jamesmharvey,1
+ArduPilot/ardupilot,32895,closed,Bug: EKF failsafe not triggering in SITL with VISO-only (no GPS) during outage,2026-04-23T08:47:33Z,2026-04-23T10:11:13Z,sabrina2200,0
+ArduPilot/ardupilot,32885,open,[Bug]: MCP9600 Driver fails to initialize on Pixhawk 6X,2026-04-22T14:33:04Z,,GiannisA,1
+ArduPilot/ardupilot,32881,open,Surface tracking rangefinder bug,2026-04-22T06:58:40Z,,Georacer,7
+ArduPilot/ardupilot,32878,open,Deprecated old Parameter < v3.9.x,2026-04-21T22:32:12Z,,khancyr,2
+ArduPilot/ardupilot,32876,open,"Sub: move to meters, NED",2026-04-21T18:56:39Z,,clydemcqueen,0
+ArduPilot/ardupilot,32874,open,Add support for ESTIMATOR_OUTPUT,2026-04-21T16:07:47Z,,marifante,1
+ArduPilot/ardupilot,32872,closed,Firmware server is still serving Beta-4.3,2026-04-21T10:11:36Z,2026-04-22T07:05:14Z,khancyr,1
+ArduPilot/ardupilot,32870,closed,VTOL-quicktune.lua // AC_AttitudeControl:get_att_error_angle_deg() returns NIL,2026-04-21T08:21:25Z,2026-04-21T10:13:04Z,cramredan1,1
+ArduPilot/ardupilot,32868,open,EKF3 can reset to a very old GPS fix under certain conditions.,2026-04-21T06:55:39Z,,priseborough,1
+ArduPilot/ardupilot,32862,open,RC_CHANNEL_OVERRIDE fallback to normal RC may cause invalid channel input to be consumed,2026-04-21T00:13:44Z,,rmackay9,2
+ArduPilot/ardupilot,32849,closed,Negative thrust under GUID_OPTIONS bit 3 causes rapid descent on standard Copter,2026-04-19T14:30:05Z,2026-04-19T23:18:52Z,jinmussj,1
+ArduPilot/ardupilot,32838,open,Units mistake in high_latency_tgt_dist( ),2026-04-18T15:52:19Z,,hunt0r,2
+PX4/PX4-Autopilot,27243,open,[Bug] Fix Open Drone ID System timestamp handling for DroneCAN forwarding,2026-04-29T18:52:22Z,,msli-dev,0
+PX4/PX4-Autopilot,27242,open,[Bug] File operations failing (STM32+NuttX+DTCM+IDMA),2026-04-29T16:40:15Z,,alexcekay,0
+PX4/PX4-Autopilot,27235,open,docs(bug): FW land mode may omit mission mode landing behaviour,2026-04-29T01:08:00Z,,hamishwillee,0
+PX4/PX4-Autopilot,27217,closed,chore(sbom): license audit found NOASSERTION entries on main (2026-04-27),2026-04-27T09:50:05Z,2026-04-27T17:37:04Z,github-actions[bot],1
+PX4/PX4-Autopilot,27216,open,[Bug] Blanket acceptance of MAVLink ADSB_VEHICLE and COLLISION,2026-04-26T21:52:16Z,,hamishwillee,0
+PX4/PX4-Autopilot,27213,open,[Bug] EKF2 accepts AFBR near-zero range during GPS RTL and resets HAGL/terrain from ~93 m to ~0.06 m,2026-04-26T11:25:31Z,,Viliuks,0
+PX4/PX4-Autopilot,27203,open,[Bug] RC Link Loss Failsafe Triggers on Land When Transitioning From an RC Exempt Mode,2026-04-24T22:47:00Z,,garyasx,0
+PX4/PX4-Autopilot,27202,closed,zenoh hardfault on fmu-v6x in v1.17.0-rc2: fix landed on main but not back-ported to release/1.17,2026-04-24T21:17:36Z,2026-04-24T23:43:03Z,mrpollo,0
+PX4/PX4-Autopilot,27188,open,More use of the new labeling system,2026-04-23T11:50:11Z,,onur-ozkan,1
+PX4/PX4-Autopilot,27180,closed,DroneCAN param bridge silently drops requests to node IDs 100–105 (MAV_COMP_ID_CAMERA range) — regression from #25651,2026-04-22T20:36:12Z,2026-04-24T02:03:43Z,dakejahl,0
+PX4/PX4-Autopilot,27179,closed,Stable-sync: merge upstream v1.16.2 into feature/gc35-e4b-airframe-v1,2026-04-22T20:02:46Z,2026-04-22T20:03:27Z,jwhite-GUS,2
+PX4/PX4-Autopilot,27177,closed,[Bug] Dual ZED-FP9 don't initialize properly anymore - buf for CFG_VALSET too small,2026-04-22T17:32:45Z,2026-04-23T20:04:55Z,slgrobotics,2
+PX4/PX4-Autopilot,27176,open,chore: migrate code formatting from astyle to clang-format,2026-04-22T17:01:08Z,,mrpollo,0
+PX4/PX4-Autopilot,27171,closed,"ci: compile_ubuntu runs on push to stable, beta, and release/**",2026-04-22T14:06:13Z,2026-04-22T17:01:08Z,mrpollo,0
+PX4/PX4-Autopilot,27170,closed,ci(dev_container): branch push on tag commit triggers redundant full build,2026-04-22T14:04:37Z,2026-04-22T17:01:35Z,mrpollo,0
+PX4/PX4-Autopilot,27165,closed,fix(ekf2): unbounded recursion in fuseDirectStateMeasurement can overflow stack,2026-04-22T00:07:11Z,2026-04-22T00:23:51Z,mrpollo,0
+PX4/PX4-Autopilot,27152,open,[Bug] GPS NOT DETECTED from 1.15.0 to 1.16.1,2026-04-21T01:43:33Z,,XieAofan,2
+MichaelGrupp/evo,768,closed,Potential Logical Error when align_origin = True overwrites align=True / correct_scale=True,2026-01-26T01:18:42Z,2026-02-15T11:20:47Z,zekaiyin-dev,1
+MichaelGrupp/evo,766,closed,RPE title formatting,2026-01-12T12:35:28Z,2026-01-12T14:09:32Z,lluczkie,1
+MichaelGrupp/evo,764,closed,Box plot / violin histogram appearance differs from README example (following README workflow),2026-01-02T19:20:26Z,2026-01-04T07:22:44Z,lyc1140889141,1
+MichaelGrupp/evo,762,closed,About the traj_ref and traj_est param in evo.main_ape,2025-12-01T12:20:15Z,2026-02-28T10:08:07Z,zechengtang,1
+MichaelGrupp/evo,759,closed,Set label manually,2025-11-05T09:31:28Z,2026-04-04T09:48:49Z,mwindsp,3
+MichaelGrupp/evo,758,closed,evo.tools.settings is not parallel safe,2025-10-22T12:59:33Z,2025-10-28T13:26:19Z,sagostinho-nvidia,3
+MichaelGrupp/evo,751,closed,RPE way too high compared to APE,2025-10-16T13:23:55Z,2025-10-17T06:46:28Z,Yanhof,2
+MichaelGrupp/evo,750,closed,Support rosbags 0.11,2025-10-16T11:52:44Z,2025-10-16T15:48:52Z,MichaelGrupp,1
+MichaelGrupp/evo,747,closed,"Is there a way to `align` (solve for the Sim(3) transform) with a ""match trajectory origins"" constraint?",2025-09-22T09:45:23Z,2025-10-28T13:26:11Z,chrisoffner3d,2
+MichaelGrupp/evo,745,closed,Trajectories sampled at different rates,2025-08-03T15:59:11Z,2025-08-15T17:37:25Z,arbenede,2
+MichaelGrupp/evo,742,open,Handle COLMAP formats,2025-07-24T18:27:07Z,,N-Demir,1
+MichaelGrupp/evo,741,closed,Evo CLI tools broken & PoseTrajectory3D API inconsistencies on clean Ubuntu install,2025-06-25T18:37:27Z,2025-07-05T12:20:23Z,SrOdranoel,2
+MichaelGrupp/evo,740,closed,Timestamp synchronization,2025-06-10T02:09:08Z,2025-06-25T17:10:34Z,mikedh-avia,1
+MichaelGrupp/evo,738,open,Add a Rerun integration,2025-06-08T12:21:48Z,,MichaelGrupp,2
+MichaelGrupp/evo,735,closed,The box_plot I generated is in one colour,2025-04-25T13:57:48Z,2025-05-13T22:02:54Z,elecatll,1
+MichaelGrupp/evo,734,closed,Inconsistent result from evo 1.31.1 (latest) and 1.28.0,2025-04-06T18:39:18Z,2025-04-12T08:12:44Z,MarkChenYutian,2
+MichaelGrupp/evo,733,closed,Question about metrics relation,2025-03-24T15:50:14Z,2025-03-24T15:57:09Z,VladimirYugay,2
+MichaelGrupp/evo,731,closed,Trim trajectories by timestamp,2025-03-06T10:20:34Z,2025-03-06T14:36:54Z,scrouthtv,4
+MichaelGrupp/evo,730,closed,How can i add start and end icons in legend,2025-03-06T02:00:37Z,2025-04-12T08:12:27Z,saqihk,1
+MichaelGrupp/evo,729,closed,I can't show evo comparation results between ground truth and esimated route.,2025-02-28T09:55:24Z,2025-03-24T08:23:26Z,TK72,1
+MichaelGrupp/evo,728,closed,Quantile export,2025-02-25T09:15:31Z,2025-10-24T10:09:01Z,scrouthtv,1
+MichaelGrupp/evo,727,closed,TF2 tranform format not working,2025-02-17T09:28:30Z,2025-02-19T08:27:41Z,fdila,2
+MichaelGrupp/evo,726,closed,Alignment and Coordinate System,2025-02-16T22:22:36Z,2025-06-25T17:10:50Z,Davidyao99,1
+MichaelGrupp/evo,718,closed,Axis label get cut off when exporting the plot as an image,2025-01-30T09:35:26Z,2025-02-04T10:49:09Z,JodokF,3
+MichaelGrupp/evo,715,closed,"evo_rpe params '-a',   '--delta' and  '--all_pairs' meaning",2025-01-07T13:10:54Z,2025-01-09T03:40:21Z,narutojxl,4
+MichaelGrupp/evo,713,closed,Code contradicts wiki docs,2025-01-05T19:19:45Z,2025-01-07T09:39:10Z,EmmanuelMess,1
+MichaelGrupp/evo,708,closed, --plot_relative_time is not used for speed graph,2024-12-05T17:34:17Z,2024-12-06T13:28:13Z,pbeeson,2
+MichaelGrupp/evo,707,closed,config param plot_show_legend is ignored,2024-12-05T15:56:45Z,2024-12-06T16:22:03Z,pbeeson,1
+MichaelGrupp/evo,705,closed,AttributeError: module 'evo.core.trajectory' has no attribute 'align_trajectory',2024-11-28T15:20:20Z,2024-12-06T16:49:05Z,amani-td,2
+MichaelGrupp/evo,704,closed,Calculation of RPE wrt rotation for TUM data files,2024-11-13T07:58:42Z,2025-01-29T09:05:43Z,claydergc,0
+MichaelGrupp/evo,701,closed,Export image removing unused white space,2024-10-30T14:32:06Z,2024-10-31T10:07:44Z,fdila,1
+MichaelGrupp/evo,699,closed,Axis label get cut off when zooming,2024-10-30T10:37:53Z,2024-10-30T12:02:47Z,fdila,2
+MichaelGrupp/evo,697,closed,The trajectory cannot align ,2024-10-20T04:42:34Z,2024-10-29T09:20:27Z,MasonMax,1
+MichaelGrupp/evo,696,closed,Feature Request: Provide Direct Access to EVO KPIs and Plots via Method Calls for Automated Pipelines,2024-10-16T13:21:42Z,2024-11-24T11:47:53Z,pavan-opteran,1
+MichaelGrupp/evo,693,closed,Alignment with Starting at the same Initial Pose,2024-09-26T15:43:54Z,2024-10-29T09:21:45Z,kameel2311,6
+MichaelGrupp/evo,692,closed,Align causes some paths to be be truncated,2024-09-19T00:31:01Z,2024-09-23T13:23:25Z,EmmanuelMess,5
+MichaelGrupp/evo,691,closed,Question about RPE and coordinate system,2024-09-04T15:26:10Z,2024-09-16T15:18:36Z,Davidyao99,2
+MichaelGrupp/evo,689,closed,"Evaluating VINSFUSION on kitti using evo, format doubt",2024-07-31T15:26:28Z,2024-08-02T12:49:26Z,ashwinjosephk,0
+MichaelGrupp/evo,688,closed,[ERROR] evo module evo.main_traj crashed - no logfile written (disabled),2024-07-20T07:12:16Z,2024-07-21T00:16:53Z,MononobenoFuto,1
+MichaelGrupp/evo,687,closed,Map Tile Baselayer in Plot,2024-07-18T14:53:35Z,2024-09-09T10:47:16Z,frapit,8
+MichaelGrupp/evo,686,closed,"The kitti dataformat and tum dataformat of same result,but have a different APE ",2024-07-17T04:19:52Z,2024-07-30T09:55:54Z,goergehu,3
+MichaelGrupp/evo,685,closed,Control Legend Settings and rename curves in plots,2024-07-13T20:38:50Z,2024-10-29T09:19:17Z,Johnemad96,1
+MichaelGrupp/evo,684,closed,APE and RPE metrics,2024-07-04T21:47:19Z,2024-07-31T16:33:39Z,Rudresh172,7
+MichaelGrupp/evo,683,closed,Sim(3) alignment scale,2024-07-04T16:20:05Z,2024-07-05T13:23:09Z,sadsimulation,2
+MichaelGrupp/evo,682,closed,Custom Line Colors,2024-07-03T09:21:42Z,2024-07-06T01:42:35Z,110sha,2
+MichaelGrupp/evo,681,closed,Support for setting the size of the image to save,2024-06-25T10:37:03Z,2024-07-17T08:02:03Z,WZG3661,3
+MichaelGrupp/evo,679,closed,Loading TUM format when euroc specified,2024-06-13T14:38:43Z,2024-06-13T14:57:32Z,TanPinDa,1
+MichaelGrupp/evo,677,closed,Adapt coordinate axis range of plot,2024-06-13T03:11:16Z,2024-07-17T09:47:09Z,110sha,3
+MichaelGrupp/evo,673,closed,Unexpected APE values for trajectory with tracking failure,2024-06-11T14:32:38Z,2024-06-12T13:33:48Z,SerseusWasTaken,2
+MichaelGrupp/evo,671,closed,Trajectory drawing,2024-06-07T03:11:36Z,2024-06-07T09:59:47Z,110sha,1
+MichaelGrupp/evo,670,closed,evo_res drawing questions,2024-05-30T03:40:22Z,2024-06-26T14:10:33Z,HZY12345,3
+robin-shaun/XTDrone,143,open,为什么执行rm -r stereo_camera/ 3d_lidar/ 3d_gpu_lidar/ hokuyo_lidar/后显示文件不存在。,2026-01-23T12:36:13Z,,CatRb123,0
+robin-shaun/XTDrone,142,open,找不到脚本文件,2026-01-20T12:15:46Z,,jwhcj,0
+robin-shaun/XTDrone,141,open,mavlink_sitl_gazebo和px4找不到，但是bashrc里路径都是按照教程写好的,2026-01-12T10:40:43Z,,tiamoaa99-crypto,0
+robin-shaun/XTDrone,140,open,如何开启风的插件呀？怎么用ros控制风呀,2025-08-29T06:45:18Z,,ITcollect,4
+robin-shaun/XTDrone,139,open,固定翼无人机编队跟踪无人车,2025-08-25T02:00:59Z,,xrl0000,0
+robin-shaun/XTDrone,138,open,Ubuntu20.04，rostopic echo /mavros/stateMAVROS与SITL无法通信,2025-08-05T10:00:05Z,,nayenizhenmei,1
+robin-shaun/XTDrone,137,open,关于自己的模型 about custom model,2025-07-12T13:48:26Z,,zhaowangji,1
+robin-shaun/XTDrone,136,open,多无人机集群规划,2025-07-04T02:44:27Z,,Johan66966,0
+robin-shaun/XTDrone,135,open,无人机如何和无人船结合起来？可以让无人机停留在vrx的双目船的顶上，并且可以起飞？,2025-05-14T05:47:33Z,,ITcollect,0
+robin-shaun/XTDrone,134,open,无人机键盘控制,2025-04-27T13:49:16Z,,Zenbia,1
+robin-shaun/XTDrone,133,closed,请问大佬怎么改的.bashrc中内容,2025-04-27T11:27:49Z,2025-04-27T11:29:34Z,dyqiwang,0
+robin-shaun/XTDrone,132,open,Bug：使用位姿真值时，发送目标位置跳成0,2025-04-21T12:16:33Z,,muye665,0
+robin-shaun/XTDrone,131,open,如何在gazebo中添加一个海上环境，然后在海上增加一个平台可以让无人机停在上面,2025-04-11T12:48:05Z,,ITcollect,0
+robin-shaun/XTDrone,130,open,关于typhoon h480模型问题，打开后会有如图的提示，,2025-04-10T13:26:05Z,,Alex-0330-ros,0
+robin-shaun/XTDrone,129,open,AttributeError: 'NoneType' object has no attribute 'x',2025-04-10T06:59:47Z,,wind510,3
+robin-shaun/XTDrone,128,open,是否可以在Ubuntu22.02 ros2环境下运行,2025-04-02T14:09:28Z,,kevintjq,1
+robin-shaun/XTDrone,127,open,【教程】XTdrone中使用MID360激光雷达,2025-03-20T07:30:17Z,,XXLiu-HNU,0
+robin-shaun/XTDrone,126,closed,请教：利用PX4 1.13版本 一键安装脚本 成功安装后的XTdrone 是不是包含QGroundControl ？,2025-03-05T07:51:53Z,2025-03-05T13:44:53Z,hushidong,1
+robin-shaun/XTDrone,125,open,Is there any support from ros2,2025-02-27T00:41:51Z,,getc123456,1
+robin-shaun/XTDrone,124,open,"二维激光slam[ INFO] [1739259639.863443593, 179.980000000]: lookupTransform base_stabilized to laser_2d timed out. Could not transform laser scan into base_frame.",2025-02-11T07:50:57Z,,zzyj1234,5
+robin-shaun/XTDrone,123,open,无人机键盘控制报错，求助！！！！,2025-02-09T11:51:03Z,,wangchengwei-wcw,2
+robin-shaun/XTDrone,122,open,无人机卡死怎么办,2024-11-25T03:33:42Z,,20246688,2
+robin-shaun/XTDrone,121,closed,"When sim multi iris, only one iris is allowed  to fly ",2024-11-20T07:49:02Z,2024-11-20T08:06:25Z,XXLiu-HNU,1
+robin-shaun/XTDrone,120,closed,There is no message when echo local_position/pose,2024-11-18T05:30:19Z,2024-11-20T13:17:08Z,XXLiu-HNU,1
+robin-shaun/XTDrone,119,open,行人插件配置问题,2024-10-28T11:12:40Z,,zzj404,2
+robin-shaun/XTDrone,118,closed,Mesh is invisible,2024-10-28T07:02:15Z,2025-01-13T10:18:54Z,yxc407,3
+robin-shaun/XTDrone,117,open,无人车模型问题咨询,2024-10-12T07:40:19Z,,yakexi-cmd,1
+robin-shaun/XTDrone,116,open,运行三维激光slam outdoor1.launch 时出现模型未加载的情况,2024-10-10T01:40:43Z,,2874160799,8
+robin-shaun/XTDrone,115,open,"ubuntu 20.04 ros noetic 运行multirotor_communication.py, 再运行multirotor_keyboard_control.py会报错。无法建立通讯",2024-09-26T06:15:57Z,,DikaiShen,30
+robin-shaun/XTDrone,114,open,VINS-Fusion编译,2024-09-14T09:39:09Z,,glt621,2
+robin-shaun/XTDrone,113,open,"No installation guide, no requirement section on OS, ROS version, etc, and no how to start section!",2024-07-23T08:17:20Z,,MJavadZallaghi,2
+robin-shaun/XTDrone,112,open,仿真平台基础配置中控制无人机建立通信时报错,2024-07-19T16:39:21Z,,DZ-yxz,12
+robin-shaun/XTDrone,111,closed,roslaunch px4 mavros_posix_sitl.launch无法建立通信,2024-07-09T04:44:34Z,2024-07-13T13:06:04Z,Qserialport,15
+robin-shaun/XTDrone,110,open,make px4_sitl_default gazebo报错,2024-06-06T02:31:03Z,,Veast01,3
+robin-shaun/XTDrone,109,closed,vtol的waypoint问题,2024-05-21T07:03:09Z,2024-05-21T07:34:14Z,eggmakers,1
+robin-shaun/XTDrone,108,closed,VINS-Fusion中rviz没有点云数据,2024-05-19T08:59:45Z,2024-08-15T06:03:47Z,2874160799,2
+robin-shaun/XTDrone,107,closed,使用固定翼仿真时无人机解锁但不起飞,2024-05-12T04:05:55Z,2024-05-25T02:35:03Z,ghost,1
+robin-shaun/XTDrone,106,closed,固定翼无人机编队跟踪无人车参考文献,2024-04-30T06:28:49Z,2024-04-30T13:11:50Z,J-starseeker,0
+robin-shaun/XTDrone,105,open,固定翼通信报错WARN  [mavlink] SET_POSITION_TARGET_LOCAL_NED coordinate frame 0 unsupported,2024-04-13T02:47:32Z,,J-starseeker,3
+robin-shaun/XTDrone,104,open,文档中的旋翼模型公式与代码不匹配,2024-04-06T08:07:59Z,,p-xiexin,1
+robin-shaun/XTDrone,103,open,您好！运行VINS-fusion时，仿真环境飞机图像和imu话题都有数据，但是vins-fusion相关的话题都没有数据,2024-03-26T04:18:09Z,,SSZ1,10
+robin-shaun/XTDrone,102,open,老师好，我在下好XTDrone源码后第二次编译一直提醒Livox_mid40缺少model.config请问该怎么解决呢？,2024-03-24T03:43:59Z,,Fancy-ursa,3
+robin-shaun/XTDrone,101,open,AttributeError: module 'em' has no attribute 'RAW_OPT',2024-03-16T15:40:44Z,,Philemon1,1
+robin-shaun/XTDrone,100,open,是换用yolov5了吗> 解决了吗哥们，我也遇到了这个问题,2024-03-15T10:53:11Z,,Shu0T1an,4
+robin-shaun/XTDrone,99,closed,编译运行后gazebo中没有飞机模型出现（已解决）,2023-12-18T13:41:18Z,2023-12-21T15:17:45Z,JinXJinLeX,6
+robin-shaun/XTDrone,98,closed,在Ubuntu20.04+ROS-noetic下学习XTDrone使用文档中“二维激光SLAM（HectorSLAM）”项目时，完全按照教程操作，遇到了tf树和文档不一致的情况,2023-12-07T07:43:15Z,2023-12-08T03:26:07Z,xxhaonan,3
+robin-shaun/XTDrone,97,open,git checkout -b xtdrone/dev v1.11.0-beta1失败该怎么做呢,2023-11-15T15:47:03Z,,daibaoan,0
+robin-shaun/XTDrone,96,open,加速度bias过大超过0.4，重启电脑也没用，怎么解决，急,2023-11-13T13:24:11Z,,LChen-99,0
+robin-shaun/XTDrone,95,open,请问可以释放训练好的YOLO权重吗,2023-10-24T13:18:33Z,,1071189147,1
+robin-shaun/XTDrone,94,open,try to get gazibo visualation simulator with drone ,2023-10-01T17:24:11Z,,naorwaiss,0
+robin-shaun/XTDrone,93,closed,运行qgc报错A second instance of QGroundControl is already running. Please close the other instance and try again.,2023-09-18T14:08:41Z,2023-09-22T07:53:12Z,wjy1smyson,2
+robin-shaun/XTDrone,92,open,配置VINS-Fusion的时候报错/usr/bin/ld: cannot find -lpose_utils,2023-09-18T11:42:58Z,,ricklessboy,2
+robin-shaun/XTDrone,91,open,在修改sitl_gazebo中的gazebo_gimbal_controller_plugin.cpp后再次编译时报错,2023-09-08T11:45:31Z,,SantuGo,6
+robin-shaun/XTDrone,90,closed,mavros_posix_sitl.launch,2023-08-28T13:52:53Z,2023-08-28T14:39:43Z,MrKatydid,1
+robin-shaun/XTDrone,89,open,请问编译PX4时，出现这个问题，一直卡在这里怎么解决,2023-07-15T03:36:57Z,,iason-r,4
+robin-shaun/XTDrone,88,open,二次编译后PX4和mavros连接不成功,2023-06-06T09:13:49Z,,FangZhuPing,2
+robin-shaun/XTDrone,87,open,当使用机型iris_3d_gpu_lidar时出现错误,2023-05-24T03:11:36Z,,Henryhongw,0
+robin-shaun/XTDrone,86,open,采用XTDGroundControl控制多无人机运动,2023-05-18T03:18:58Z,,xiaoshengjianan,6
+robin-shaun/XTDrone,85,open,三维运动规划和集群运动规划运行时问题,2023-05-09T08:40:42Z,,free26,5
+robin-shaun/XTDrone,84,open,目标检测和跟踪无法加载摄像头,2023-05-05T15:43:41Z,,doggystyle-star,8
+robin-shaun/XTDrone,83,closed,将xtdrone文件替换px4 13.2版本,2023-04-28T02:07:26Z,2023-05-05T15:44:13Z,doggystyle-star,3
+robin-shaun/XTDrone,82,open,固定翼控制问题，如何代码自动控制固定翼集群飞行,2023-04-17T12:31:57Z,,niceybc,2
+robin-shaun/XTDrone,81,open,多无人机精准无法降落，rviz中无信息,2023-04-15T10:53:13Z,,uestyhox1,1
+robin-shaun/XTDrone,79,open,开启风插件失败,2023-04-12T12:30:22Z,,LChen-99,23
+robin-shaun/XTDrone,78,closed,git checkout到xtdrone/dev v1.11.0-beta1后编译不通过,2023-04-12T08:46:03Z,2023-04-12T11:03:22Z,Achu170017,1
+robin-shaun/XTDrone,77,open,"px4-1.11, 执行px4官方的offboard python程序，出现PositionTargetGlobal failed because no orign的问题",2023-04-12T07:50:50Z,,lijoe123,1
+robin-shaun/XTDrone,76,closed,Noetic 版本，使用你们提供的px4 11.1版本，无法加载深度摄像头,2023-04-10T13:19:29Z,2023-04-12T07:42:43Z,lijoe123,4
+robin-shaun/XTDrone,75,open,请问有适合SLAM的比较大的.world模型吗？,2023-04-10T09:22:50Z,,LChen-99,3
+robin-shaun/XTDrone,74,open,相机畸变参数是多少?,2023-04-09T14:19:36Z,,LChen-99,3
+robin-shaun/XTDrone,73,open,编译ego_planner的时候报错,2023-04-09T11:18:36Z,,FlyKzy,0
+robin-shaun/XTDrone,72,open,无人机降落后rviz里面还在不停转圈运动,2023-04-02T11:46:07Z,,uestyhox1,1
+robin-shaun/XTDrone,71,open,VINS-Fusion+RTABMap的三维稠密重建rviz中没有深度图数据,2023-03-29T02:40:27Z,,uestyhox1,2
+robin-shaun/XTDrone,70,open,VINS-Fusion+RTABMap建图部分，启动RTAB建图报错,2023-03-26T03:31:33Z,,silkmeloni,13
+robin-shaun/XTDrone,69,closed,三维路径规划给定一个拐角之外的目标点，规划的路线是直线,2023-03-23T07:17:51Z,2024-11-25T06:48:19Z,Jimmy-L99,1
+robin-shaun/XTDrone,68,open,关于rtabmap_vins.launch文件的问题,2023-03-15T06:43:57Z,,kenan9875645,0
+robin-shaun/XTDrone,67,closed,roslaunch px4 mavros_posix_sitl.launch会报错，gazebo里面没有飞机模型出现,2023-03-12T07:23:33Z,2023-03-12T07:27:48Z,winnnnnnd,5
+robin-shaun/XTDrone,66,closed,三维运动规划部分，rviz 坐标显示异常,2023-02-23T10:11:36Z,2023-08-22T09:14:47Z,ku-zhen,2
+robin-shaun/XTDrone,65,closed,orbslam2用键盘控制无人机起飞不了,2023-02-22T08:39:53Z,2023-03-01T01:31:16Z,Jimmy-L99,5
+robin-shaun/XTDrone,64,closed,无人机悬停后会乱飞,2023-02-20T12:09:02Z,2024-11-25T06:48:03Z,Jimmy-L99,4
+robin-shaun/XTDrone,63,closed,docker三维运动规划部分编译不通过,2023-02-17T12:30:49Z,2023-02-23T10:05:30Z,ku-zhen,0
+robin-shaun/XTDrone,62,closed,无人车运动规划中RVIZ用2d nav goal设置目标点没反应,2023-02-17T11:56:05Z,2023-02-22T08:19:31Z,Jimmy-L99,4
+robin-shaun/XTDrone,61,open,键盘控制反应迟钝,2023-02-13T12:49:52Z,,littlebudin,20
+robin-shaun/XTDrone,60,closed,docker 内 gazebo 帧率低,2023-02-13T07:49:38Z,2023-02-16T10:14:45Z,ku-zhen,3
+robin-shaun/XTDrone,59,closed,配置与控制无人车章节，编译报错以及解决方案,2023-01-08T15:49:41Z,2023-02-13T14:14:03Z,bruz-z,1
+robin-shaun/XTDrone,58,open,请问该如何设置合理的目标点位置值呢，感觉每次设置的都不对,2022-12-22T11:39:29Z,,RobinHan24,0
+robin-shaun/XTDrone,57,open,vins仿真环节正常，可以使无人机正常悬停，ego-planner出错,2022-12-22T11:22:47Z,,RobinHan24,15
+robin-shaun/XTDrone,56,closed,您好，我在运行 roslaunch px4 zhihang1.launch 时报错 px4包中zhihang1.launch 文件不存在（我已经用git pull与docker commit更新了docker）,2022-12-17T13:42:59Z,2022-12-21T14:14:59Z,mahafeeling,3
+robin-shaun/XTDrone,55,closed,UBuntu 20.04加载相机模型出错,2022-12-12T08:54:37Z,2022-12-14T03:24:02Z,wenbin-hhhhh,6
+robin-shaun/XTDrone,54,open,二维激光SLAM仿真在Rviz中没有传感器数据,2022-11-15T05:05:24Z,,lijoe123,31
+robin-shaun/XTDrone,53,closed,请问怎样修改EKF视觉模式的观测协方差矩阵,2022-11-10T10:57:52Z,2022-11-10T11:12:39Z,Elio-in-summer,5
+robin-shaun/XTDrone,52,closed,你们的多机精准降落的代码写的有问题,2022-11-07T07:19:29Z,2022-11-07T15:18:43Z,Elio-in-summer,2
+robin-shaun/XTDrone,51,closed,二维运动规划bug,2022-11-06T13:19:49Z,2022-11-06T15:43:14Z,mengchaoheng,9
+robin-shaun/XTDrone,50,closed,三维激光SLAM无法加载传感器数据,2022-11-06T09:09:03Z,2022-12-16T13:56:49Z,mengchaoheng,21
+robin-shaun/XTDrone,49,closed,为何不更新？,2022-11-03T12:44:30Z,2022-11-05T02:09:46Z,mengchaoheng,11
+robin-shaun/XTDrone,48,closed,VIO无法收到双目相机的数据,2022-11-01T09:24:02Z,2022-11-02T14:57:15Z,Rainlv,4
+robin-shaun/XTDrone,47,closed,Could i use the project in the ubuntu20.04 noetic? ,2022-11-01T06:47:57Z,2022-11-08T06:05:48Z,lijoe123,5
+robin-shaun/XTDrone,46,closed,你好，请问，我根据文档编译gazebo时不通过，提示我缺少以下模块，,2022-10-29T09:42:06Z,2022-10-30T03:05:19Z,Zixuan-Wang99,1
+robin-shaun/XTDrone,45,open,编译使用你们的gazebo_ros包不能正确打开urdf模型了,2022-10-26T04:50:14Z,,Elio-in-summer,0
+robin-shaun/XTDrone,44,open,运行indoor.lunch 文件时出现Parameter IMU_INTEG_RATE not found,2022-10-24T15:36:10Z,,Elio-in-summer,1
+robin-shaun/XTDrone,43,closed,6架无人机仿真有一到两架MAVROS与SITL通信失败,2022-10-10T00:42:04Z,2022-11-05T02:13:35Z,Mrzzzz1,8
+autowarefoundation/autoware.universe,12518,open,colon build bug,2026-04-29T08:51:10Z,,cyrusliu1984,0
+autowarefoundation/autoware.universe,12517,open,Segfault in crosswalk module due to non-strict std::sort comparator,2026-04-28T19:05:03Z,,Ching-Hsiang-18,0
+autowarefoundation/autoware.universe,12512,open,Can't build `autoware_ptv3` with ninja,2026-04-28T06:46:40Z,,VRichardJP,0
+autowarefoundation/autoware.universe,12497,open,Support trajectory switching and update the decision logic for operation mode and MRM,2026-04-21T08:03:45Z,,isamu-takagi,0
+autowarefoundation/autoware.universe,12469,open,Migration Step for Planning Simulator-Specific Packages,2026-04-10T11:08:56Z,,sasakisasaki,2
+autowarefoundation/autoware.universe,12460,open,`autoware_behavior_path_planner` node crash when a new planning goal published,2026-04-09T14:49:06Z,,smk-robotics,0
+autowarefoundation/autoware.universe,12454,closed,Fix cppcheck CI: weekly has been failing for over a year,2026-04-09T13:16:41Z,2026-04-09T15:04:59Z,xmfcx,0
+autowarefoundation/autoware.universe,12452,closed,Switch check-build-depends to universe-devel-jazzy container and rename build_depends_humble.repos,2026-04-09T12:32:07Z,2026-04-09T13:47:03Z,xmfcx,0
+autowarefoundation/autoware.universe,12450,open,Fix supressed clang-tidy failures,2026-04-09T09:35:46Z,,xmfcx,1
+autowarefoundation/autoware.universe,12431,closed,fix(ci): resolve clang-tidy failures on main branch,2026-04-08T08:41:17Z,2026-04-09T09:36:52Z,xmfcx,2
+autowarefoundation/autoware.universe,12429,closed,ci(codecov): differential PR builds should upload under the same flag as total builds,2026-04-08T07:11:41Z,2026-04-08T09:20:10Z,xmfcx,0
+loco-3d/crocoddyl,1488,open,SetRunningModel not setting properly,2026-04-01T14:06:35Z,,GabrielEGC,2
+loco-3d/crocoddyl,1473,closed,Is there any plan to open source the solver of Endpoint-Explicit DDP,2026-01-21T03:06:27Z,2026-03-16T18:39:51Z,LuX-90,1
+loco-3d/crocoddyl,1468,closed,Crocoddyl sometimes fails to solve:free(): invalid size,2026-01-01T10:50:12Z,2026-01-02T09:18:38Z,Decembereye,1
+loco-3d/crocoddyl,1466,closed,example-robot-data breaks Crocoddyl ROS2 building,2025-12-29T13:27:39Z,2026-01-30T11:55:12Z,cmastalli,2
+loco-3d/crocoddyl,1460,closed,ModuleNotFoundError: No module named 'example_robot_data',2025-12-15T14:51:32Z,2025-12-16T02:26:37Z,KingeL21,2
+loco-3d/crocoddyl,1444,closed,typo in Notebook examples,2025-10-22T23:56:30Z,2025-10-29T17:49:07Z,Dhanushvarma,3
+loco-3d/crocoddyl,1416,closed,Suggestion needed for adding exteral force,2025-07-07T23:26:58Z,2025-07-10T07:33:07Z,Ericcsr,1
+loco-3d/crocoddyl,1410,closed,CMake build error when build with flag 'BUILD_WITH_CODEGEN_SUPPORT',2025-06-20T08:34:20Z,2025-06-20T21:18:16Z,tkpf,0
+loco-3d/crocoddyl,1402,closed,missing <memory> include in core/utils/conversion.hpp + cycle include,2025-06-03T09:12:29Z,2025-06-03T13:01:21Z,tkpf,2
+loco-3d/crocoddyl,1399,closed,Add example-robot-data to required dependencies,2025-05-30T20:31:15Z,2025-06-03T19:06:05Z,stephenmcc,2
+loco-3d/crocoddyl,1398,closed,Unexpected arg for Viewer,2025-05-30T15:11:54Z,2025-06-04T08:57:40Z,stephenmcc,6
+loco-3d/crocoddyl,1397,closed,Documentation links in README,2025-05-30T14:50:23Z,2025-06-03T19:06:27Z,stephenmcc,1
+leggedrobotics/open3d_slam,82,open,No saved map data - empty folder,2025-01-21T11:57:26Z,,jagsme,9
+leggedrobotics/open3d_slam,79,open,How can I pull request ROS 2 packages,2024-05-04T09:52:14Z,,hijimasa,12
+leggedrobotics/open3d_slam,77,open,Odometry failed!!!!! ,2024-01-09T05:26:36Z,,hcws,0
+leggedrobotics/open3d_slam,76,open,"Using Sick Multiscan Lidar in ROS and getting ""Trying to insert and empyt cloud!!! Skipping the measurement"" warning",2024-01-04T06:54:55Z,,Gowresh-MARC,3
+leggedrobotics/open3d_slam,75,open,Problem build open3d_slam_lua_io,2023-10-13T15:15:06Z,,Cavalletta98,5
+leggedrobotics/open3d_slam,67,closed,Question regarding the pointcloud data,2023-06-02T14:36:50Z,2023-06-03T13:48:19Z,daewoode,1
+leggedrobotics/open3d_slam,63,closed,Changing pcl of point cloud colorizer to open3d,2023-05-09T16:19:21Z,2023-05-11T21:37:59Z,nubertj,3
+leggedrobotics/open3d_slam,59,open,error during package startup with realsene,2023-03-11T09:57:13Z,,daaaaak,2
+leggedrobotics/open3d_slam,56,closed,Can not compile open3d_slam_ros,2022-12-22T16:37:46Z,2023-06-03T13:48:46Z,Cristian-wp,4
+leggedrobotics/open3d_slam,55,closed,Output topic empty,2022-12-16T09:26:55Z,2022-12-16T17:24:34Z,mich-pest,6
+leggedrobotics/open3d_slam,53,closed,error during package startup,2022-12-09T13:29:36Z,2022-12-12T08:40:32Z,BBlumhofer,2
+leggedrobotics/open3d_slam,40,closed,open3d_slam_ros inconclusive (rgb-d camera),2022-09-21T13:10:46Z,2022-11-02T16:17:33Z,enginksz,7
+leggedrobotics/open3d_slam,39,closed,Open3d_catkin can't find PPA-installed Open3D,2022-09-21T07:56:46Z,2022-10-19T16:20:23Z,YoshuaNava,6
+leggedrobotics/open3d_slam,34,closed,fmt compilation error,2022-07-19T01:52:17Z,2022-08-24T16:17:42Z,braca51e,6
+leggedrobotics/open3d_slam,30,closed,how to build without ros (like on macOS) and visualize?,2022-06-16T13:46:35Z,2022-06-16T19:10:53Z,lucasjinreal,1
+leggedrobotics/open3d_slam,14,closed,System Eigen needs to be included in CMakeLists.txt of user of open3d_catkin,2022-03-29T13:36:36Z,2022-06-16T16:10:10Z,nubertj,2
+linorobot/linorobot2,219,closed,Colcon Build Error for turtlebot4_description,2026-04-16T11:51:15Z,2026-04-16T12:02:23Z,ShivamMaurya14,2
+linorobot/linorobot2,217,open,Add Physical Robot info to the new gh-pages documentation,2026-04-06T17:00:38Z,,PaulBouchier,1
+linorobot/linorobot2,214,open,image_to_gazebo enhancement rqst: support pgm images,2026-03-28T02:41:52Z,,PaulBouchier,20
+linorobot/linorobot2,212,open,[Gazebo-cuda Docker] Gazebo fails to start / KasmVNC black screen on WSL2 + RTX 4070,2026-03-17T06:13:13Z,,yanght24,3
+linorobot/linorobot2,210,closed,"WSL2 + Ubuntu 22.04 + ROS 2 Humble + Ignition Gazebo 6: GUI opens but stays black after forcing Ogre, while simulation backend runs normally",2026-03-16T06:54:39Z,2026-03-16T07:28:09Z,yanght24,3
+linorobot/linorobot2,209,closed,installation of linorobot2 on jetson orin nx with jetpack 6.2.2,2026-03-13T03:51:31Z,2026-03-15T09:20:31Z,hemsinghb,2
+linorobot/linorobot2,199,closed,Jazzy regression - latest push starts the robot in the middle of the center post,2026-03-07T00:32:32Z,2026-03-08T10:23:13Z,PaulBouchier,9
+linorobot/linorobot2,198,closed,Proposal to extend the new gh-pages documentation,2026-03-03T11:27:45Z,2026-04-07T08:59:38Z,PaulBouchier,8
+linorobot/linorobot2,192,closed,New install issues,2026-02-18T22:55:50Z,2026-02-19T10:51:11Z,PaulBouchier,4
+linorobot/linorobot2,191,closed,Rolling branch doesn't build,2026-02-17T01:20:15Z,2026-02-18T12:09:15Z,PaulBouchier,3
+linorobot/linorobot2,190,closed,"nav2.config to try Mecanum motion, but I don't see any Mecanum movement results. However, I can move in all directions using the keyboard.",2025-12-24T16:37:21Z,2025-12-25T15:53:47Z,banh0001,3
+linorobot/linorobot2,187,open,Teleop_twist_joy parameters not set from joy.yaml correctly,2025-09-28T22:25:05Z,,PaulBouchier,0
+linorobot/linorobot2,185,closed,IMU Issues in Gazebo Simulation,2025-09-19T03:00:12Z,2025-09-20T11:22:14Z,chenfusheng233,2
+linorobot/linorobot2,184,open,Something fishy with /update_microros.bash,2025-08-30T14:44:00Z,,pitosalas,5
+linorobot/linorobot2,183,open,linorobot2_gazebo installation dependencies issues,2025-08-04T08:34:46Z,,PaulBouchier,1
+linorobot/linorobot2,182,open,error micro ros,2025-07-22T15:50:54Z,,Hao2031a,1
+linorobot/linorobot2,181,closed,Issues launching sensors.launch.py with realsense D435 camera,2025-07-13T01:00:18Z,2025-07-27T03:16:51Z,longuyen3127,2
+linorobot/linorobot2,179,closed,The initial orientation of rviz doesn't match Gazebo's initial camera view,2025-07-12T12:16:10Z,2025-07-13T15:48:59Z,PaulBouchier,1
+linorobot/linorobot2,175,closed,gazebo warnings from robot model,2025-06-27T15:14:51Z,2025-10-11T08:13:32Z,PaulBouchier,2
+linorobot/linorobot2,174,closed,micro-ros baud rate mismatched with linorobot_hardware,2025-06-27T10:22:19Z,2025-07-06T10:52:29Z,PaulBouchier,3
+linorobot/linorobot2,173,closed,LaunchConfigurationEquals deprecation warning in launch files,2025-06-27T10:07:34Z,2025-07-13T15:39:13Z,PaulBouchier,1
+linorobot/linorobot2,172,closed,Docker simulation spawns robot in middle of a cylinder,2025-06-27T08:42:46Z,2025-07-13T15:40:16Z,PaulBouchier,1
+linorobot/linorobot2,171,open,README.md docker instructions are out of date,2025-06-27T08:39:29Z,,PaulBouchier,3
+linorobot/linorobot2,169,open,Dockerfile needs cleanup,2025-06-26T18:45:02Z,,PaulBouchier,3
+linorobot/linorobot2,168,closed,Jazzy branch gazebo still broken with turtlebot3_world,2025-06-23T01:57:05Z,2025-06-27T10:23:30Z,PaulBouchier,12
+linorobot/linorobot2,166,closed,Jazzy branch gazebo broken: sets default world as turtlebot3_world but robot initial position is inside the middle cylinder,2025-06-22T19:37:28Z,2025-06-23T00:08:47Z,PaulBouchier,0
+linorobot/linorobot2,161,closed,CUDA Docker Image Doesn't work on Jazzy,2025-06-08T01:38:48Z,2025-06-08T02:58:43Z,grassjelly,1
+linorobot/linorobot2,158,closed,"Docker doesn't build on jazzy, other docker issues",2025-06-05T21:25:29Z,2025-06-08T03:35:27Z,PaulBouchier,1
+linorobot/linorobot2,156,closed,Navigation with gazebo doesn't work when using gz-harmonic branch on latest Jazzy - navigation.yaml issues,2025-05-30T17:24:30Z,2025-06-08T03:36:37Z,PaulBouchier,7
+linorobot/linorobot2,155,closed,"Please create a ""Rolling"" branch",2025-05-28T10:26:53Z,2025-05-31T12:43:44Z,PaulBouchier,3
+linorobot/linorobot2,154,closed,Wheel spin non stop,2025-05-12T23:28:36Z,2025-05-16T21:42:31Z,fordft168,3
+linorobot/linorobot2,153,open,Auto drifting in localization,2025-05-10T11:02:17Z,,souravchandrasaha,1
+linorobot/linorobot2,152,closed,Docker Documentation,2025-04-19T22:07:50Z,2025-07-27T03:21:19Z,atticusrussell,4
+linorobot/linorobot2,151,closed,No Microcontroller,2025-04-11T07:10:09Z,2025-06-15T20:05:19Z,EngSaleha,4
+linorobot/linorobot2,150,closed,Firmware installation,2025-04-06T10:42:37Z,2025-07-27T03:22:19Z,mervinn11,5
+linorobot/linorobot2,149,open,No deepth,2025-03-31T17:57:42Z,,Hao2031a,0
+linorobot/linorobot2,148,closed,Current structure of URDF is not helpful if I want to surgically customize it,2025-03-06T01:48:12Z,2025-03-09T18:50:27Z,pitosalas,2
+linorobot/linorobot2,147,open,micro ros agent,2025-02-11T09:53:58Z,,NikHaziqi,2
+linorobot/linorobot2,145,closed,"""Queue is Full"" Error",2025-02-07T18:16:07Z,2025-07-27T02:46:31Z,retrodorian,15
+linorobot/linorobot2,142,open,Linorobot2 for ROS2 Jazzy Jalisco on Pi5,2025-01-31T16:21:12Z,,Alwynn03,3
+linorobot/linorobot2,141,open,Best way to adjust urdf,2025-01-29T17:32:20Z,,pitosalas,4
+linorobot/linorobot2,139,open,Could not managed the Navigation with stability.,2025-01-26T07:11:47Z,,retrodorian,2
+linorobot/linorobot2,138,closed,imu_link should not be child of odom,2025-01-25T17:36:46Z,2025-01-29T17:57:16Z,pitosalas,7
+linorobot/linorobot2,137,closed,Will not build past ros_micro_agent,2025-01-20T21:21:14Z,2025-01-30T00:48:42Z,starrtriaxle82,9
+linorobot/linorobot2,135,closed,Lidar doesn't show,2025-01-06T12:30:14Z,2025-11-07T13:45:08Z,2vin2vin,4
+linorobot/linorobot2,134,closed,could not choose the laser sensor.,2024-12-26T19:33:11Z,2024-12-30T11:09:07Z,retrodorian,3
+linorobot/linorobot2,133,open,My robot turns too much,2024-12-08T18:01:03Z,,Pattapol2005,20
+linorobot/linorobot2,132,open,Robot is not reaching to goal position and getting structed in between.,2024-11-27T11:01:02Z,,souravchandrasaha,2
+linorobot/linorobot2,131,open,AMCL particles not appearing on rviz2,2024-11-08T07:25:44Z,,hemsinghb,1
+linorobot/linorobot2,130,open,Realsense device not found,2024-10-16T10:53:55Z,,souravchandrasaha,0
+linorobot/linorobot2,129,open,transform for Odom frame.,2024-10-02T09:01:07Z,,iliar-rabet,1
+linorobot/linorobot2,128,open,Mecanum drive robot navigation yaml file,2024-09-12T04:00:26Z,,dengxingyu,1
+linorobot/linorobot2,127,closed,No transform from wheels to map (Gazebo),2024-07-07T04:34:12Z,2024-07-07T23:08:44Z,rxtm0001,0
+linorobot/linorobot2,124,open,Build failed for esp32,2024-06-03T13:16:34Z,,iiZtZahran,2
+linorobot/linorobot2,123,open,linorobot2 : when moves in real environment hitting objects which are left /right side which are not in same height of LIDAR plane,2024-05-30T17:32:19Z,,hemsinghb,18
+linorobot/linorobot2,122,closed,linorobot2 : when moves in real environment hitting objects which are left /right side which are not in same height of LIDAR plane,2024-05-30T02:39:26Z,2024-05-30T02:40:37Z,hemsinghb,1
+linorobot/linorobot2,121,open,Using 2 ESP32 Devkit's,2024-05-21T09:36:10Z,,cantkntmr,13
+linorobot/linorobot2,119,open,ESP32 issues anyone?,2024-04-26T15:52:24Z,,tbalatka,50
+sea-bass/pyrobosim,426,closed,Spawning objects stochastically,2026-02-11T14:29:22Z,2026-02-18T11:39:55Z,charlie1329,8
+sea-bass/pyrobosim,425,closed,No `target_object` in robot's detect returns `SUCCESS`?,2026-02-09T22:28:53Z,2026-02-09T22:39:29Z,jsalfity,9
+sea-bass/pyrobosim,409,closed,Consider standardizing to `pathlib.Path` instead of strings,2025-11-09T04:28:28Z,2025-12-31T17:07:28Z,sea-bass,2
+sea-bass/pyrobosim,390,closed,Allow spawning robots and objects randomly from a list of parent locations,2025-08-11T22:20:47Z,2025-08-11T23:36:47Z,sea-bass,0
+sea-bass/pyrobosim,380,closed,Allow resetting worlds with a deterministic RNG seed,2025-07-28T01:29:12Z,2025-08-02T12:58:03Z,sea-bass,0
+sea-bass/pyrobosim,379,closed,Allow objects to be spawned in random locations,2025-07-28T01:24:04Z,2025-08-02T02:32:43Z,sea-bass,0
+sea-bass/pyrobosim,375,closed,Resetting a world repeatedly takes increasingly longer,2025-07-27T18:39:27Z,2025-07-27T19:12:43Z,sea-bass,0
+sea-bass/pyrobosim,373,closed,Include object spawns and category information in ROS message,2025-07-27T02:46:12Z,2025-07-27T19:12:43Z,sea-bass,0
+sea-bass/pyrobosim,372,closed,"Make it possible to specify realtime factor for actions, including ""as fast as possible""",2025-07-27T02:42:50Z,2025-07-28T23:27:54Z,sea-bass,0
+sea-bass/pyrobosim,366,closed,Robot action execution options are not serialized to YAML,2025-07-04T21:12:22Z,2025-07-05T02:22:42Z,sea-bass,0
+sea-bass/pyrobosim,359,closed,Build failing as GPG key expired,2025-06-02T04:22:40Z,2025-06-11T16:45:27Z,SGeetansh,4
+sea-bass/pyrobosim,348,closed,Make planner and sensor registration easier,2025-04-09T01:41:08Z,2025-04-14T14:03:41Z,sea-bass,0
+sea-bass/pyrobosim,341,closed,Create UI menu with display toggle options,2025-03-15T21:33:38Z,2025-05-13T18:55:37Z,sea-bass,0
+sea-bass/pyrobosim,340,open,Create field-of-view (FOV) sensor simulation,2025-03-15T21:31:27Z,,sea-bass,0
+sea-bass/pyrobosim,339,closed,Create lidar simulation,2025-03-15T21:30:30Z,2025-04-10T16:30:41Z,sea-bass,0
+sea-bass/pyrobosim,337,closed,ExecutionResult is None in DetectObjects ROS Action,2025-03-12T09:48:17Z,2025-03-12T22:31:32Z,Oberacda,3
+sea-bass/pyrobosim,336,closed,Robot is not at an object spawn. Cannot detect objects.,2025-03-10T15:30:45Z,2025-03-11T10:49:20Z,PAyush15,5
+sea-bass/pyrobosim,335,closed,Setup instruction improvement suggestion,2025-03-08T13:13:28Z,2025-03-08T15:09:02Z,WTTien,1
