@@ -1,0 +1,1001 @@
+repository,ai_detected,confidence,first_ai_commit_sha,first_ai_commit_date,first_ai_commit_title,total_ai_related_commits,max_ai_score,possible_ai_tools
+carla-simulator/carla,False,none,,,,0,0,
+carla-simulator/carla,False,none,,,,0,0,
+carla-simulator/carla,True,strong,a8d3ce8173e083031d363eb2e1078f6d1e6f1837,2026-04-20T17:14:28Z,fix(road): resolve Digital Twin tool crashes and tree misplacement (#9565) (#9678),1,10,Copilot
+carla-simulator/carla,True,strong,a8d3ce8173e083031d363eb2e1078f6d1e6f1837,2026-04-20T17:14:28Z,fix(road): resolve Digital Twin tool crashes and tree misplacement (#9565) (#9678),1,10,Copilot
+carla-simulator/carla,True,strong,a8d3ce8173e083031d363eb2e1078f6d1e6f1837,2026-04-20T17:14:28Z,fix(road): resolve Digital Twin tool crashes and tree misplacement (#9565) (#9678),1,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,c755e50fa9ad1f356a592bf4358ac1846d82026d,2026-04-08T23:22:11Z,Update LibCarla/source/carla/road/Map.cpp,2,10,Copilot
+carla-simulator/carla,True,strong,815b8ba2c92cd25ab4789565e7563fe86ddfc83a,2026-04-07T13:27:11Z,feat: add Ubuntu 24.04 support alongside 22.04 (#9596),3,10,Copilot
+carla-simulator/carla,True,strong,815b8ba2c92cd25ab4789565e7563fe86ddfc83a,2026-04-07T13:27:11Z,feat: add Ubuntu 24.04 support alongside 22.04 (#9596),3,10,Copilot
+carla-simulator/carla,True,strong,815b8ba2c92cd25ab4789565e7563fe86ddfc83a,2026-04-07T13:27:11Z,feat: add Ubuntu 24.04 support alongside 22.04 (#9596),3,10,Copilot
+carla-simulator/carla,True,strong,815b8ba2c92cd25ab4789565e7563fe86ddfc83a,2026-04-07T13:27:11Z,feat: add Ubuntu 24.04 support alongside 22.04 (#9596),3,10,Copilot
+carla-simulator/carla,True,strong,a40939fd5f3f5f41c1d43e6a862bdc2b98752e29,2026-03-31T07:38:58Z,fix(LibCarla): eliminate compiler warnings (#9587),4,10,Copilot
+carla-simulator/carla,True,strong,a02a02c6ff0fe082be7dbbb393f2ec94b0bedf60,2026-03-30T07:41:27Z,"fix(sensors): port camera, semantic tag, and bbox fixes from ue4-dev (#9586)",5,10,Copilot
+carla-simulator/carla,True,strong,70092f35a9fb44d67e7774274a1372cba5c6933b,2026-03-30T07:39:07Z,fix(LibCarla): port core bug fixes from ue4-dev (#9585),6,10,Copilot
+carla-simulator/carla,True,strong,70092f35a9fb44d67e7774274a1372cba5c6933b,2026-03-30T07:39:07Z,fix(LibCarla): port core bug fixes from ue4-dev (#9585),6,10,Copilot
+carla-simulator/carla,True,strong,70092f35a9fb44d67e7774274a1372cba5c6933b,2026-03-30T07:39:07Z,fix(LibCarla): port core bug fixes from ue4-dev (#9585),6,10,Copilot
+carla-simulator/carla,True,strong,70092f35a9fb44d67e7774274a1372cba5c6933b,2026-03-30T07:39:07Z,fix(LibCarla): port core bug fixes from ue4-dev (#9585),6,10,Copilot
+carla-simulator/carla,True,strong,70092f35a9fb44d67e7774274a1372cba5c6933b,2026-03-30T07:39:07Z,fix(LibCarla): port core bug fixes from ue4-dev (#9585),6,10,Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,6eba6951d8d0b4d58388eab11bfaf9bcb0fa2458,2026-02-25T09:39:44Z,docs: add Visual C++ Redistributable prerequisite for Windows install (#9560),7,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,e2f6459897535433c49a34d4d5968db49d67b092,2025-10-13T13:51:34Z,Merge docs/ue5-docs into ue5-dev (#9345),8,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,61fe497685fb227aa59cc0dfc66f8c06507eafea,2025-09-02T19:11:23Z,Deleted seed of poison disc,9,15,Claude; Copilot
+carla-simulator/carla,True,strong,37251efa1651d776b12f9587ee2ceb1d8bd18a37,2025-06-10T08:43:23Z,Fix the tag name for fastdds (#8939),10,15,Claude; Copilot
+carla-simulator/carla,True,strong,37251efa1651d776b12f9587ee2ceb1d8bd18a37,2025-06-10T08:43:23Z,Fix the tag name for fastdds (#8939),10,15,Claude; Copilot
+carla-simulator/carla,True,strong,37251efa1651d776b12f9587ee2ceb1d8bd18a37,2025-06-10T08:43:23Z,Fix the tag name for fastdds (#8939),10,15,Claude; Copilot
+carla-simulator/carla,True,strong,37251efa1651d776b12f9587ee2ceb1d8bd18a37,2025-06-10T08:43:23Z,Fix the tag name for fastdds (#8939),10,15,Claude; Copilot
+carla-simulator/carla,True,strong,53fd7f20706606898ce7ea31ee26f67a4d5bb56a,2025-06-02T09:18:44Z,Added Left Hand Traffic Support (UE5) (#8954),11,15,Claude; Copilot
+carla-simulator/carla,True,strong,53fd7f20706606898ce7ea31ee26f67a4d5bb56a,2025-06-02T09:18:44Z,Added Left Hand Traffic Support (UE5) (#8954),11,15,Claude; Copilot
+carla-simulator/carla,True,strong,5fa5f4e2e1691b1c6648ff0e53b8514617a44cab,2025-05-30T09:21:42Z,Geometry importer quick fix (#8949),12,15,Claude; Copilot
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,False,none,,,,0,0,
+ArduPilot/ardupilot,True,strong,ec09e44a0966a7dd936960cbf4343cfaadeaaf7b,2026-04-27T03:53:30Z,Tools: autotest: vehicleinfo_schema: tag fenced code blocks,1,15,Claude
+ArduPilot/ardupilot,True,strong,6787aa3b2036c08905b35b205ed8170303d9f8ac,2026-04-27T03:24:15Z,Tools: autotest: stop auto-passing --defaults from sim_vehicle.py,2,15,Claude
+ArduPilot/ardupilot,True,strong,6787aa3b2036c08905b35b205ed8170303d9f8ac,2026-04-27T03:24:15Z,Tools: autotest: stop auto-passing --defaults from sim_vehicle.py,3,15,Claude
+ArduPilot/ardupilot,True,strong,47717154d8f9a1aa87a33f49ce5bab6a306b3883,2026-04-27T02:54:16Z,AP_HAL_SITL: resolve --model defaults from ROMFS; add --list-models,4,15,Claude
+ArduPilot/ardupilot,True,strong,a53a5803ae5651f02a6c6f7440c7ff677b08cbda,2026-04-27T02:53:38Z,waf: embed vehicleinfo.json and default_params in SITL ROMFS,5,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,02781bd2ad3f34a64e386a093983f619246a9f2a,2026-04-27T02:52:53Z,Tools: autotest: convert vehicleinfo to JSON-backed loader,6,15,Claude
+ArduPilot/ardupilot,True,strong,958493b47428a8f5e4ee5ed3f23d5ac193c24299,2026-04-07T03:19:31Z,SITL: Topotek: use hex_chars_to_uint32 for GIP/GIY angle commands,7,15,Claude
+ArduPilot/ardupilot,True,strong,f6c615fd5e54b6af15de1f0cbaf97fab71af0bc8,2026-04-07T02:46:56Z,SITL: Topotek: use hex_char_to_nibble for packet data_len field,8,15,Claude
+ArduPilot/ardupilot,True,strong,f6c615fd5e54b6af15de1f0cbaf97fab71af0bc8,2026-04-07T02:46:56Z,SITL: Topotek: use hex_char_to_nibble for packet data_len field,9,15,Claude
+ArduPilot/ardupilot,True,strong,86723ae7f5afa0709bbe755d191212e86e00f426,2026-04-07T02:32:00Z,Tools: AP_Bootloader: use hex_charpairs_to_uint8s for MD5 decode,10,15,Claude
+ArduPilot/ardupilot,True,strong,86723ae7f5afa0709bbe755d191212e86e00f426,2026-04-07T02:32:00Z,Tools: AP_Bootloader: use hex_charpairs_to_uint8s for MD5 decode,11,15,Claude
+ArduPilot/ardupilot,True,strong,86723ae7f5afa0709bbe755d191212e86e00f426,2026-04-07T02:32:00Z,Tools: AP_Bootloader: use hex_charpairs_to_uint8s for MD5 decode,12,15,Claude
+ArduPilot/ardupilot,True,strong,86723ae7f5afa0709bbe755d191212e86e00f426,2026-04-07T02:32:00Z,Tools: AP_Bootloader: use hex_charpairs_to_uint8s for MD5 decode,13,15,Claude
+ArduPilot/ardupilot,True,strong,86723ae7f5afa0709bbe755d191212e86e00f426,2026-04-07T02:32:00Z,Tools: AP_Bootloader: use hex_charpairs_to_uint8s for MD5 decode,14,15,Claude
+ArduPilot/ardupilot,True,strong,86723ae7f5afa0709bbe755d191212e86e00f426,2026-04-07T02:32:00Z,Tools: AP_Bootloader: use hex_charpairs_to_uint8s for MD5 decode,15,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,16,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,17,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,18,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+ArduPilot/ardupilot,True,strong,66517ee75ae64e6d586f5f73c1f1b71c06a7d649,2026-04-07T02:31:59Z,AP_CANManager: SLCAN: use AP_Common hex decode functions,19,15,Claude
+PX4/PX4-Autopilot,True,strong,89806574256927ee5532b0b9cafffa4672a85a2a,2026-04-29T15:25:26Z,docs: auto-sync metadata [skip ci],1,13,
+PX4/PX4-Autopilot,True,strong,76ce06c931906a428e1fba1e27f95ab9e35ed7be,2026-04-29T15:18:05Z,feat(sih): Add thrust model for hexacopter simulation (#26587),2,13,
+PX4/PX4-Autopilot,True,strong,b93978fbf94f09bc9780ce781f116fe57978cd21,2026-04-29T02:37:03Z,docs: auto-sync metadata [skip ci],3,13,
+PX4/PX4-Autopilot,True,strong,b93978fbf94f09bc9780ce781f116fe57978cd21,2026-04-29T02:37:03Z,docs: auto-sync metadata [skip ci],3,13,
+PX4/PX4-Autopilot,True,strong,a225e6156e5ddb8dd4612ff0a51d10d0673eeca0,2026-04-29T02:02:20Z,docs: auto-sync metadata [skip ci],4,13,
+PX4/PX4-Autopilot,True,strong,a225e6156e5ddb8dd4612ff0a51d10d0673eeca0,2026-04-29T02:02:20Z,docs: auto-sync metadata [skip ci],4,13,
+PX4/PX4-Autopilot,True,strong,a225e6156e5ddb8dd4612ff0a51d10d0673eeca0,2026-04-29T02:02:20Z,docs: auto-sync metadata [skip ci],4,13,
+PX4/PX4-Autopilot,True,strong,a225e6156e5ddb8dd4612ff0a51d10d0673eeca0,2026-04-29T02:02:20Z,docs: auto-sync metadata [skip ci],4,13,
+PX4/PX4-Autopilot,True,strong,a225e6156e5ddb8dd4612ff0a51d10d0673eeca0,2026-04-29T02:02:20Z,docs: auto-sync metadata [skip ci],4,13,
+PX4/PX4-Autopilot,True,strong,d4b8fd679060e3f73f524bb1ac8cb00c8d3e59c3,2026-04-28T22:23:25Z,docs: auto-sync metadata [skip ci],5,13,
+PX4/PX4-Autopilot,True,strong,d4b8fd679060e3f73f524bb1ac8cb00c8d3e59c3,2026-04-28T22:23:25Z,docs: auto-sync metadata [skip ci],5,13,
+PX4/PX4-Autopilot,True,strong,d4b8fd679060e3f73f524bb1ac8cb00c8d3e59c3,2026-04-28T22:23:25Z,docs: auto-sync metadata [skip ci],5,13,
+PX4/PX4-Autopilot,True,strong,3d0ab3afbe13cd5d212d9fa980b650c60f58cc52,2026-04-28T17:19:31Z,docs: auto-sync metadata [skip ci],6,13,
+PX4/PX4-Autopilot,True,strong,3d0ab3afbe13cd5d212d9fa980b650c60f58cc52,2026-04-28T17:19:31Z,docs: auto-sync metadata [skip ci],6,13,
+PX4/PX4-Autopilot,True,strong,e3138353b7116ba8b122059dc450ff4fd96b2d18,2026-04-28T16:50:35Z,docs: auto-sync metadata [skip ci],7,13,
+PX4/PX4-Autopilot,True,strong,e3138353b7116ba8b122059dc450ff4fd96b2d18,2026-04-28T16:50:35Z,docs: auto-sync metadata [skip ci],7,13,
+PX4/PX4-Autopilot,True,strong,182405ce67a0c08be8bf5662228d85fedbfc448b,2026-04-28T16:24:37Z,Update .github/labeler.yml,8,13,
+PX4/PX4-Autopilot,True,strong,b44335035aef22547cc9338070d48b9735a17daf,2026-04-28T16:24:27Z,Update .github/labeler.yml,9,13,
+PX4/PX4-Autopilot,True,strong,43d5bb5aa125308a3682c18d259275ac113159bd,2026-04-28T16:24:18Z,Update .github/labeler.yml,10,13,
+PX4/PX4-Autopilot,True,strong,88af603c0d0cbc7a918f32eb3fee5b55ad8e9ed2,2026-04-28T16:24:09Z,Update .github/labeler.yml,11,13,
+PX4/PX4-Autopilot,True,strong,6976ffa58642cea27714234c51306ea2fe093c9c,2026-04-28T16:23:56Z,Update .github/labeler.yml,12,13,
+PX4/PX4-Autopilot,True,strong,6815f0fd5e7a4d5ae8cd02258bbf6a378370e755,2026-04-28T16:23:46Z,Update .github/labeler.yml,13,13,
+PX4/PX4-Autopilot,True,strong,6815f0fd5e7a4d5ae8cd02258bbf6a378370e755,2026-04-28T16:23:46Z,Update .github/labeler.yml,13,13,
+PX4/PX4-Autopilot,True,strong,6815f0fd5e7a4d5ae8cd02258bbf6a378370e755,2026-04-28T16:23:46Z,Update .github/labeler.yml,13,13,
+PX4/PX4-Autopilot,True,strong,73164af67f3d10ac7f30a141086dd2182243fec8,2026-04-28T14:15:05Z,docs: auto-sync metadata [skip ci],14,13,
+PX4/PX4-Autopilot,True,strong,73164af67f3d10ac7f30a141086dd2182243fec8,2026-04-28T14:15:05Z,docs: auto-sync metadata [skip ci],14,13,
+PX4/PX4-Autopilot,True,strong,6464c1cf1d960a32dfe80a91465450a46b6c40b1,2026-04-28T08:55:09Z,docs: auto-sync metadata [skip ci],15,13,
+PX4/PX4-Autopilot,True,strong,622e72c26af4c8e38e6f9419baed8252fd23a73e,2026-04-28T08:46:53Z,feat(commander): accept optional heading arg for mag quick calibration (#24637),16,13,
+PX4/PX4-Autopilot,True,strong,e0a9572e1c080afd7b2953eaeafccb793e9c0403,2026-04-27T19:22:20Z,docs: auto-sync metadata [skip ci],17,13,
+PX4/PX4-Autopilot,True,strong,e0a9572e1c080afd7b2953eaeafccb793e9c0403,2026-04-27T19:22:20Z,docs: auto-sync metadata [skip ci],17,13,
+PX4/PX4-Autopilot,True,strong,e0a9572e1c080afd7b2953eaeafccb793e9c0403,2026-04-27T19:22:20Z,docs: auto-sync metadata [skip ci],17,13,
+PX4/PX4-Autopilot,True,strong,e0a9572e1c080afd7b2953eaeafccb793e9c0403,2026-04-27T19:22:20Z,docs: auto-sync metadata [skip ci],17,13,
+PX4/PX4-Autopilot,True,strong,e0a9572e1c080afd7b2953eaeafccb793e9c0403,2026-04-27T19:22:20Z,docs: auto-sync metadata [skip ci],17,13,
+PX4/PX4-Autopilot,True,strong,212eaeebca067f2e4e36d27ca7a009ed7de125c3,2026-04-27T13:59:09Z,docs: auto-sync metadata [skip ci],18,13,
+PX4/PX4-Autopilot,True,strong,212eaeebca067f2e4e36d27ca7a009ed7de125c3,2026-04-27T13:59:09Z,docs: auto-sync metadata [skip ci],18,13,
+PX4/PX4-Autopilot,True,strong,e01e0cacb7a2ca378026fcd7bd81b69b36ffd3c9,2026-04-27T11:54:46Z,docs: auto-sync metadata [skip ci],19,13,
+PX4/PX4-Autopilot,True,strong,e01e0cacb7a2ca378026fcd7bd81b69b36ffd3c9,2026-04-27T11:54:46Z,docs: auto-sync metadata [skip ci],19,13,
+PX4/PX4-Autopilot,True,strong,6c620528387995d01c6e87a931a446b4a6ebc70d,2026-04-27T07:56:35Z,docs: auto-sync metadata [skip ci],20,13,
+PX4/PX4-Autopilot,True,strong,6c620528387995d01c6e87a931a446b4a6ebc70d,2026-04-27T07:56:35Z,docs: auto-sync metadata [skip ci],20,13,
+PX4/PX4-Autopilot,True,strong,242d63f437bdc73ef999dd2fe66e27a19a58bf34,2026-04-26T22:44:22Z,docs: auto-sync metadata [skip ci],21,13,
+PX4/PX4-Autopilot,True,strong,242d63f437bdc73ef999dd2fe66e27a19a58bf34,2026-04-26T22:44:22Z,docs: auto-sync metadata [skip ci],21,13,
+PX4/PX4-Autopilot,True,strong,f88bc1f2045660dff74dda8060169cd853408112,2026-04-26T22:34:53Z,docs(i18n): PX4 guide translations (Crowdin) - ko (#27208),22,13,
+PX4/PX4-Autopilot,True,strong,92cc4db33dfc2d7fbeb1b6442b314b97d85c6e54,2026-04-26T22:34:40Z,docs(i18n): PX4 guide translations (Crowdin) - zh-CN (#27210),23,13,
+PX4/PX4-Autopilot,True,strong,5c7d08f1d0a31016f2b80e79a44361d40d499072,2026-04-26T22:34:23Z,docs(i18n): PX4 guide translations (Crowdin) - uk (#27209),24,13,
+PX4/PX4-Autopilot,True,strong,5c7d08f1d0a31016f2b80e79a44361d40d499072,2026-04-26T22:34:23Z,docs(i18n): PX4 guide translations (Crowdin) - uk (#27209),24,13,
+PX4/PX4-Autopilot,True,strong,5c7d08f1d0a31016f2b80e79a44361d40d499072,2026-04-26T22:34:23Z,docs(i18n): PX4 guide translations (Crowdin) - uk (#27209),24,13,
+PX4/PX4-Autopilot,True,strong,efd05431e8426d5a788ad814946bfba2f5da893e,2026-04-26T04:37:39Z,docs: auto-sync metadata [skip ci],25,13,
+PX4/PX4-Autopilot,True,strong,efd05431e8426d5a788ad814946bfba2f5da893e,2026-04-26T04:37:39Z,docs: auto-sync metadata [skip ci],25,13,
+PX4/PX4-Autopilot,True,strong,5fcd9043f36b9e016b677868dc5fe8938d23b7fc,2026-04-24T22:44:47Z,docs: auto-sync metadata [skip ci],26,13,
+PX4/PX4-Autopilot,True,strong,5fcd9043f36b9e016b677868dc5fe8938d23b7fc,2026-04-24T22:44:47Z,docs: auto-sync metadata [skip ci],26,13,
+PX4/PX4-Autopilot,True,strong,5fcd9043f36b9e016b677868dc5fe8938d23b7fc,2026-04-24T22:44:47Z,docs: auto-sync metadata [skip ci],26,13,
+PX4/PX4-Autopilot,True,strong,5fcd9043f36b9e016b677868dc5fe8938d23b7fc,2026-04-24T22:44:47Z,docs: auto-sync metadata [skip ci],26,13,
+PX4/PX4-Autopilot,True,strong,5fcd9043f36b9e016b677868dc5fe8938d23b7fc,2026-04-24T22:44:47Z,docs: auto-sync metadata [skip ci],26,13,
+PX4/PX4-Autopilot,True,strong,5fcd9043f36b9e016b677868dc5fe8938d23b7fc,2026-04-24T22:44:47Z,docs: auto-sync metadata [skip ci],26,13,
+PX4/PX4-Autopilot,True,strong,5fcd9043f36b9e016b677868dc5fe8938d23b7fc,2026-04-24T22:44:47Z,docs: auto-sync metadata [skip ci],26,13,
+PX4/PX4-Autopilot,True,strong,5fcd9043f36b9e016b677868dc5fe8938d23b7fc,2026-04-24T22:44:47Z,docs: auto-sync metadata [skip ci],26,13,
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,27,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,27,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,27,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,27,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,27,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,27,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,28,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,28,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,29,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,30,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,31,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,31,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,31,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,32,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,32,13,Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,33,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,34,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,34,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,34,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,34,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,35,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,35,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,35,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,36,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,36,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,37,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,37,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,37,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,38,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,39,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,40,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,41,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,41,16,Claude; Copilot
+PX4/PX4-Autopilot,True,strong,2c693e4113fcfa0ac97ef236e3f4f02b18ad7c9c,2026-04-20T12:04:56Z,fix(drvers/ins): Apply to sbgECom copilot code-improvements,42,16,Claude; Copilot
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+MichaelGrupp/evo,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,False,none,,,,0,0,
+robin-shaun/XTDrone,True,moderate,78069d864f5341d85163814703ba0439a65164cc,2022-04-29T05:02:26Z,update ugv_planning,1,8,
+robin-shaun/XTDrone,True,moderate,78069d864f5341d85163814703ba0439a65164cc,2022-04-29T05:02:26Z,update ugv_planning,1,8,
+robin-shaun/XTDrone,True,moderate,78069d864f5341d85163814703ba0439a65164cc,2022-04-29T05:02:26Z,update ugv_planning,1,8,
+autowarefoundation/autoware.universe,False,none,,,,0,0,
+autowarefoundation/autoware.universe,False,none,,,,0,0,
+autowarefoundation/autoware.universe,True,moderate,55f959c25f92ee43eec510a4afe6615b681c4758,2026-04-27T00:58:45Z,refactor(traffic_light_map_based_detector): unify detect() transform args into StampedTransform vector (#12488),1,5,
+autowarefoundation/autoware.universe,True,moderate,55f959c25f92ee43eec510a4afe6615b681c4758,2026-04-27T00:58:45Z,refactor(traffic_light_map_based_detector): unify detect() transform args into StampedTransform vector (#12488),1,5,
+autowarefoundation/autoware.universe,True,moderate,b891653d6ed89154dc31448dd76b37042cc9ca4a,2026-04-24T05:57:32Z,feat(autoware_traffic_light_utils): rewrite hasTrafficLightCircleColor and hasTrafficLightShape into three functions to handle overseas color arrow traffic light (#12481),2,5,
+autowarefoundation/autoware.universe,True,moderate,d559ceaf8436cc3cf6569abade9ac7e10915fc87,2026-04-24T02:11:26Z,feat(control_evaluator): add `uncrossable_boundary_distance_count` metrics (#12503),3,5,
+autowarefoundation/autoware.universe,True,moderate,d559ceaf8436cc3cf6569abade9ac7e10915fc87,2026-04-24T02:11:26Z,feat(control_evaluator): add `uncrossable_boundary_distance_count` metrics (#12503),3,5,
+autowarefoundation/autoware.universe,True,moderate,c3e2f733490a67276dcede1bcc82ad102d008640,2026-04-23T13:43:20Z,refactor(autoware_universe): use autoware_ament_auto_package in planning packages (#12291),4,5,
+autowarefoundation/autoware.universe,True,moderate,c3e2f733490a67276dcede1bcc82ad102d008640,2026-04-23T13:43:20Z,refactor(autoware_universe): use autoware_ament_auto_package in planning packages (#12291),4,5,
+autowarefoundation/autoware.universe,True,moderate,d724d8cebf60370fcc321620bc524dbe0f9e9a8b,2026-04-22T06:09:18Z,feat(trajectory_validator): add evaluation tables to propagate filtering results (#12445),5,5,
+autowarefoundation/autoware.universe,True,moderate,e6fbc09975782e5fe56474ac6b3f010fe3c2bb12,2026-04-22T04:43:00Z,perf(lidar_centerpoint): remove unnecessary atomic functions from lidar_centerpoint (#12419),6,5,
+autowarefoundation/autoware.universe,True,moderate,e6fbc09975782e5fe56474ac6b3f010fe3c2bb12,2026-04-22T04:43:00Z,perf(lidar_centerpoint): remove unnecessary atomic functions from lidar_centerpoint (#12419),6,5,
+autowarefoundation/autoware.universe,True,moderate,e6fbc09975782e5fe56474ac6b3f010fe3c2bb12,2026-04-22T04:43:00Z,perf(lidar_centerpoint): remove unnecessary atomic functions from lidar_centerpoint (#12419),6,5,
+autowarefoundation/autoware.universe,True,moderate,e6fbc09975782e5fe56474ac6b3f010fe3c2bb12,2026-04-22T04:43:00Z,perf(lidar_centerpoint): remove unnecessary atomic functions from lidar_centerpoint (#12419),6,5,
+autowarefoundation/autoware.universe,True,moderate,e6fbc09975782e5fe56474ac6b3f010fe3c2bb12,2026-04-22T04:43:00Z,perf(lidar_centerpoint): remove unnecessary atomic functions from lidar_centerpoint (#12419),6,5,
+autowarefoundation/autoware.universe,True,moderate,e6fbc09975782e5fe56474ac6b3f010fe3c2bb12,2026-04-22T04:43:00Z,perf(lidar_centerpoint): remove unnecessary atomic functions from lidar_centerpoint (#12419),6,5,
+autowarefoundation/autoware.universe,True,moderate,e6fbc09975782e5fe56474ac6b3f010fe3c2bb12,2026-04-22T04:43:00Z,perf(lidar_centerpoint): remove unnecessary atomic functions from lidar_centerpoint (#12419),6,5,
+autowarefoundation/autoware.universe,True,moderate,e6fbc09975782e5fe56474ac6b3f010fe3c2bb12,2026-04-22T04:43:00Z,perf(lidar_centerpoint): remove unnecessary atomic functions from lidar_centerpoint (#12419),6,5,
+autowarefoundation/autoware.universe,True,moderate,682bd2ea2df48d232d8243400c7e1f24583aaef1,2026-04-20T08:55:37Z,chore(autoware_multi_object_tracker): refactoring association algorithms (#12477),7,5,
+autowarefoundation/autoware.universe,True,moderate,682bd2ea2df48d232d8243400c7e1f24583aaef1,2026-04-20T08:55:37Z,chore(autoware_multi_object_tracker): refactoring association algorithms (#12477),7,5,
+autowarefoundation/autoware.universe,True,moderate,0ee7da7a6ff6fcfef4bbd95bb7570b02b5b022ec,2026-04-20T00:14:14Z,feat(lidar_marker_localizer): extend lidar-marker localization to enhance flexibility and debugging capabilities (#11574),8,5,
+autowarefoundation/autoware.universe,True,moderate,0ee7da7a6ff6fcfef4bbd95bb7570b02b5b022ec,2026-04-20T00:14:14Z,feat(lidar_marker_localizer): extend lidar-marker localization to enhance flexibility and debugging capabilities (#11574),8,5,
+autowarefoundation/autoware.universe,True,moderate,3506a676ad33ee45b28a430c8033eddd36adb1ba,2026-04-16T21:45:44Z,feat(trajectory_modifier): add obstacle stop feature to trajectory modifier (#12338),9,5,
+autowarefoundation/autoware.universe,True,moderate,2a10b25b05e39fb239859dc1d29b642c1172f659,2026-04-16T09:24:16Z,perf(common): use emplace/emplace_back to avoid temporary object creation (#12238),10,5,
+autowarefoundation/autoware.universe,True,moderate,2a10b25b05e39fb239859dc1d29b642c1172f659,2026-04-16T09:24:16Z,perf(common): use emplace/emplace_back to avoid temporary object creation (#12238),10,5,
+autowarefoundation/autoware.universe,True,strong,c0d4a7f4e5f7116268ccec02b1d9552782543f1e,2026-04-13T14:11:44Z,feat(traffic_light_classifier): add regression architecture based classifier (#12302),11,13,
+autowarefoundation/autoware.universe,True,strong,2a396ba59a11d348359b0e9db03fe9a73d7a9431,2026-04-13T12:02:17Z,refactor(traffic_light_map_based_detector): require LaneletMapBin in constructor and simplify SetRouteResult (#12449),12,13,
+autowarefoundation/autoware.universe,True,strong,d8a328467d5ed5be5d20b7fd46591c41494e54fa,2026-04-13T08:07:19Z,fix(autoware_behavior_path_side_shift): stabilize side shift path (#12473),13,13,
+autowarefoundation/autoware.universe,True,strong,9d7d9ad68c75815b4bee03afa5d9d2f773b2a4fc,2026-04-13T06:36:46Z,fix(roi_cluster_fusion): separate agnocast subscription callback group (#12439),14,13,
+autowarefoundation/autoware.universe,True,strong,d96115426a4a728413506ff1b2ec7f3ce570c8f3,2026-04-13T04:48:57Z,perf(system/autoware_diagnostic_graph_aggregator): use emplace/emplace_back to avoid temporary object creation (#12239),15,13,
+autowarefoundation/autoware.universe,True,strong,d96115426a4a728413506ff1b2ec7f3ce570c8f3,2026-04-13T04:48:57Z,perf(system/autoware_diagnostic_graph_aggregator): use emplace/emplace_back to avoid temporary object creation (#12239),15,13,
+autowarefoundation/autoware.universe,True,strong,d96115426a4a728413506ff1b2ec7f3ce570c8f3,2026-04-13T04:48:57Z,perf(system/autoware_diagnostic_graph_aggregator): use emplace/emplace_back to avoid temporary object creation (#12239),15,13,
+autowarefoundation/autoware.universe,True,strong,e268766d5cab8b04e3babe25ff7f54f57fe6c6ba,2026-04-10T09:30:40Z,fix(control_evaluator): enable recording uncrossable_boundary_distance (#12468),16,13,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,6b7ca3a9a22a94c4475702c55b2bd71b76defb4f,2026-04-10T07:12:58Z,feat(build_depends_stable.repos): minor update autowarefoundation/autoware_cmake to 1.2.0 (#12466),17,15,
+autowarefoundation/autoware.universe,True,strong,187982dbcc26348a8cd0f5fff1bc2d6b44a5c213,2026-04-09T06:16:08Z,feat(traffic_light_map_based_detector): remove unused parameter and replace silent fallback with exeption (#12434),18,15,
+autowarefoundation/autoware.universe,True,strong,187982dbcc26348a8cd0f5fff1bc2d6b44a5c213,2026-04-09T06:16:08Z,feat(traffic_light_map_based_detector): remove unused parameter and replace silent fallback with exeption (#12434),18,15,
+autowarefoundation/autoware.universe,True,strong,a2f50771b7d0c00bf491938e63913b1d5cfdb054,2026-04-09T01:50:56Z,fix(autoware_tensorrt_plugins): avoid tv::zeros and tv::empty (#12378),19,15,
+autowarefoundation/autoware.universe,True,strong,a2f50771b7d0c00bf491938e63913b1d5cfdb054,2026-04-09T01:50:56Z,fix(autoware_tensorrt_plugins): avoid tv::zeros and tv::empty (#12378),19,15,
+autowarefoundation/autoware.universe,True,strong,b1d8577822c99ffe1b890cde49f46259f9637ea0,2026-04-08T09:26:09Z,ci(clang-tidy): add repo-specific clang-tidy config (#12432),20,15,
+autowarefoundation/autoware.universe,True,strong,b1d8577822c99ffe1b890cde49f46259f9637ea0,2026-04-08T09:26:09Z,ci(clang-tidy): add repo-specific clang-tidy config (#12432),20,15,
+autowarefoundation/autoware.universe,True,strong,b1d8577822c99ffe1b890cde49f46259f9637ea0,2026-04-08T09:26:09Z,ci(clang-tidy): add repo-specific clang-tidy config (#12432),20,15,
+autowarefoundation/autoware.universe,True,strong,b1d8577822c99ffe1b890cde49f46259f9637ea0,2026-04-08T09:26:09Z,ci(clang-tidy): add repo-specific clang-tidy config (#12432),20,15,
+autowarefoundation/autoware.universe,True,strong,3fd8d24e03d3373fbe8d80b29a184b8418cf6d49,2026-04-08T06:46:57Z,refactor(`simple_planning_simulator`): remove `autoware_raw_vehicle_cmd_converter` dependency (#12384),21,15,
+autowarefoundation/autoware.universe,True,strong,3fd8d24e03d3373fbe8d80b29a184b8418cf6d49,2026-04-08T06:46:57Z,refactor(`simple_planning_simulator`): remove `autoware_raw_vehicle_cmd_converter` dependency (#12384),21,15,
+autowarefoundation/autoware.universe,True,strong,3fd8d24e03d3373fbe8d80b29a184b8418cf6d49,2026-04-08T06:46:57Z,refactor(`simple_planning_simulator`): remove `autoware_raw_vehicle_cmd_converter` dependency (#12384),21,15,
+autowarefoundation/autoware.universe,True,strong,814f9a9a6d296d4b0ead9c794aac35d12874346c,2026-04-08T01:59:45Z,refactor(traffic_light_map_based_detector): extract core logic (#12412),22,15,
+autowarefoundation/autoware.universe,True,strong,814f9a9a6d296d4b0ead9c794aac35d12874346c,2026-04-08T01:59:45Z,refactor(traffic_light_map_based_detector): extract core logic (#12412),22,15,
+autowarefoundation/autoware.universe,True,strong,3d140472197bf8d31178052af048ea1b06fc20cb,2026-04-08T00:19:48Z,feat(autoware_radar_objects_adapter): remove dependency on autoware_universe_utils in sensing (#12407),23,15,
+autowarefoundation/autoware.universe,True,strong,3d140472197bf8d31178052af048ea1b06fc20cb,2026-04-08T00:19:48Z,feat(autoware_radar_objects_adapter): remove dependency on autoware_universe_utils in sensing (#12407),23,15,
+autowarefoundation/autoware.universe,True,strong,3d140472197bf8d31178052af048ea1b06fc20cb,2026-04-08T00:19:48Z,feat(autoware_radar_objects_adapter): remove dependency on autoware_universe_utils in sensing (#12407),23,15,
+autowarefoundation/autoware.universe,True,strong,3d140472197bf8d31178052af048ea1b06fc20cb,2026-04-08T00:19:48Z,feat(autoware_radar_objects_adapter): remove dependency on autoware_universe_utils in sensing (#12407),23,15,
+autowarefoundation/autoware.universe,True,strong,3d140472197bf8d31178052af048ea1b06fc20cb,2026-04-08T00:19:48Z,feat(autoware_radar_objects_adapter): remove dependency on autoware_universe_utils in sensing (#12407),23,15,
+autowarefoundation/autoware.universe,True,strong,3d140472197bf8d31178052af048ea1b06fc20cb,2026-04-08T00:19:48Z,feat(autoware_radar_objects_adapter): remove dependency on autoware_universe_utils in sensing (#12407),23,15,
+autowarefoundation/autoware.universe,True,strong,3d140472197bf8d31178052af048ea1b06fc20cb,2026-04-08T00:19:48Z,feat(autoware_radar_objects_adapter): remove dependency on autoware_universe_utils in sensing (#12407),23,15,
+autowarefoundation/autoware.universe,True,strong,b4593ce29d84b5a35165e1c15b6bcbbe3cd0227c,2026-04-03T13:15:18Z,feat(BEVFusion): add gpu-based image undistortion to the bevfusion node (#12279),24,15,
+autowarefoundation/autoware.universe,True,strong,b4593ce29d84b5a35165e1c15b6bcbbe3cd0227c,2026-04-03T13:15:18Z,feat(BEVFusion): add gpu-based image undistortion to the bevfusion node (#12279),24,15,
+autowarefoundation/autoware.universe,True,strong,b4593ce29d84b5a35165e1c15b6bcbbe3cd0227c,2026-04-03T13:15:18Z,feat(BEVFusion): add gpu-based image undistortion to the bevfusion node (#12279),24,15,
+autowarefoundation/autoware.universe,True,strong,b4593ce29d84b5a35165e1c15b6bcbbe3cd0227c,2026-04-03T13:15:18Z,feat(BEVFusion): add gpu-based image undistortion to the bevfusion node (#12279),24,15,
+autowarefoundation/autoware.universe,True,strong,72c45df91865f77723c8211fb7d1b17da08ec9db,2026-04-02T16:55:28Z,feat(blockage_diag): apply agnocast subscription to `blockage_diag` (#12393),25,15,
+autowarefoundation/autoware.universe,True,strong,72c45df91865f77723c8211fb7d1b17da08ec9db,2026-04-02T16:55:28Z,feat(blockage_diag): apply agnocast subscription to `blockage_diag` (#12393),25,15,
+autowarefoundation/autoware.universe,True,strong,15e106142bc86714679214b3599c13c16bcc0c66,2026-04-02T11:42:16Z,refactor(autoware_crosswalk_traffic_light_estimator): improve readability of get_non_red_lanelets (#12380),26,15,
+autowarefoundation/autoware.universe,True,strong,15e106142bc86714679214b3599c13c16bcc0c66,2026-04-02T11:42:16Z,refactor(autoware_crosswalk_traffic_light_estimator): improve readability of get_non_red_lanelets (#12380),26,15,
+autowarefoundation/autoware.universe,True,strong,15e106142bc86714679214b3599c13c16bcc0c66,2026-04-02T11:42:16Z,refactor(autoware_crosswalk_traffic_light_estimator): improve readability of get_non_red_lanelets (#12380),26,15,
+autowarefoundation/autoware.universe,True,strong,d6ff08db37d41232709f4ae71b31d2c87490d7e9,2026-04-01T08:00:47Z,test(traffic_light_map_based_detector): add integration test (#12396),27,15,
+autowarefoundation/autoware.universe,True,strong,24bf6ebc1fad945464f5bc7f76d94571f31d5640,2026-04-01T03:22:44Z,refactor(autoware_universe): use autoware_ament_auto_package in perception utility packages (#12281),28,15,
+autowarefoundation/autoware.universe,True,strong,24bf6ebc1fad945464f5bc7f76d94571f31d5640,2026-04-01T03:22:44Z,refactor(autoware_universe): use autoware_ament_auto_package in perception utility packages (#12281),28,15,
+autowarefoundation/autoware.universe,True,strong,24bf6ebc1fad945464f5bc7f76d94571f31d5640,2026-04-01T03:22:44Z,refactor(autoware_universe): use autoware_ament_auto_package in perception utility packages (#12281),28,15,
+autowarefoundation/autoware.universe,True,strong,24bf6ebc1fad945464f5bc7f76d94571f31d5640,2026-04-01T03:22:44Z,refactor(autoware_universe): use autoware_ament_auto_package in perception utility packages (#12281),28,15,
+autowarefoundation/autoware.universe,True,strong,24bf6ebc1fad945464f5bc7f76d94571f31d5640,2026-04-01T03:22:44Z,refactor(autoware_universe): use autoware_ament_auto_package in perception utility packages (#12281),28,15,
+autowarefoundation/autoware.universe,True,strong,24bf6ebc1fad945464f5bc7f76d94571f31d5640,2026-04-01T03:22:44Z,refactor(autoware_universe): use autoware_ament_auto_package in perception utility packages (#12281),28,15,
+autowarefoundation/autoware.universe,True,strong,24bf6ebc1fad945464f5bc7f76d94571f31d5640,2026-04-01T03:22:44Z,refactor(autoware_universe): use autoware_ament_auto_package in perception utility packages (#12281),28,15,
+autowarefoundation/autoware.universe,True,strong,24bf6ebc1fad945464f5bc7f76d94571f31d5640,2026-04-01T03:22:44Z,refactor(autoware_universe): use autoware_ament_auto_package in perception utility packages (#12281),28,15,
+autowarefoundation/autoware.universe,True,strong,24bf6ebc1fad945464f5bc7f76d94571f31d5640,2026-04-01T03:22:44Z,refactor(autoware_universe): use autoware_ament_auto_package in perception utility packages (#12281),28,15,
+autowarefoundation/autoware.universe,True,strong,24bf6ebc1fad945464f5bc7f76d94571f31d5640,2026-04-01T03:22:44Z,refactor(autoware_universe): use autoware_ament_auto_package in perception utility packages (#12281),28,15,
+autowarefoundation/autoware.universe,True,strong,ffe91609aff6c1daaea3c37e835a5cffed1b98b0,2026-03-27T03:48:40Z,refactor(autoware_tensorrt_yolox): parameterize label remapping (#12204),29,15,
+autowarefoundation/autoware.universe,True,strong,104be4474e94652ab0e7328bc0f5f380a584425f,2026-03-27T02:17:09Z,chore(autoware_multi_object_tracker): convert array based config to explicit keys (#12379),30,15,
+autowarefoundation/autoware.universe,True,strong,104be4474e94652ab0e7328bc0f5f380a584425f,2026-03-27T02:17:09Z,chore(autoware_multi_object_tracker): convert array based config to explicit keys (#12379),30,15,
+autowarefoundation/autoware.universe,True,strong,6f4e694f46add90ee8d280abb4b48fd322bb9097,2026-03-26T00:23:49Z,chore: update CODEOWNERS (#12345),31,15,
+autowarefoundation/autoware.universe,True,strong,985d94f897b4ee0a33e6af9ef90e66d960ff3005,2026-03-25T23:46:40Z,feat(autoware_universe_designs): introduce autoware system designer (#12070),32,15,
+autowarefoundation/autoware.universe,True,strong,d799dddf90842bbcae68e8b5827bc67a9da2d521,2026-03-24T09:50:55Z,"feat(autoware_lidar_frnet): add multi-format input, ego crop box, sensor-specific config, docs (#12000)",33,15,
+autowarefoundation/autoware.universe,True,strong,2e268d3a3eb99ae21b62ee33e2aaf3b88822ba18,2026-03-24T09:48:58Z,feat(autoware_ptv3): add multi-type input and output & update model (#12362),34,15,
+autowarefoundation/autoware.universe,True,strong,2e268d3a3eb99ae21b62ee33e2aaf3b88822ba18,2026-03-24T09:48:58Z,feat(autoware_ptv3): add multi-type input and output & update model (#12362),34,15,
+autowarefoundation/autoware.universe,True,strong,7e218bdc5a5df438a9830c3a7b10e46992d35ebc,2026-03-24T07:48:14Z,"fix: revert ""fix(behavior_path_side_shift): preserve shifted path shap to prevent chattering (#12278)"" (#12377)",35,15,
+autowarefoundation/autoware.universe,True,strong,7e218bdc5a5df438a9830c3a7b10e46992d35ebc,2026-03-24T07:48:14Z,"fix: revert ""fix(behavior_path_side_shift): preserve shifted path shap to prevent chattering (#12278)"" (#12377)",35,15,
+autowarefoundation/autoware.universe,True,strong,7e218bdc5a5df438a9830c3a7b10e46992d35ebc,2026-03-24T07:48:14Z,"fix: revert ""fix(behavior_path_side_shift): preserve shifted path shap to prevent chattering (#12278)"" (#12377)",35,15,
+loco-3d/crocoddyl,True,strong,ebd3f552e9a062f9a7693956b2066ac31f357f0d,2026-04-28T01:46:38Z,Bump conda-incubator/setup-miniconda from 3 to 4,1,10,
+loco-3d/crocoddyl,True,strong,6c112b5da50fd8c0f164cccc8bf5060b39f299ad,2026-04-21T00:02:53Z,Bump ros-industrial/industrial_ci,2,10,
+loco-3d/crocoddyl,True,strong,af5c7b99f83ee10f4dd84914a735f24680d749b7,2026-04-20T22:38:15Z,[pre-commit.ci] pre-commit autoupdate (#1495),3,10,
+loco-3d/crocoddyl,True,strong,af5c7b99f83ee10f4dd84914a735f24680d749b7,2026-04-20T22:38:15Z,[pre-commit.ci] pre-commit autoupdate (#1495),3,10,
+loco-3d/crocoddyl,True,strong,af5c7b99f83ee10f4dd84914a735f24680d749b7,2026-04-20T22:38:15Z,[pre-commit.ci] pre-commit autoupdate (#1495),3,10,
+loco-3d/crocoddyl,True,strong,af5c7b99f83ee10f4dd84914a735f24680d749b7,2026-04-20T22:38:15Z,[pre-commit.ci] pre-commit autoupdate (#1495),3,10,
+loco-3d/crocoddyl,True,strong,af5c7b99f83ee10f4dd84914a735f24680d749b7,2026-04-20T22:38:15Z,[pre-commit.ci] pre-commit autoupdate (#1495),3,10,
+loco-3d/crocoddyl,True,strong,af5c7b99f83ee10f4dd84914a735f24680d749b7,2026-04-20T22:38:15Z,[pre-commit.ci] pre-commit autoupdate (#1495),3,10,
+loco-3d/crocoddyl,True,strong,af5c7b99f83ee10f4dd84914a735f24680d749b7,2026-04-20T22:38:15Z,[pre-commit.ci] pre-commit autoupdate (#1495),3,10,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,4,10,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,4,10,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,5,10,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,5,10,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,5,10,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,6,10,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,6,10,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,6,10,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,6,10,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,7,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,7,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,8,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,9,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,10,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,11,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,12,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,13,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,14,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,15,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,15,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,16,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,16,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,17,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,17,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,18,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,18,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,19,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,19,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,20,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,20,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,20,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,21,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,22,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,22,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,22,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,22,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,22,15,
+loco-3d/crocoddyl,True,strong,f8fb075a83dedbbc9023b5e428e16674faa687e3,2025-12-30T09:21:39Z,CMake: make example-robot-data more optional for ROS,22,15,
+loco-3d/crocoddyl,True,strong,ea0de8afdb1df3bae292e4add7fc2107d78e965f,2025-12-22T20:42:50Z,[pre-commit.ci] pre-commit autoupdate,23,15,
+loco-3d/crocoddyl,True,strong,ea0de8afdb1df3bae292e4add7fc2107d78e965f,2025-12-22T20:42:50Z,[pre-commit.ci] pre-commit autoupdate,23,15,
+loco-3d/crocoddyl,True,strong,ea0de8afdb1df3bae292e4add7fc2107d78e965f,2025-12-22T20:42:50Z,[pre-commit.ci] pre-commit autoupdate,23,15,
+loco-3d/crocoddyl,True,strong,b95d7109eaa864657efc32d4c8bf0247b20756d2,2025-12-15T23:10:51Z,Bump actions/cache from 4 to 5,24,15,
+loco-3d/crocoddyl,True,strong,fe96514c9495b22ae3b82fde26dd1624ac114ab1,2025-12-15T23:10:46Z,Bump ros-industrial/industrial_ci,25,15,
+loco-3d/crocoddyl,True,strong,a2667cc637f432a7d2797192ef3c905f7d31878d,2025-12-15T21:58:59Z,[pre-commit.ci] pre-commit autoupdate (#1461),26,15,
+loco-3d/crocoddyl,True,strong,a2667cc637f432a7d2797192ef3c905f7d31878d,2025-12-15T21:58:59Z,[pre-commit.ci] pre-commit autoupdate (#1461),26,15,
+loco-3d/crocoddyl,True,strong,a2667cc637f432a7d2797192ef3c905f7d31878d,2025-12-15T21:58:59Z,[pre-commit.ci] pre-commit autoupdate (#1461),26,15,
+loco-3d/crocoddyl,True,strong,a2667cc637f432a7d2797192ef3c905f7d31878d,2025-12-15T21:58:59Z,[pre-commit.ci] pre-commit autoupdate (#1461),26,15,
+loco-3d/crocoddyl,True,strong,a2667cc637f432a7d2797192ef3c905f7d31878d,2025-12-15T21:58:59Z,[pre-commit.ci] pre-commit autoupdate (#1461),26,15,
+loco-3d/crocoddyl,True,strong,a01b7ca247c88b5c3f4d69dc07f2943dcb0c4bf6,2025-12-08T21:17:59Z,[pre-commit.ci] pre-commit autoupdate,27,15,
+loco-3d/crocoddyl,True,strong,a01b7ca247c88b5c3f4d69dc07f2943dcb0c4bf6,2025-12-08T21:17:59Z,[pre-commit.ci] pre-commit autoupdate,27,15,
+loco-3d/crocoddyl,True,strong,a01b7ca247c88b5c3f4d69dc07f2943dcb0c4bf6,2025-12-08T21:17:59Z,[pre-commit.ci] pre-commit autoupdate,27,15,
+loco-3d/crocoddyl,True,strong,a01b7ca247c88b5c3f4d69dc07f2943dcb0c4bf6,2025-12-08T21:17:59Z,[pre-commit.ci] pre-commit autoupdate,27,15,
+loco-3d/crocoddyl,True,strong,a01b7ca247c88b5c3f4d69dc07f2943dcb0c4bf6,2025-12-08T21:17:59Z,[pre-commit.ci] pre-commit autoupdate,27,15,
+loco-3d/crocoddyl,True,strong,cff9ce7eeee40b7def8e7e1de7bf8595d7b898e7,2025-12-01T21:25:19Z,[pre-commit.ci] pre-commit autoupdate,28,15,
+loco-3d/crocoddyl,True,strong,cff9ce7eeee40b7def8e7e1de7bf8595d7b898e7,2025-12-01T21:25:19Z,[pre-commit.ci] pre-commit autoupdate,28,15,
+loco-3d/crocoddyl,True,strong,cff9ce7eeee40b7def8e7e1de7bf8595d7b898e7,2025-12-01T21:25:19Z,[pre-commit.ci] pre-commit autoupdate,28,15,
+loco-3d/crocoddyl,True,strong,cff9ce7eeee40b7def8e7e1de7bf8595d7b898e7,2025-12-01T21:25:19Z,[pre-commit.ci] pre-commit autoupdate,28,15,
+loco-3d/crocoddyl,True,strong,cff9ce7eeee40b7def8e7e1de7bf8595d7b898e7,2025-12-01T21:25:19Z,[pre-commit.ci] pre-commit autoupdate,28,15,
+loco-3d/crocoddyl,True,strong,cff9ce7eeee40b7def8e7e1de7bf8595d7b898e7,2025-12-01T21:25:19Z,[pre-commit.ci] pre-commit autoupdate,28,15,
+loco-3d/crocoddyl,True,strong,cff9ce7eeee40b7def8e7e1de7bf8595d7b898e7,2025-12-01T21:25:19Z,[pre-commit.ci] pre-commit autoupdate,28,15,
+loco-3d/crocoddyl,True,strong,cff9ce7eeee40b7def8e7e1de7bf8595d7b898e7,2025-12-01T21:25:19Z,[pre-commit.ci] pre-commit autoupdate,28,15,
+loco-3d/crocoddyl,True,strong,cff9ce7eeee40b7def8e7e1de7bf8595d7b898e7,2025-12-01T21:25:19Z,[pre-commit.ci] pre-commit autoupdate,28,15,
+loco-3d/crocoddyl,True,strong,21243975b82a74fae457264fe6558e2f3ddf9095,2025-11-24T23:31:51Z,Bump actions/checkout from 5 to 6,29,15,
+loco-3d/crocoddyl,True,strong,deef6a892948f291c8b3f959b763a82befe9595a,2025-11-24T21:12:51Z,[pre-commit.ci] pre-commit autoupdate,30,15,
+loco-3d/crocoddyl,True,strong,deef6a892948f291c8b3f959b763a82befe9595a,2025-11-24T21:12:51Z,[pre-commit.ci] pre-commit autoupdate,30,15,
+loco-3d/crocoddyl,True,strong,4c5fa34cbdbc9245ebe009a60b08595505009c5b,2025-11-17T20:48:16Z,[pre-commit.ci] pre-commit autoupdate,31,15,
+loco-3d/crocoddyl,True,strong,4c5fa34cbdbc9245ebe009a60b08595505009c5b,2025-11-17T20:48:16Z,[pre-commit.ci] pre-commit autoupdate,31,15,
+loco-3d/crocoddyl,True,strong,6fcb1f2d62c7732c20e3f132032f4950ad6a2413,2025-11-12T21:25:15Z,flake.lock: Update,32,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,338bbb76bedb569ad0e0b42897dabc5fb5f14167,2025-11-10T21:22:01Z,[pre-commit.ci] pre-commit autoupdate,33,15,
+loco-3d/crocoddyl,True,strong,8347e9271c441b3ed52ed5ffa4d35325c02533db,2025-11-03T21:05:18Z,[pre-commit.ci] pre-commit autoupdate,34,15,
+loco-3d/crocoddyl,True,strong,8347e9271c441b3ed52ed5ffa4d35325c02533db,2025-11-03T21:05:18Z,[pre-commit.ci] pre-commit autoupdate,34,15,
+loco-3d/crocoddyl,True,strong,a0cd338d05e1dce51957554d9803f02eb1a77e3b,2025-10-27T20:36:23Z,[pre-commit.ci] pre-commit autoupdate,35,15,
+loco-3d/crocoddyl,True,strong,a0cd338d05e1dce51957554d9803f02eb1a77e3b,2025-10-27T20:36:23Z,[pre-commit.ci] pre-commit autoupdate,35,15,
+loco-3d/crocoddyl,True,strong,a0cd338d05e1dce51957554d9803f02eb1a77e3b,2025-10-27T20:36:23Z,[pre-commit.ci] pre-commit autoupdate,35,15,
+loco-3d/crocoddyl,True,strong,a0cd338d05e1dce51957554d9803f02eb1a77e3b,2025-10-27T20:36:23Z,[pre-commit.ci] pre-commit autoupdate,35,15,
+loco-3d/crocoddyl,True,strong,a0cd338d05e1dce51957554d9803f02eb1a77e3b,2025-10-27T20:36:23Z,[pre-commit.ci] pre-commit autoupdate,35,15,
+loco-3d/crocoddyl,True,strong,4b92407cc8ae691a4c73d19d326be07b40da0708,2025-10-20T22:46:50Z,[pre-commit.ci] pre-commit autoupdate,36,15,
+loco-3d/crocoddyl,True,strong,4b92407cc8ae691a4c73d19d326be07b40da0708,2025-10-20T22:46:50Z,[pre-commit.ci] pre-commit autoupdate,36,15,
+loco-3d/crocoddyl,True,strong,4b92407cc8ae691a4c73d19d326be07b40da0708,2025-10-20T22:46:50Z,[pre-commit.ci] pre-commit autoupdate,36,15,
+loco-3d/crocoddyl,True,strong,4b92407cc8ae691a4c73d19d326be07b40da0708,2025-10-20T22:46:50Z,[pre-commit.ci] pre-commit autoupdate,36,15,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+leggedrobotics/open3d_slam,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+linorobot/linorobot2,False,none,,,,0,0,
+sea-bass/pyrobosim,True,strong,a89a0248111c12ac914b2770255e4ce46b76dc23,2026-04-06T16:46:31Z,[pre-commit.ci] pre-commit autoupdate (#432),1,15,
+sea-bass/pyrobosim,True,strong,89423f1d40f27defb990f3de8d56d4d0297ac09b,2026-03-02T17:33:57Z,[pre-commit.ci] pre-commit autoupdate (#430),2,15,
+sea-bass/pyrobosim,True,strong,89423f1d40f27defb990f3de8d56d4d0297ac09b,2026-03-02T17:33:57Z,[pre-commit.ci] pre-commit autoupdate (#430),2,15,
+sea-bass/pyrobosim,True,strong,89423f1d40f27defb990f3de8d56d4d0297ac09b,2026-03-02T17:33:57Z,[pre-commit.ci] pre-commit autoupdate (#430),2,15,
+sea-bass/pyrobosim,True,strong,89423f1d40f27defb990f3de8d56d4d0297ac09b,2026-03-02T17:33:57Z,[pre-commit.ci] pre-commit autoupdate (#430),2,15,
+sea-bass/pyrobosim,True,strong,2eefb7e4a3d968916f404c61439d86d17e0f95bd,2026-02-02T16:35:27Z,[pre-commit.ci] pre-commit autoupdate (#424),3,15,
+sea-bass/pyrobosim,True,strong,2eefb7e4a3d968916f404c61439d86d17e0f95bd,2026-02-02T16:35:27Z,[pre-commit.ci] pre-commit autoupdate (#424),3,15,
+sea-bass/pyrobosim,True,strong,2eefb7e4a3d968916f404c61439d86d17e0f95bd,2026-02-02T16:35:27Z,[pre-commit.ci] pre-commit autoupdate (#424),3,15,
+sea-bass/pyrobosim,True,strong,2eefb7e4a3d968916f404c61439d86d17e0f95bd,2026-02-02T16:35:27Z,[pre-commit.ci] pre-commit autoupdate (#424),3,15,
+sea-bass/pyrobosim,True,strong,2eefb7e4a3d968916f404c61439d86d17e0f95bd,2026-02-02T16:35:27Z,[pre-commit.ci] pre-commit autoupdate (#424),3,15,
+sea-bass/pyrobosim,True,strong,2b0a17dcebaeb49c62093e6748ac70121829b344,2025-12-31T17:07:27Z,Feature: standardize to pathlib.Path instead of strings (#417),4,15,
+sea-bass/pyrobosim,True,strong,2b0a17dcebaeb49c62093e6748ac70121829b344,2025-12-31T17:07:27Z,Feature: standardize to pathlib.Path instead of strings (#417),4,15,
+sea-bass/pyrobosim,True,strong,2b0a17dcebaeb49c62093e6748ac70121829b344,2025-12-31T17:07:27Z,Feature: standardize to pathlib.Path instead of strings (#417),4,15,
+sea-bass/pyrobosim,True,strong,2b0a17dcebaeb49c62093e6748ac70121829b344,2025-12-31T17:07:27Z,Feature: standardize to pathlib.Path instead of strings (#417),4,15,
+sea-bass/pyrobosim,True,strong,541f16c98106c90a3eef90a2b99afafa91011f6d,2025-12-15T16:35:12Z,[pre-commit.ci] pre-commit autoupdate (#415),5,15,
+sea-bass/pyrobosim,True,strong,37b7d15a3241cc21392f2a357898e1501ef53376,2025-12-08T16:57:44Z,[pre-commit.ci] pre-commit autoupdate (#414),6,15,
+sea-bass/pyrobosim,True,strong,971fac139f6b02a6ac882c1ecd85f94e2399904a,2025-12-01T17:49:24Z,[pre-commit.ci] pre-commit autoupdate (#412),7,15,
+sea-bass/pyrobosim,True,strong,4d7f7aa6547f2fd3e3f60da44b69b063f4aea550,2025-11-24T17:15:56Z,[pre-commit.ci] pre-commit autoupdate (#411),8,15,
+sea-bass/pyrobosim,True,strong,d04798c8e6f86667ad694a8f11d0ccd1ff935972,2025-11-10T16:33:41Z,[pre-commit.ci] pre-commit autoupdate (#410),9,15,
+sea-bass/pyrobosim,True,strong,d04798c8e6f86667ad694a8f11d0ccd1ff935972,2025-11-10T16:33:41Z,[pre-commit.ci] pre-commit autoupdate (#410),9,15,
+sea-bass/pyrobosim,True,strong,d04798c8e6f86667ad694a8f11d0ccd1ff935972,2025-11-10T16:33:41Z,[pre-commit.ci] pre-commit autoupdate (#410),9,15,
+sea-bass/pyrobosim,True,strong,d04798c8e6f86667ad694a8f11d0ccd1ff935972,2025-11-10T16:33:41Z,[pre-commit.ci] pre-commit autoupdate (#410),9,15,
+sea-bass/pyrobosim,True,strong,d04798c8e6f86667ad694a8f11d0ccd1ff935972,2025-11-10T16:33:41Z,[pre-commit.ci] pre-commit autoupdate (#410),9,15,
+sea-bass/pyrobosim,True,strong,d04798c8e6f86667ad694a8f11d0ccd1ff935972,2025-11-10T16:33:41Z,[pre-commit.ci] pre-commit autoupdate (#410),9,15,
+sea-bass/pyrobosim,True,strong,d04798c8e6f86667ad694a8f11d0ccd1ff935972,2025-11-10T16:33:41Z,[pre-commit.ci] pre-commit autoupdate (#410),9,15,
+sea-bass/pyrobosim,True,strong,460f40669c8c7f31cb3ba89196b928354c22927b,2025-10-13T16:43:35Z,[pre-commit.ci] pre-commit autoupdate (#402),10,15,
+sea-bass/pyrobosim,True,strong,460f40669c8c7f31cb3ba89196b928354c22927b,2025-10-13T16:43:35Z,[pre-commit.ci] pre-commit autoupdate (#402),10,15,
+sea-bass/pyrobosim,True,strong,460f40669c8c7f31cb3ba89196b928354c22927b,2025-10-13T16:43:35Z,[pre-commit.ci] pre-commit autoupdate (#402),10,15,
+sea-bass/pyrobosim,True,strong,460f40669c8c7f31cb3ba89196b928354c22927b,2025-10-13T16:43:35Z,[pre-commit.ci] pre-commit autoupdate (#402),10,15,
+sea-bass/pyrobosim,True,strong,460f40669c8c7f31cb3ba89196b928354c22927b,2025-10-13T16:43:35Z,[pre-commit.ci] pre-commit autoupdate (#402),10,15,
+sea-bass/pyrobosim,True,strong,460f40669c8c7f31cb3ba89196b928354c22927b,2025-10-13T16:43:35Z,[pre-commit.ci] pre-commit autoupdate (#402),10,15,
+sea-bass/pyrobosim,True,strong,460f40669c8c7f31cb3ba89196b928354c22927b,2025-10-13T16:43:35Z,[pre-commit.ci] pre-commit autoupdate (#402),10,15,
+sea-bass/pyrobosim,True,strong,f89fd1ff784da6867e379197bfd02247531ed088,2025-10-06T18:31:54Z,[pre-commit.ci] pre-commit autoupdate (#395),11,15,
+sea-bass/pyrobosim,True,strong,e77328b4570ddd48098f64d82bbd8b86799904c5,2025-09-23T01:10:26Z,[pre-commit.ci] pre-commit autoupdate (#394),12,15,
+sea-bass/pyrobosim,True,strong,5ebd2235cfb625edad04c62d9d466a6652289bb7,2025-09-15T16:34:46Z,[pre-commit.ci] pre-commit autoupdate (#393),13,15,
+sea-bass/pyrobosim,True,strong,5ebd2235cfb625edad04c62d9d466a6652289bb7,2025-09-15T16:34:46Z,[pre-commit.ci] pre-commit autoupdate (#393),13,15,
+sea-bass/pyrobosim,True,strong,5ebd2235cfb625edad04c62d9d466a6652289bb7,2025-09-15T16:34:46Z,[pre-commit.ci] pre-commit autoupdate (#393),13,15,
+sea-bass/pyrobosim,True,strong,862babf697f5eec9d0a429bbb572205ec8885378,2025-08-11T22:16:09Z,[pre-commit.ci] pre-commit autoupdate (#389),14,15,
+sea-bass/pyrobosim,True,strong,862babf697f5eec9d0a429bbb572205ec8885378,2025-08-11T22:16:09Z,[pre-commit.ci] pre-commit autoupdate (#389),14,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,45ac33bd53d9ca7f6b0ff966a1489e08508f5755,2025-08-04T22:32:51Z,[pre-commit.ci] pre-commit autoupdate (#387),15,15,
+sea-bass/pyrobosim,True,strong,9a47077a1437aee8a051c33bf80d8cc6d49646fd,2025-07-21T16:48:08Z,[pre-commit.ci] pre-commit autoupdate (#371),16,15,
+sea-bass/pyrobosim,True,strong,9a47077a1437aee8a051c33bf80d8cc6d49646fd,2025-07-21T16:48:08Z,[pre-commit.ci] pre-commit autoupdate (#371),16,15,
+sea-bass/pyrobosim,True,strong,9a47077a1437aee8a051c33bf80d8cc6d49646fd,2025-07-21T16:48:08Z,[pre-commit.ci] pre-commit autoupdate (#371),16,15,
+sea-bass/pyrobosim,True,strong,9a47077a1437aee8a051c33bf80d8cc6d49646fd,2025-07-21T16:48:08Z,[pre-commit.ci] pre-commit autoupdate (#371),16,15,
+sea-bass/pyrobosim,True,strong,9a47077a1437aee8a051c33bf80d8cc6d49646fd,2025-07-21T16:48:08Z,[pre-commit.ci] pre-commit autoupdate (#371),16,15,
+sea-bass/pyrobosim,True,strong,9a47077a1437aee8a051c33bf80d8cc6d49646fd,2025-07-21T16:48:08Z,[pre-commit.ci] pre-commit autoupdate (#371),16,15,
+sea-bass/pyrobosim,True,strong,9a47077a1437aee8a051c33bf80d8cc6d49646fd,2025-07-21T16:48:08Z,[pre-commit.ci] pre-commit autoupdate (#371),16,15,
+sea-bass/pyrobosim,True,strong,9a47077a1437aee8a051c33bf80d8cc6d49646fd,2025-07-21T16:48:08Z,[pre-commit.ci] pre-commit autoupdate (#371),16,15,
+sea-bass/pyrobosim,True,strong,9a47077a1437aee8a051c33bf80d8cc6d49646fd,2025-07-21T16:48:08Z,[pre-commit.ci] pre-commit autoupdate (#371),16,15,
+sea-bass/pyrobosim,True,strong,9a47077a1437aee8a051c33bf80d8cc6d49646fd,2025-07-21T16:48:08Z,[pre-commit.ci] pre-commit autoupdate (#371),16,15,
+sea-bass/pyrobosim,True,strong,caf03013cd2a21c1c943e8ac4afafaa27b81487c,2025-06-25T02:43:08Z,[pre-commit.ci] pre-commit autoupdate (#363),17,15,
+sea-bass/pyrobosim,True,strong,caf03013cd2a21c1c943e8ac4afafaa27b81487c,2025-06-25T02:43:08Z,[pre-commit.ci] pre-commit autoupdate (#363),17,15,
+sea-bass/pyrobosim,True,strong,caf03013cd2a21c1c943e8ac4afafaa27b81487c,2025-06-25T02:43:08Z,[pre-commit.ci] pre-commit autoupdate (#363),17,15,
+sea-bass/pyrobosim,True,strong,73872c44802c406fbf1a9865d12fe1a675bcb27e,2025-06-03T01:10:39Z,[pre-commit.ci] pre-commit autoupdate (#360),18,15,
+sea-bass/pyrobosim,True,strong,73872c44802c406fbf1a9865d12fe1a675bcb27e,2025-06-03T01:10:39Z,[pre-commit.ci] pre-commit autoupdate (#360),18,15,
+sea-bass/pyrobosim,True,strong,73872c44802c406fbf1a9865d12fe1a675bcb27e,2025-06-03T01:10:39Z,[pre-commit.ci] pre-commit autoupdate (#360),18,15,
+sea-bass/pyrobosim,True,strong,73872c44802c406fbf1a9865d12fe1a675bcb27e,2025-06-03T01:10:39Z,[pre-commit.ci] pre-commit autoupdate (#360),18,15,
+sea-bass/pyrobosim,True,strong,b8810c2d619c749c37d204aa565d0c17955e69eb,2025-05-06T01:02:03Z,[pre-commit.ci] pre-commit autoupdate (#354),19,15,
+sea-bass/pyrobosim,True,strong,b8810c2d619c749c37d204aa565d0c17955e69eb,2025-05-06T01:02:03Z,[pre-commit.ci] pre-commit autoupdate (#354),19,15,
+sea-bass/pyrobosim,True,strong,b8810c2d619c749c37d204aa565d0c17955e69eb,2025-05-06T01:02:03Z,[pre-commit.ci] pre-commit autoupdate (#354),19,15,
+sea-bass/pyrobosim,True,strong,b8810c2d619c749c37d204aa565d0c17955e69eb,2025-05-06T01:02:03Z,[pre-commit.ci] pre-commit autoupdate (#354),19,15,
+sea-bass/pyrobosim,True,strong,747a24c9994dcd3449778e07ab5bb2428c88deee,2025-04-14T14:03:40Z,Simplify plugin registration (#349),20,15,
+sea-bass/pyrobosim,True,strong,747a24c9994dcd3449778e07ab5bb2428c88deee,2025-04-14T14:03:40Z,Simplify plugin registration (#349),20,15,
+sea-bass/pyrobosim,True,strong,747a24c9994dcd3449778e07ab5bb2428c88deee,2025-04-14T14:03:40Z,Simplify plugin registration (#349),20,15,
+sea-bass/pyrobosim,True,strong,747a24c9994dcd3449778e07ab5bb2428c88deee,2025-04-14T14:03:40Z,Simplify plugin registration (#349),20,15,
+sea-bass/pyrobosim,True,strong,747a24c9994dcd3449778e07ab5bb2428c88deee,2025-04-14T14:03:40Z,Simplify plugin registration (#349),20,15,
+sea-bass/pyrobosim,True,strong,747a24c9994dcd3449778e07ab5bb2428c88deee,2025-04-14T14:03:40Z,Simplify plugin registration (#349),20,15,
+sea-bass/pyrobosim,True,strong,888760e0d1fa467027f39ea8f669fcf9623eefea,2025-03-25T12:46:44Z,[pre-commit.ci] pre-commit autoupdate (#343),21,15,
+sea-bass/pyrobosim,True,strong,0ea30c7fa69fafb3be0e1b8d927d9c844f39de58,2025-03-17T17:32:46Z,[pre-commit.ci] pre-commit autoupdate (#342),22,15,
+sea-bass/pyrobosim,True,strong,0ea30c7fa69fafb3be0e1b8d927d9c844f39de58,2025-03-17T17:32:46Z,[pre-commit.ci] pre-commit autoupdate (#342),22,15,
+sea-bass/pyrobosim,True,strong,0ea30c7fa69fafb3be0e1b8d927d9c844f39de58,2025-03-17T17:32:46Z,[pre-commit.ci] pre-commit autoupdate (#342),22,15,
+sea-bass/pyrobosim,True,strong,0ea30c7fa69fafb3be0e1b8d927d9c844f39de58,2025-03-17T17:32:46Z,[pre-commit.ci] pre-commit autoupdate (#342),22,15,
+sea-bass/pyrobosim,True,strong,0ea30c7fa69fafb3be0e1b8d927d9c844f39de58,2025-03-17T17:32:46Z,[pre-commit.ci] pre-commit autoupdate (#342),22,15,
+sea-bass/pyrobosim,True,strong,0ea30c7fa69fafb3be0e1b8d927d9c844f39de58,2025-03-17T17:32:46Z,[pre-commit.ci] pre-commit autoupdate (#342),22,15,
+sea-bass/pyrobosim,True,strong,0ea30c7fa69fafb3be0e1b8d927d9c844f39de58,2025-03-17T17:32:46Z,[pre-commit.ci] pre-commit autoupdate (#342),22,15,
+sea-bass/pyrobosim,True,strong,0ea30c7fa69fafb3be0e1b8d927d9c844f39de58,2025-03-17T17:32:46Z,[pre-commit.ci] pre-commit autoupdate (#342),22,15,
+sea-bass/pyrobosim,True,strong,f8a7b76f64dd71c6b8da1f635d881fc3bae21909,2025-02-03T16:39:10Z,[pre-commit.ci] pre-commit autoupdate (#326),23,15,
+sea-bass/pyrobosim,True,strong,db04ae69dfee4880d49afd70b91a7e4f5f23f594,2025-01-27T17:52:57Z,[pre-commit.ci] pre-commit autoupdate (#323),24,15,
+sea-bass/pyrobosim,True,strong,db04ae69dfee4880d49afd70b91a7e4f5f23f594,2025-01-27T17:52:57Z,[pre-commit.ci] pre-commit autoupdate (#323),24,15,
+sea-bass/pyrobosim,True,strong,db04ae69dfee4880d49afd70b91a7e4f5f23f594,2025-01-27T17:52:57Z,[pre-commit.ci] pre-commit autoupdate (#323),24,15,
+sea-bass/pyrobosim,True,strong,db04ae69dfee4880d49afd70b91a7e4f5f23f594,2025-01-27T17:52:57Z,[pre-commit.ci] pre-commit autoupdate (#323),24,15,
+sea-bass/pyrobosim,True,strong,db04ae69dfee4880d49afd70b91a7e4f5f23f594,2025-01-27T17:52:57Z,[pre-commit.ci] pre-commit autoupdate (#323),24,15,
+sea-bass/pyrobosim,True,strong,db04ae69dfee4880d49afd70b91a7e4f5f23f594,2025-01-27T17:52:57Z,[pre-commit.ci] pre-commit autoupdate (#323),24,15,
+sea-bass/pyrobosim,True,strong,db04ae69dfee4880d49afd70b91a7e4f5f23f594,2025-01-27T17:52:57Z,[pre-commit.ci] pre-commit autoupdate (#323),24,15,
+sea-bass/pyrobosim,True,strong,db04ae69dfee4880d49afd70b91a7e4f5f23f594,2025-01-27T17:52:57Z,[pre-commit.ci] pre-commit autoupdate (#323),24,15,
+sea-bass/pyrobosim,True,strong,db04ae69dfee4880d49afd70b91a7e4f5f23f594,2025-01-27T17:52:57Z,[pre-commit.ci] pre-commit autoupdate (#323),24,15,
+sea-bass/pyrobosim,True,strong,db04ae69dfee4880d49afd70b91a7e4f5f23f594,2025-01-27T17:52:57Z,[pre-commit.ci] pre-commit autoupdate (#323),24,15,
